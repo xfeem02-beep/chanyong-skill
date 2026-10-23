@@ -1,0 +1,6 @@
+interface:
+  display_name: "常用"
+  short_description: "自动看项目并组合研究、策划、设计、开发与验收"
+  default_prompt: "使用 $chanyong 自动理解当前目标，读取现有项目与证据，选择最短完整路线并完成已授权工作。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "skill": "chanyong",
+  "checked_at": "2026-10-23T13:29:13.880038Z",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "b7f5ca4ad977db577771071196ad4603780876a844e619103cf73cffea743019",
+      "kind": "portable-local-composition",
+      "method_sources": [
+        "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/ask-matt/SKILL.md",
+        "https://github.com/agentskills/agentskills"
+      ]
+    },
+    {
+      "path": "INSTALL.md",
+      "sha256": "245e7dca6071d1688677da70b18a28a5da9904f68f34031de2883cd21776b861",
+      "kind": "portable-install-instructions",
+      "method_sources": [
+        "https://github.com/vercel-labs/skills/blob/main/docs/commands.md"
+      ]
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "86340af1d0202203c79f3a9a57952cd1d057d9ec0f79503dea9b0d5d1b715cd2",
+      "kind": "optional-codex-interface",
+      "method_sources": [
+        "https://github.com/openai/skills"
+      ]
+    },
+    {
+      "path": "scripts/install-all-agents.mjs",
+      "sha256": "8304f17270061f654edd5783e00a119b10b6c9d79b1b5607f93825e6167814f2",
+      "kind": "cross-platform-installer",
+      "method_sources": [
+        "https://github.com/vercel-labs/skills/blob/main/docs/commands.md"
+      ]
+    },
+    {
+      "path": "references/routing.md",
+      "sha256": "24fec0994cea89037160eba4241f52e2412b1109a28810b00ad3370844d0511c",
+      "kind": "portable-routing-method",
+      "method_sources": [
+        "https://github.com/anthropics/knowledge-work-plugins/tree/33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+        "https://github.com/ai-evals-course/evals-skills/blob/main/skills/evals-start/SKILL.md"
+      ]
+    },
+    {
+      "path": "references/specialists.md",
+      "sha256": "c2cc73323ee7c1fcb5274b43d9af2a6900336a3ebfe34b1f4b1e070dc7efb762",
+      "kind": "portable-built-in-methods",
+      "method_sources": [
+        "https://github.com/obra/superpowers/tree/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+        "https://github.com/phuryn/pm-skills/tree/07b34f64ee828df08953f505b7f747aef85ae7c6"
+      ]
+    },
+    {
+      "path": "references/preferences.md",
+      "sha256": "44e81f660264f021ce94a909876ad35ed33413606397b5a19bb01cbfa0e976bd",
+      "kind": "user-authorized-default-preferences",
+      "excluded_from_upstream_update": true,
+      "method_sources": []
+    },
+    {
+      "path": "references/maintenance.md",
+      "sha256": "9911cb546747195b0c0b5cda03828e8c46205c75ee00c81863b7b5bff8055e60",
+      "kind": "portable-update-policy",
+      "method_sources": [
+        "https://docs.github.com/en/rest/repos/repos#get-a-repository"
+      ]
+    },
+    {
+      "path": "references/sources.md",
+      "sha256": "ae9d42af60fc6880b62b7b201c4879073d04f296fa3d7297832cfd40cb5d92b7",
+      "kind": "research-snapshot",
+      "method_sources": [
+        "https://api.github.com"
+      ]
+    }
+  ]
+}
