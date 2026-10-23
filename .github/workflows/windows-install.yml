@@ -23,3 +23,13 @@ jobs:
           if (-not (Test-Path ".agents\skills\chanyong\SKILL.md")) { throw "Project install missing" }
           if (-not (Test-Path "$env:USERPROFILE\.claude\skills\chanyong\SKILL.md")) { throw "Claude install missing" }
           if (-not (Test-Path "$env:USERPROFILE\.grok\skills\chanyong\SKILL.md")) { throw "Grok install missing" }
+      - name: Install from Windows CMD
+        shell: cmd
+        run: |
+          mkdir "%RUNNER_TEMP%\cmd test project with spaces"
+          cd /d "%RUNNER_TEMP%\cmd test project with spaces"
+          npx -y github:xfeem02-beep/chanyong-skill
+          if not exist "%USERPROFILE%\.agents\skills\chanyong\SKILL.md" exit /b 1
+          if not exist ".agents\skills\chanyong\SKILL.md" exit /b 1
+          if not exist "%USERPROFILE%\.claude\skills\chanyong\SKILL.md" exit /b 1
+          if not exist "%USERPROFILE%\.grok\skills\chanyong\SKILL.md" exit /b 1
