@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "router": "chanyong",
+  "members": [
+    { "name": "chanyong", "displayName": "常用", "role": "唯一自动总控", "implicit": true },
+    { "name": "design-taste-frontend", "displayName": "Taste 设计导演", "role": "网页与应用审美方向", "implicit": false },
+    { "name": "dongwo", "displayName": "懂我", "role": "个人偏好与可控记忆", "implicit": false },
+    { "name": "chuangyi", "displayName": "创意师", "role": "创意产生与筛选", "implicit": false },
+    { "name": "tuijian", "displayName": "推荐师", "role": "个性化推荐与比较", "implicit": false },
+    { "name": "mishu", "displayName": "秘书", "role": "待办日程会议与跟进", "implicit": false },
+    { "name": "xuanpin", "displayName": "选品大师", "role": "经营选品与采购候选", "implicit": false },
+    { "name": "guihua", "displayName": "规划大师", "role": "目标路线图与计划", "implicit": false },
+    { "name": "beifen", "displayName": "备份大师", "role": "加密备份与恢复验证", "implicit": false }
+  ]
+}

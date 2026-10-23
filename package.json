@@ -1,6 +1,6 @@
 {
   "name": "chanyong-skill-installer",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "private": true,
   "description": "One-command installer for the chanyong skill family",
   "bin": {
@@ -8,6 +8,7 @@
   },
   "files": [
     "skills",
+    "family-members.json",
     "scripts/install.mjs"
   ],
   "dependencies": {

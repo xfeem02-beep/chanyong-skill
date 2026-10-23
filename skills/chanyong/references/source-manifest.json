@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "skill": "chanyong",
-  "checked_at": "2026-10-24T00:10:00+09:00",
+  "checked_at": "2026-10-24T00:35:00+09:00",
   "files": [
     {
       "path": "INSTALL.md",
@@ -13,7 +13,7 @@
     },
     {
       "path": "SKILL.md",
-      "sha256": "34f3086956c113fc7ef3ae8281627f6e8f5e69ae9f315abdc5a46a5ac3f097be",
+      "sha256": "d42970f8608cbd22fe941e6e2c0ee61588989f7df47944002bf4afccae245c81",
       "kind": "portable-local-composition",
       "method_sources": [
         "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/ask-matt/SKILL.md",
@@ -24,11 +24,11 @@
       "path": "VERSION",
       "kind": "installed-release-version",
       "method_sources": [],
-      "sha256": "78b591400c56b7b67b8cb3b2b8a8e65e9093897f02ce0878e6b5405c68620fa7"
+      "sha256": "acb57a7135b2d7d6e665f67f056e21353023b93835f54def1ae523bf76f1bfb3"
     },
     {
       "path": "agents/openai.yaml",
-      "sha256": "bf61587fe0e8d9742fefa288435cc624cebe532ed9fe97ab867d4f07e14dcd9d",
+      "sha256": "b5ea879c0a875128f2a91021938aef5f73080fad18081bd36fdc821fe5c05471",
       "kind": "optional-codex-interface",
       "method_sources": [
         "https://github.com/openai/skills"
@@ -41,7 +41,7 @@
         "https://github.com/mattpocock/skills/tree/5beb35b040e3de97e54fa9e386d7e42d15c295c2",
         "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431"
       ],
-      "sha256": "3fa5ac8fc59e2a478b62e72e412cdb952efa9ab5bb73a6e02bdb544a40447bcf"
+      "sha256": "704276e03690803237214a999743d3db690d0bc8e129b84c69dc547d68402dd5"
     },
     {
       "path": "references/design-family.md",
@@ -59,7 +59,7 @@
       "method_sources": [
         "https://github.com/agentskills/agentskills"
       ],
-      "sha256": "3d138bfc247616254327be5678a2f764fa1b2b9f69aab11c8e602e563a4b35e2"
+      "sha256": "4be1fd7d9e05cc8150c680376e53380d8217d66c9c91a9b4344d538f84cfc6cc"
     },
     {
       "path": "references/maintenance.md",
@@ -96,7 +96,7 @@
     },
     {
       "path": "references/sources.md",
-      "sha256": "f28877fca972e8de10b09919cf86757720dd060f44628560998b969d64cfbf4b",
+      "sha256": "207446eea859939f26a315ad1a3524bfbd21f2194924c1473d02fe2b24bc3f2f",
       "kind": "research-snapshot",
       "method_sources": [
         "https://api.github.com"
@@ -121,7 +121,7 @@
     },
     {
       "path": "scripts/install-all-agents.mjs",
-      "sha256": "2a7363aec5eef0de75ce9da66d7a409595c48d1efcfcee49b9ea82378f794957",
+      "sha256": "fdf7a0b3b126be409f4decf30a824fc3aca204286423dd58576fe6f1381c7c16",
       "kind": "cross-platform-installer",
       "method_sources": [
         "https://github.com/vercel-labs/skills/blob/main/docs/commands.md"

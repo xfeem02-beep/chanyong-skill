@@ -16,6 +16,8 @@ Skill 在每个新对话首次使用时只读检查公开 GitHub Release；仅�
 
 安装包按 `skills/<成员名>/` 组织。`chanyong` 是唯一自动总控；每个内置专业成员仍有自己的 `SKILL.md`，可以按名称单独调用。以后加入 `skills/` 的合规成员会随同一条安装命令一起安装。成员规范见 [`family-installation.md`](skills/chanyong/references/family-installation.md)。
 
+当前独立成员：`chanyong`、`design-taste-frontend`、`dongwo`（懂我）、`chuangyi`（创意师）、`tuijian`（推荐师）、`mishu`（秘书）、`xuanpin`（选品大师）、`guihua`（规划大师）、`beifen`（备份大师）。用户可以直接点名任一成员；未点名时由 chanyong 自动选择。
+
 ## 自动设计家族
 
 不需要输入 `/常用` 或 `/设计师`。自然语言命中页面、海报、品牌、效果图、产品场景图或图像提示词时，`chanyong` 自动说明正在使用的设计能力，并按最短路线组合：
@@ -31,5 +33,7 @@ Skill 在每个新对话首次使用时只读检查公开 GitHub Release；仅�
 ## 自动能力大家庭
 
 研究、策划、架构、开发、排错、重构、迁移、设计、动效、图片、视频、Word、PDF、PPT、Excel、逆向、审查和验收都由同一个入口识别。每个阶段只选一个主 Skill，最多加一个补充能力和一个验收能力；显式限定的小靠、Codex 审查、交接、多代理等不会被普通语义误触发。完整规则见 [`skills/chanyong/references/capability-family.md`](skills/chanyong/references/capability-family.md)。
+
+个人记忆默认只在当前电脑的私有目录保存，而且只有用户明确说“记住”才写入。公开 GitHub 安装包不包含任何人的偏好、客户资料或备份内容；跨设备记忆同步需要用户自己指定私有同步位置。
 
 给其他项目或其他 AI 的可复制安装指令：[`CHANYONG-INSTALL-PROMPT.txt`](CHANYONG-INSTALL-PROMPT.txt)。

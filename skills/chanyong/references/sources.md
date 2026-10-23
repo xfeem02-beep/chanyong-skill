@@ -1,6 +1,6 @@
 # 已核查来源基线
 
-检索快照：2026-10-23。stars 会变化，只用于发现；是否采用取决于任务适配、完整内容、许可证、依赖、副作用和实测。固定提交链接用于复核当时内容，不代表自动跟踪 `main`。
+检索快照：2026-10-24。stars 会变化，只用于发现；是否采用取决于任务适配、完整内容、许可证、依赖、副作用和实测。固定提交链接用于复核当时内容，不代表自动跟踪 `main`。
 
 | 来源 | 快照 stars | 采用方式 |
 |---|---:|---|
@@ -8,6 +8,13 @@
 | [mattpocock/skills](https://github.com/mattpocock/skills/tree/5beb35b040e3de97e54fa9e386d7e42d15c295c2) | 301464 | 采用总路由、阶段入口和深模块方法；代理路线保持可选 |
 | [anthropics/skills](https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44) | 183188 | 采用官方技能结构、提示词审计与评测合同；逐技能核对许可证 |
 | [garrytan/gstack](https://github.com/garrytan/gstack/tree/b04cc35832183a89ed71eed628de15a6f315a1a8) | 137357 | 只参考岗位分工和有界 QA；不自动引入运行时、hooks、遥测、Cookie、发布或付费调用 |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem/tree/dcb28a768c6be4b8e451843210558275caa8ec44) | 102474 | 采用文件化连续记忆、检索和用户可见控制思路；不引入 Hooks、后台服务或自动采集 |
+| [mem0ai/mem0](https://github.com/mem0ai/mem0/tree/2c81af3bbe27d9bccb09c772d583df9e9be72ee5) | 67698 | 采用结构化偏好、更新、遗忘和相关检索方法；不引入云服务、模型或数据库依赖 |
+| [restic/restic](https://github.com/restic/restic/tree/dd09b6bd01af220b1d5d95c0d4d7d472e05e05c4) | 36750 | 采用跨平台加密快照、校验和隔离恢复方法；不捆绑二进制、不自动配置仓库或定时任务 |
+| [getzep/graphiti](https://github.com/getzep/graphiti/tree/afea04fecd34671c6608fd2a877c5372ff55ee29) | 32163 | 采用时间、更新和冲突关系思路；不引入图数据库或外部服务 |
+| [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory/tree/f3001517d1a435e79bac597c38019977678af83c) | 31364 | 仅作个性化记忆方法对照；不复制服务端、SDK 或云同步 |
+| [microsoft/recommenders](https://github.com/microsoft/recommenders/tree/ba49f480a3a6604b09c8cde903958f9d9dca8a9d) | 21959 | 采用候选、排序、多指标评估和反馈闭环；不引入训练框架或数据集 |
+| [kopia/kopia](https://github.com/kopia/kopia/tree/0835005737025dc3e5203df0138c8265686cb4b3) | 14410 | 采用跨平台快照、加密、保留与恢复检查；不捆绑工具或后台任务 |
 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill/tree/6010f91a9935f1c167dfc500fb1a475681892e6b) | 101454 | MIT；内置固定版本，作为网页与应用界面的主审美方向、构图生成和真实浏览器多尺寸复核引擎；不覆盖用户或项目既有方向 |
 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable/tree/5cb95eea9c96479f57afe0732a45470d30183326) | 85277 | 只选审计与设计检查方法；当前版含引擎下载和复杂编排，不整套静默启用 |
 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/d14efff8ed1faa4187f004f79926f428c8074ec7) | 139288 | 采用视觉系统、构图、品牌载体与图像提示词的结构化方法；不复制其完整工具链或强制默认风格 |
