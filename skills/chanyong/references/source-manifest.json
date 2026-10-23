@@ -13,7 +13,7 @@
     },
     {
       "path": "SKILL.md",
-      "sha256": "e6439df38cc031c524e1c1c98389cb23b359ea7429ff72d56fc3a17185d6798c",
+      "sha256": "44471f47ae87397edfa9141c4af87dba248a9815a88ba0474a4497afcc30ed18",
       "kind": "portable-local-composition",
       "method_sources": [
         "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/ask-matt/SKILL.md",
@@ -24,7 +24,7 @@
       "path": "VERSION",
       "kind": "installed-release-version",
       "method_sources": [],
-      "sha256": "6430a242e9486093ef6f71d9086d48f61ba102f0d2fb0f5b95334c6007a46db3"
+      "sha256": "a2d5e268fe70979caccd895156b3d33bd61a3cc7e660ab7a5b07066849b3e248"
     },
     {
       "path": "agents/openai.yaml",
@@ -41,7 +41,7 @@
         "https://github.com/mattpocock/skills/tree/5beb35b040e3de97e54fa9e386d7e42d15c295c2",
         "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431"
       ],
-      "sha256": "49c8d864eeb88c0dc667fe0684972cf0f4eba641afd503dca238d1fe1e14a09f"
+      "sha256": "ae19c32d9133e762a914344b50c135907cab0e58031339ff31cae66ed77a1082"
     },
     {
       "path": "references/design-family.md",
