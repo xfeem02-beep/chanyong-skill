@@ -26,7 +26,7 @@
 | [wshobson/agents](https://github.com/wshobson/agents/tree/0874a27b17a22e2b7c2e2bcd725768e0803cad06) | 41599 | 采用提示词合同、结构化输出、失败样本和小步评测；不引入 LangChain、模型依赖或隐藏推理要求 |
 | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 36206 | 发现目录；快照树含 0 个 `SKILL.md`，候选须回原作者核查 |
 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | 32872 | 按需采用网页设计审查规则；动态远端规则必须重新核查 |
-| [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins/tree/33d3dea41a341b341d4f5da2e8801ae0c89be2b8) | 31965 | 采用研究、策划、架构、内容、数据、交付等短岗位模板；连接器与命令不自动启用 |
+| [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins/tree/33d3dea41a341b341d4f5da2e8801ae0c89be2b8) | 31965 | 采用研究、策划、架构、内容、数据、交付，以及设计 critique、UX copy、design system、accessibility、handoff 的职责划分；连接器、斜杠命令和平台专属流程不自动启用 |
 | [openai/skills](https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431) | 28266 | 采用官方 Codex 技能结构和按需专业能力；不整库安装 |
 | [phuryn/pm-skills](https://github.com/phuryn/pm-skills/tree/07b34f64ee828df08953f505b7f747aef85ae7c6) | 27322 | 采用精简需求、假设优先级和测试场景；Claude 命令不冒充 Codex 原生命令 |
 | [agentskills/agentskills](https://github.com/agentskills/agentskills) | 26498 | 采用开放格式和技能评测方法；不推断各宿主都支持同一菜单与工具 |

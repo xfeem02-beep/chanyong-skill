@@ -13,7 +13,7 @@
     },
     {
       "path": "SKILL.md",
-      "sha256": "5082f40d9b2b5838903f6c3ee26b7d8d8f910c0124b40d010f06d95463f975ad",
+      "sha256": "c205c55ea46fcca2e9657f1323596c1c7637a0c21e40d9ff883c489bdc46412f",
       "kind": "portable-local-composition",
       "method_sources": [
         "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/ask-matt/SKILL.md",
@@ -24,7 +24,7 @@
       "path": "VERSION",
       "kind": "installed-release-version",
       "method_sources": [],
-      "sha256": "25cec9739d3218e48acc5d8c3d4333e1d624121c5b7ab3bcddc71d0fa0134b83"
+      "sha256": "30f4611383aa30a15753789f40effde81332f2f8714e6d3b2940bf0fc4592377"
     },
     {
       "path": "agents/openai.yaml",
@@ -41,7 +41,7 @@
         "https://github.com/mattpocock/skills/tree/5beb35b040e3de97e54fa9e386d7e42d15c295c2",
         "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431"
       ],
-      "sha256": "389bab662f88fddb7935327f931bd484044f3623c30f23ef654acb08a8aa4880"
+      "sha256": "5956e88ad6a02db92aa26988f39e9ad4c48115badf98bcfefcabffe1636c200a"
     },
     {
       "path": "references/design-family.md",
@@ -51,7 +51,7 @@
         "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/d14efff8ed1faa4187f004f79926f428c8074ec7",
         "https://github.com/pbakaus/impeccable/tree/5cb95eea9c96479f57afe0732a45470d30183326"
       ],
-      "sha256": "93a366e286113452b9816ce2e1911ef3fa4e3e7ec4620a6fd64f333c62c5cf96"
+      "sha256": "913174c6da67cd1555b582635a0d4d8e8a7e4dbbe279d554ddcb8b98b40b3952"
     },
     {
       "path": "references/family-installation.md",
@@ -59,7 +59,7 @@
       "method_sources": [
         "https://github.com/agentskills/agentskills"
       ],
-      "sha256": "2bf37adee2c1120f1df2af86f92892eab34a074fadfa9563927ae95a20a25b1c"
+      "sha256": "5abd7667c2b40e6fa38bb60d6ef02f92de9158d7f9467d4b47cfefa88f506d97"
     },
     {
       "path": "references/maintenance.md",
@@ -96,7 +96,7 @@
     },
     {
       "path": "references/sources.md",
-      "sha256": "b1f0a59ec98d6b0627ca9d0322948f6f47782172b6bce6dc0dcfd4b178931e55",
+      "sha256": "bbe659affcd5a81e27a7ee5acb6a9cde367b5e7679c6e26b7db1cf50b2efab4b",
       "kind": "research-snapshot",
       "method_sources": [
         "https://api.github.com"

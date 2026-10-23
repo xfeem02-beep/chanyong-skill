@@ -232,6 +232,27 @@
       "role": "反例、漏洞、隐藏假设与最坏情况",
       "implicit": false,
       "group": "质量与安全"
+    },
+    {
+      "name": "interface-design-team",
+      "displayName": "界面设计组合",
+      "role": "网站、后台、App、小程序与 Dashboard 设计",
+      "implicit": false,
+      "group": "设计与视觉"
+    },
+    {
+      "name": "visual-design-team",
+      "displayName": "视觉出图组合",
+      "role": "海报、品牌、产品场景与系列素材",
+      "implicit": false,
+      "group": "设计与视觉"
+    },
+    {
+      "name": "design-review-team",
+      "displayName": "设计审查交付组合",
+      "role": "设计挑刺、UX 文案、系统、无障碍与开发交接",
+      "implicit": false,
+      "group": "设计与视觉"
     }
   ]
 }

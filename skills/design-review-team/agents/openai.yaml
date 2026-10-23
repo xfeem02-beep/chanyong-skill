@@ -1,0 +1,6 @@
+interface:
+  display_name: "design-review-team"
+  short_description: "设计挑刺、文案、系统、无障碍与开发交接"
+  default_prompt: "固定审查对象和阶段，只选命中的主线，给具体位置、影响等级、最小修法和仍未验证项。"
+policy:
+  allow_implicit_invocation: false

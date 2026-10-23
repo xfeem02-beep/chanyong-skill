@@ -16,7 +16,7 @@ Skill 在每个新对话首次使用时只读检查公开 GitHub Release；仅�
 
 安装包按 `skills/<成员名>/` 组织。`chanyong` 是唯一自动总控；`jinengguan` 只在项目出现 Skill 能力缺口时自动充当“嗅觉”。每个内置专业成员仍有自己的 `SKILL.md`，可以按名称单独调用。以后加入 `skills/` 的合规成员会随同一条安装命令一起安装。成员规范见 [`family-installation.md`](skills/chanyong/references/family-installation.md)。
 
-当前共有 **33 个独立成员**，按 1 个总控和 7 个能力组组织：
+当前共有 **36 个独立成员**，按 1 个总控和 7 个能力组组织：
 
 | 分组 | 成员 |
 |---|---|
@@ -26,7 +26,7 @@ Skill 在每个新对话首次使用时只读检查公开 GitHub Release；仅�
 | 选品与采购 | `product-information-research`（商品信息查询）、`xuanpin`（选品大师）、`bijia`（商品价格比价大师）、`caigou`（采购大师） |
 | 工程与接口 | `jiagou`（架构师）、`tishici`（提示词大师）、`biancheng`（写代码专业大师）、`jianrong`（兼容大师）、`api`（API 大师）、`gaojigongchengshi`（高级工程师） |
 | 质量与安全 | `anquan`（安全管理大师）、`devils-advocate`（挑刺儿高手）、`zhaobug`（找 Bug 大师）、`xiubug`（修 Bug 大师）、`daimazhengli`（代码整理大师） |
-| 设计与视觉 | `design-taste-frontend`（Taste 设计导演） |
+| 设计与视觉 | `interface-design-team`（界面设计组合）、`visual-design-team`（视觉出图组合）、`design-review-team`（设计审查交付组合）、`design-taste-frontend`（Taste 设计导演） |
 | 电脑与维护 | `beifen`（备份大师）、`diannao`（电脑管理大师）、`jinengguan`（自动发现能力缺口并审查、安装、更新 Skills） |
 
 用户可以直接点名任一成员；未点名时由 chanyong 自动选择。每次只读取命中的工作方法，通常使用一个主成员，复杂任务最多增加一个辅助和一个验收成员。现有能力覆盖不了项目需求时，`jinengguan` 才去 GitHub 查真实、热门、活跃且许可证清楚的 Skill；低风险候选按用户已有授权安装，重复能力不装。商品信息查询、电商和商品研究类外部 Skill 另设硬门槛：来源 GitHub 仓库少于 1,000 stars 不安装，达到门槛仍要检查活跃度、许可证、凭据、付费和后台副作用。
@@ -35,15 +35,13 @@ Skill 在每个新对话首次使用时只读检查公开 GitHub Release；仅�
 
 ## 自动设计家族
 
-不需要输入 `/常用` 或 `/设计师`。自然语言命中页面、海报、品牌、效果图、产品场景图或图像提示词时，`chanyong` 自动说明正在使用的设计能力，并按最短路线组合：
+设计能力收敛成三套打法，`chanyong` 每次只选一套主组合：
 
-1. 读取项目、品牌、真实内容和现有设计系统。
-2. 用内置 Taste Skill 从项目本身提炼并锁定一个主审美方向；Refero、本机参考和 UI/UX Pro Max 只补证据与细节。
-3. 用提示词视觉体系建立构图、色彩、字体、材质、光线和一致性锚点。
-4. 位图素材交给 ImageGen，准确文字与海报排版交给 Canvas，界面交给项目组件和前端实现。
-5. 查看真实成图或渲染，检查文字、产品、品牌、层级、裁切、对比度和瑕疵后再交付。
+1. **`interface-design-team` 界面设计组合**：网站、后台、App、小程序与 Dashboard。读项目和设计系统，由 Taste 锁定一个主方向，再按缺口补参考、UI 规则、UX 文案、设计系统、实现和多尺寸复核。
+2. **`visual-design-team` 视觉出图组合**：海报、封面、品牌视觉、产品场景图与系列素材。先做视觉卡；ImageGen 负责图像素材，Canvas 负责准确文字和排版，Theme 只在需要成套主题时加入。
+3. **`design-review-team` 设计审查交付组合**：设计挑刺、UX 文案、设计系统、无障碍和开发交接。按问题只选一条审查主线，输出具体位置、影响等级、最小修法和未验证项。
 
-完整能力地图见 [`skills/chanyong/references/design-family.md`](skills/chanyong/references/design-family.md)。Taste Skill v2 已作为独立成员内置并固定到已核查版本：你可以单独点名 Taste，也可以让 chanyong 自动调度。其他外部 Skill 可用时作为专业补充，不要求客户把所有第三方仓库全部安装。
+截图里的 `design-critique`、`ux-copy`、`design-handoff`、`accessibility-review`、`design-system`，以及 `theme-factory`、`canvas-design` 都被放进对应组合按需使用；它们不会一起启动。宿主装有原 Skill 时直接用，没有时由三个组合 Skill 的内置方法继续，因此 Codex、Claude Code 和 Grok 的基础路线保持一致。完整路由见 [`skills/chanyong/references/design-family.md`](skills/chanyong/references/design-family.md)。
 
 ## 自动能力大家庭
 

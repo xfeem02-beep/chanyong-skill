@@ -5,6 +5,9 @@
 ```text
 skills/
 ├── chanyong/    常用：唯一自动总控
+├── interface-design-team/    界面设计组合：网站、后台、App、小程序与 Dashboard
+├── visual-design-team/    视觉出图组合：海报、品牌、产品场景与系列素材
+├── design-review-team/    设计审查交付组合：挑刺、文案、系统、无障碍与交接
 ├── design-taste-frontend/    Taste 设计导演：网页与应用审美方向
 ├── dongwo/    懂我：个人偏好、跨 Agent/项目共享记忆与指定文档目录
 ├── chuangyi/    创意师：创意产生与筛选
@@ -47,7 +50,7 @@ skills/
 - **选品与采购**：`product-information-research`（商品信息查询）、`xuanpin`（选品大师）、`bijia`（商品价格比价大师）、`caigou`（采购大师）
 - **工程与接口**：`jiagou`（架构师）、`tishici`（提示词大师）、`biancheng`（写代码专业大师）、`jianrong`（兼容大师）、`api`（API 大师）、`gaojigongchengshi`（高级工程师）
 - **质量与安全**：`anquan`（安全管理大师）、`devils-advocate`（挑刺儿高手）、`zhaobug`（找 Bug 大师）、`xiubug`（修 Bug 大师）、`daimazhengli`（代码整理大师）
-- **设计与视觉**：`design-taste-frontend`（Taste 设计导演）
+- **设计与视觉**：`interface-design-team`（界面设计组合）、`visual-design-team`（视觉出图组合）、`design-review-team`（设计审查交付组合）、`design-taste-frontend`（Taste 设计导演）
 - **电脑与维护**：`beifen`（备份大师）、`diannao`（电脑管理大师）、`jinengguan`（技能馆长）
 
 宿主启动时通常只登记 Skill 的名称与短说明，正文按需读取。Codex 侧专业成员设为 `allow_implicit_invocation: false`，Claude Code 侧设为 `disable-model-invocation: true`；因此自动路由只交给 `chanyong`，专业成员仍可由用户点名直接调用。其他 Agent 是否完全遵守这些标记取决于其 Skill 实现，安装器不作虚假保证。

@@ -48,10 +48,10 @@
 | 韩国采购商品比价 | [`bijia`](../../bijia/SKILL.md) | `xuanpin` 确认买什么；`caigou` 负责怎么买 | 同款变体精确；完整到手成本或明确缺失 |
 | 采购执行与控制 | [`caigou`](../../caigou/SKILL.md) | `bijia` 给成本；`mishu` 跟进节点 | 供应商、数量、成本、交期、审批与三方核对清楚 |
 | 已有工作验收 | `verify-and-stop` | 专业格式检查工具 | 验收条件已获得最小充分证据，立即停止扩展 |
-| 网站、落地页、后台、App UI | 读取 [design-family.md](design-family.md)；Taste 主持方向 | 营销页用 `frontend-design`；操作型界面用 `interface-design`；`impeccable` 只在方向锁定后做高质量强化 | 看过真实渲染；多尺寸、状态、文字和可访问性已核对 |
-| UI 规范审查 | `web-design-guidelines` 或宿主可用的可访问性审查 | `impeccable` 做视觉工艺复核 | 发现有位置和证据；未修复项明确 |
+| 网站、落地页、后台、App、小程序、Dashboard | [`interface-design-team`](../../interface-design-team/SKILL.md)；Taste 主持方向 | 按缺口才用 Refero、UI/UX Pro Max、UX copy、design system 或 frontend-design | 看过真实渲染；多尺寸、状态、文字和可访问性已核对 |
+| 海报、封面、品牌视觉、产品场景图、系列素材 | [`visual-design-team`](../../visual-design-team/SKILL.md) | 位图用 `imagegen`；准确文字与版式用 `canvas-design`；主题仅按需 | 查看真实成图；产品、文字、品牌、裁切和瑕疵已核对 |
+| 设计挑刺、UX 文案、系统一致性、无障碍、开发交接 | [`design-review-team`](../../design-review-team/SKILL.md) | 按问题只选 critique/copy/system/accessibility/handoff 一条主线 | 发现有具体位置、影响等级、最小修法和未验证项 |
 | 动效与微交互 | `motion-design` 定义目的与节奏 | 只选一个匹配栈的 GSAP Skill；React 用 `gsap-react`，滚动用 `gsap-scrolltrigger`，时间线用 `gsap-timeline` | 动效服务反馈/引导；支持减少动态效果；无明显卡顿 |
-| 海报、封面、产品场景图 | [prompt-visual-system.md](prompt-visual-system.md) | 位图用 `imagegen`，准确排版用 `canvas-design` | 查看真实成图，核对文字、产品、品牌、裁切和瑕疵 |
 | 产品宣传片、页面视频 | 现有 HTML/数据驱动视频用 `hyperframes`；React 视频用 Remotion；产品电影感宣传片用 `video-shotcraft` | `media-use` 管素材；字幕、地图等只加载对应子 Skill | 能播放的真实视频、自然音频、关键帧与导出检查通过 |
 | Word/PDF/PPT/Excel | 按目标格式只选 `docx`、`pdf`、`pptx` 或 `xlsx` | 数据分析只补实际需要的工具 | 文件能打开，格式、公式、分页/版式和关键内容检查通过 |
 | Notebook 数据探索 | `hamelnb` | 格式交付再转 xlsx/pdf | 结果、环境状态和不可复现部分说明清楚 |
@@ -60,13 +60,11 @@
 
 ## 设计家族内部顺序
 
-- Taste：网页和应用的主审美方向与浏览器复核。
-- `frontend-design`：营销、品牌、落地页的实现表达。
-- `interface-design`：后台、Dashboard、工具、设置页等操作型界面。
-- `impeccable`：方向确定后的工艺强化与最终视觉审查，不与 Taste 重新争方向。
-- Refero、`design-reference`、`ui-ux-pro-max`：补真实参考、规则和技术细节，不平均混合风格。
-- `web-design-guidelines`：面向规范、可访问性和界面质量的审查。
-- `motion-design` 与 GSAP：只有任务确实需要动效时进入，不能为了炫技自动添加。
+- `interface-design-team`：界面从方向、规则、文案、系统到实现和多尺寸复核；Taste 是主审美方向。
+- `visual-design-team`：视觉卡、提示词、图像素材、精确排版和成图复核。
+- `design-review-team`：设计挑刺、UX 文案、设计系统、无障碍或开发交接；一次只选一条主线。
+- Refero、`design-reference`、`ui-ux-pro-max`、`frontend-design`、`canvas-design`、`theme-factory` 和 Anthropic Design Plugin 都是组合中的按需能力，不单独争夺主方向。
+- `motion-design` 与 GSAP 只有任务确实需要动效时进入，不能为了炫技自动添加。
 
 ## 视频家族内部选择
 
