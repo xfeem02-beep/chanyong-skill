@@ -132,7 +132,7 @@
       "name": "jinengguan",
       "displayName": "技能馆长",
       "role": "Skill 能力缺口自动发现、审查、安装与更新",
-      "implicit": false,
+      "implicit": true,
       "group": "电脑与维护"
     },
     {
@@ -204,6 +204,34 @@
       "role": "复杂跨模块工程与可靠性",
       "implicit": false,
       "group": "工程与接口"
+    },
+    {
+      "name": "deep-research-mode",
+      "displayName": "深度研究模式",
+      "role": "多来源深度研究与带引用报告",
+      "implicit": false,
+      "group": "研究与策略"
+    },
+    {
+      "name": "solution-finder",
+      "displayName": "解决方案师",
+      "role": "识别卡点与给出可执行首选方案",
+      "implicit": false,
+      "group": "研究与策略"
+    },
+    {
+      "name": "product-information-research",
+      "displayName": "商品信息查询",
+      "role": "精确商品身份与多来源资料核验",
+      "implicit": false,
+      "group": "选品与采购"
+    },
+    {
+      "name": "devils-advocate",
+      "displayName": "挑刺儿高手",
+      "role": "反例、漏洞、隐藏假设与最坏情况",
+      "implicit": false,
+      "group": "质量与安全"
     }
   ]
 }

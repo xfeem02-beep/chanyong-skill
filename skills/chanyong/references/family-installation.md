@@ -10,10 +10,13 @@ skills/
 ├── chuangyi/    创意师：创意产生与筛选
 ├── tuijian/    推荐师：个性化推荐与比较
 ├── mishu/    秘书：待办日程会议与跟进
+├── product-information-research/    商品信息查询：精确商品身份与多来源资料核验
 ├── xuanpin/    选品大师：经营选品与采购候选
 ├── guihua/    规划大师：目标路线图与计划
 ├── beifen/    备份大师：加密备份与恢复验证
 ├── yanjiu/    研究大师：证据调研与事实核查
+├── deep-research-mode/    深度研究模式：多来源检索、冲突核验与带引用报告
+├── solution-finder/    解决方案师：卡点分析、首选方案与最小验证
 ├── cehua/    策划师：产品与活动策划
 ├── jiagou/    架构师：系统结构与技术决策
 ├── tishici/    提示词大师：提示词设计与评测
@@ -24,6 +27,7 @@ skills/
 ├── zhishi/    知识管家：知识整理与检索
 ├── jinengguan/    技能馆长：Skill 发现、审查与更新
 ├── anquan/    安全管理大师：安全审查与安全开发
+├── devils-advocate/    挑刺儿高手：反例、漏洞、隐藏假设与最坏情况
 ├── zhaobug/    找 Bug 大师：复现与根因定位
 ├── xiubug/    修 Bug 大师：最小修复与回归验证
 ├── biancheng/    写代码专业大师：最小完整代码实现
@@ -39,10 +43,10 @@ skills/
 
 - **总控**：`chanyong`（常用）
 - **个人与知识**：`dongwo`（懂我）、`tuijian`（推荐师）、`mishu`（秘书）、`fupan`（复盘师）、`zhishi`（知识管家）
-- **研究与策略**：`chuangyi`（创意师）、`guihua`（规划大师）、`yanjiu`（研究大师）、`cehua`（策划师）、`chaijie`（拆解师）、`juece`（决策师）
-- **选品与采购**：`xuanpin`（选品大师）、`bijia`（商品价格比价大师）、`caigou`（采购大师）
+- **研究与策略**：`chuangyi`（创意师）、`guihua`（规划大师）、`yanjiu`（研究大师）、`deep-research-mode`（深度研究模式）、`solution-finder`（解决方案师）、`cehua`（策划师）、`chaijie`（拆解师）、`juece`（决策师）
+- **选品与采购**：`product-information-research`（商品信息查询）、`xuanpin`（选品大师）、`bijia`（商品价格比价大师）、`caigou`（采购大师）
 - **工程与接口**：`jiagou`（架构师）、`tishici`（提示词大师）、`biancheng`（写代码专业大师）、`jianrong`（兼容大师）、`api`（API 大师）、`gaojigongchengshi`（高级工程师）
-- **质量与安全**：`anquan`（安全管理大师）、`zhaobug`（找 Bug 大师）、`xiubug`（修 Bug 大师）、`daimazhengli`（代码整理大师）
+- **质量与安全**：`anquan`（安全管理大师）、`devils-advocate`（挑刺儿高手）、`zhaobug`（找 Bug 大师）、`xiubug`（修 Bug 大师）、`daimazhengli`（代码整理大师）
 - **设计与视觉**：`design-taste-frontend`（Taste 设计导演）
 - **电脑与维护**：`beifen`（备份大师）、`diannao`（电脑管理大师）、`jinengguan`（技能馆长）
 

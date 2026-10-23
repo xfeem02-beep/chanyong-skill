@@ -20,10 +20,14 @@
 | 创意、点子、命名、活动概念 | [`chuangyi`](../../chuangyi/SKILL.md) | 视觉落地再进入设计家族；商品机会转 `xuanpin` | 方向有真实依据、彼此有机制差异，并能最小验证 |
 | 个性化推荐与候选比较 | [`tuijian`](../../tuijian/SKILL.md) | `dongwo` 提供已确认偏好；最新信息用证据调研 | 给明确首选，事实/偏好判断/未知分开；不自动购买 |
 | 待办、日程、会议与跟进 | [`mishu`](../../mishu/SKILL.md) | `guihua` 提供计划；宿主日历/邮件/自动化按授权使用 | 负责人、期限、时区和未决项清楚；不自动发送 |
-| 经营选品与采购候选 | [`xuanpin`](../../xuanpin/SKILL.md) | 证据调研、数据分析、`guihua` | 商品与变体精确；关键成本缺失时利润为 null 且不推荐进货 |
+| 精确商品资料、完整款号、条码/GTIN、同款来源 | [`product-information-research`](../../product-information-research/SKILL.md) | 经营筛选转 `xuanpin`；到手成本转 `bijia` | 商品与变体身份明确；输出 exact/candidate/conflicting/unavailable；价格和卖家信息不串源 |
+| 经营选品与采购候选 | [`xuanpin`](../../xuanpin/SKILL.md) | 商品身份先用 `product-information-research`；数据分析、`guihua` | 商品与变体精确；关键成本缺失时利润为 null 且不推荐进货 |
 | 目标、路线图与阶段规划 | [`guihua`](../../guihua/SKILL.md) | `mishu` 落日程和提醒；`dongwo` 提供工作节奏 | 关键路径、下一步、里程碑和完成证据明确 |
 | 文件、项目与个人资料备份 | [`beifen`](../../beifen/SKILL.md) | 已安装的 restic/Kopia/系统备份工具 | 原数据保留；复制、校验、隔离恢复分别报告 |
-| 证据调研与事实核查 | [`yanjiu`](../../yanjiu/SKILL.md) | 需要选择时转 `juece`；产品方向转 `cehua` | 一手来源支持结论；事实、推断、建议和未知分开 |
+| 快速证据调研与单一事实核查 | [`yanjiu`](../../yanjiu/SKILL.md) | 需要选择时转 `juece`；产品方向转 `cehua` | 一手来源支持结论；事实、推断、建议和未知分开 |
+| 多来源复杂研究、尽调、市场全景、系统比较 | [`deep-research-mode`](../../deep-research-mode/SKILL.md) | 原生 `@Deepresearch` 真可用时优先；否则用当前检索工具 | 有研究计划、冲突核验、事实/推断/建议区分和逐项引用；未知明确 |
+| 开放性卡点、找办法、替代路径 | [`solution-finder`](../../solution-finder/SKILL.md) | 缺事实转研究；明确故障转 `zhaobug`；取舍转 `juece` | 给少量机制不同的方案、明确首选、改选条件与最小验证 |
+| 方案、结论或重要决策的反方压力测试 | [`devils-advocate`](../../devils-advocate/SKILL.md) | 完整修法转 `solution-finder`；代码缺陷用代码审查能力 | 最强反例、证据缺口和隐藏成本分级；重要问题有修复方向；不无限挑刺 |
 | 产品、活动与商业策划 | [`cehua`](../../cehua/SKILL.md) | `yanjiu` 补证据；`guihua` 落计划 | 用户、价值、范围、成功指标和最小验证清楚 |
 | 架构与技术决策 | [`jiagou`](../../jiagou/SKILL.md) | 接口用 `api`；迁移用 `jianrong` | 模块、数据、权限、错误、兼容和回滚清楚 |
 | 模型行为与提示词 | [`tishici`](../../tishici/SKILL.md) | 视觉生成读取视觉体系；安全审查用 `anquan` | 有输入输出合同、失败样本和小型评测 |
@@ -32,7 +36,7 @@
 | 项目或工作复盘 | [`fupan`](../../fupan/SKILL.md) | 需要保存长期偏好才转 `dongwo` | 目标、结果、原因和下一项实验可核查 |
 | 电脑健康与维护 | [`diannao`](../../diannao/SKILL.md) | 数据保护用 `beifen` | 先只读盘点；修改系统前有明确授权与回退 |
 | 知识库与笔记整理 | [`zhishi`](../../zhishi/SKILL.md) | 当前事实核查用 `yanjiu` | 索引可检索；不擅自移动、删除或破坏链接 |
-| Skill 主动发现、推荐、精简与更新 | [`jinengguan`](../../jinengguan/SKILL.md) | 安全代码审查用 `anquan` | 真实 SKILL.md、高星活跃来源、许可证、固定提交和隔离验证；最多推荐 3 个并解释为什么不需要更多 |
+| Skill 主动发现、推荐、精简与更新 | [`jinengguan`](../../jinengguan/SKILL.md) | 安全代码审查用 `anquan` | 真实 SKILL.md、高星活跃来源、许可证、固定提交和隔离验证；商品类来源少于 1,000 stars 不安装；最多推荐 3 个并解释为什么不需要更多 |
 | 安全审计与安全开发 | [`anquan`](../../anquan/SKILL.md) | 根因故障转 `zhaobug` | 攻击者、受害者、数据流、证据和修复明确 |
 | Bug 复现与根因定位 | [`zhaobug`](../../zhaobug/SKILL.md) | 根因成立后转 `xiubug` | 最小复现或最强假设有证据 |
 | Bug 最小修复 | [`xiubug`](../../xiubug/SKILL.md) | `zhaobug` 提供复现；`anquan` 检查安全影响 | 修复前失败、修复后通过，附近回归成立 |

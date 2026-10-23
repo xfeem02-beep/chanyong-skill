@@ -16,20 +16,20 @@ Skill 在每个新对话首次使用时只读检查公开 GitHub Release；仅�
 
 安装包按 `skills/<成员名>/` 组织。`chanyong` 是唯一自动总控；`jinengguan` 只在项目出现 Skill 能力缺口时自动充当“嗅觉”。每个内置专业成员仍有自己的 `SKILL.md`，可以按名称单独调用。以后加入 `skills/` 的合规成员会随同一条安装命令一起安装。成员规范见 [`family-installation.md`](skills/chanyong/references/family-installation.md)。
 
-当前共有 **29 个独立成员**，按 1 个总控和 7 个能力组组织：
+当前共有 **33 个独立成员**，按 1 个总控和 7 个能力组组织：
 
 | 分组 | 成员 |
 |---|---|
 | 总控 | `chanyong`（常用） |
 | 个人与知识 | `dongwo`（懂我）、`tuijian`（推荐师）、`mishu`（秘书）、`fupan`（复盘师）、`zhishi`（知识管家） |
-| 研究与策略 | `chuangyi`（创意师）、`guihua`（规划大师）、`yanjiu`（研究大师）、`cehua`（策划师）、`chaijie`（拆解师）、`juece`（决策师） |
-| 选品与采购 | `xuanpin`（选品大师）、`bijia`（商品价格比价大师）、`caigou`（采购大师） |
+| 研究与策略 | `chuangyi`（创意师）、`guihua`（规划大师）、`yanjiu`（研究大师）、`deep-research-mode`（深度研究模式）、`solution-finder`（解决方案师）、`cehua`（策划师）、`chaijie`（拆解师）、`juece`（决策师） |
+| 选品与采购 | `product-information-research`（商品信息查询）、`xuanpin`（选品大师）、`bijia`（商品价格比价大师）、`caigou`（采购大师） |
 | 工程与接口 | `jiagou`（架构师）、`tishici`（提示词大师）、`biancheng`（写代码专业大师）、`jianrong`（兼容大师）、`api`（API 大师）、`gaojigongchengshi`（高级工程师） |
-| 质量与安全 | `anquan`（安全管理大师）、`zhaobug`（找 Bug 大师）、`xiubug`（修 Bug 大师）、`daimazhengli`（代码整理大师） |
+| 质量与安全 | `anquan`（安全管理大师）、`devils-advocate`（挑刺儿高手）、`zhaobug`（找 Bug 大师）、`xiubug`（修 Bug 大师）、`daimazhengli`（代码整理大师） |
 | 设计与视觉 | `design-taste-frontend`（Taste 设计导演） |
 | 电脑与维护 | `beifen`（备份大师）、`diannao`（电脑管理大师）、`jinengguan`（自动发现能力缺口并审查、安装、更新 Skills） |
 
-用户可以直接点名任一成员；未点名时由 chanyong 自动选择。每次只读取命中的工作方法，通常使用一个主成员，复杂任务最多增加一个辅助和一个验收成员。现有能力覆盖不了项目需求时，`jinengguan` 才去 GitHub 查真实、热门、活跃且许可证清楚的 Skill；低风险候选按用户已有授权安装，重复能力不装。
+用户可以直接点名任一成员；未点名时由 chanyong 自动选择。每次只读取命中的工作方法，通常使用一个主成员，复杂任务最多增加一个辅助和一个验收成员。现有能力覆盖不了项目需求时，`jinengguan` 才去 GitHub 查真实、热门、活跃且许可证清楚的 Skill；低风险候选按用户已有授权安装，重复能力不装。商品信息查询、电商和商品研究类外部 Skill 另设硬门槛：来源 GitHub 仓库少于 1,000 stars 不安装，达到门槛仍要检查活跃度、许可证、凭据、付费和后台副作用。
 
 每个非简单任务开头都会显示实际选择，例如：`本次使用：zhaobug — 定位登录错误；xiubug — 完成最小修复；anquan — 检查安全回归`。显示真实英文 Skill 名和本次功能，没有启用的 Skill 不显示。
 
@@ -47,7 +47,7 @@ Skill 在每个新对话首次使用时只读检查公开 GitHub Release；仅�
 
 ## 自动能力大家庭
 
-研究、策划、架构、开发、排错、重构、迁移、设计、动效、图片、视频、Word、PDF、PPT、Excel、逆向、审查和验收都由同一个入口识别。项目需要新能力时，Skill 嗅觉会先查现有成员，再有界搜索 GitHub、审查候选并按授权安装。每个阶段只选一个主 Skill，最多加一个补充能力和一个验收能力；显式限定的小靠、Codex 审查、交接、多代理等不会被普通语义误触发。完整规则见 [`skills/chanyong/references/capability-family.md`](skills/chanyong/references/capability-family.md)。
+快速研究、深度研究、商品查询、解决方案、挑刺、策划、架构、开发、排错、重构、迁移、设计、动效、图片、视频、Word、PDF、PPT、Excel、逆向、审查和验收都由同一个入口识别。项目需要新能力时，Skill 嗅觉会先查现有成员，再有界搜索 GitHub、审查候选并按授权安装。每个阶段只选一个主 Skill，最多加一个补充能力和一个验收能力；显式限定的小靠、Codex 审查、交接、多代理等不会被普通语义误触发。完整规则见 [`skills/chanyong/references/capability-family.md`](skills/chanyong/references/capability-family.md)。
 
 个人记忆只有用户明确说“记住”才写入。同一台电脑上的 Codex、Claude Code、Grok 和不同项目默认共用用户级私有记忆；多台电脑各自配置同一个私人同步目录后共用。该目录同时提供 `documents/` 作为日后指定文档位置。公开安装包不含任何人的偏好、客户资料或备份内容；GitHub 上传默认关闭，只有明确要求且确认远端为私人仓库后才能执行。
 

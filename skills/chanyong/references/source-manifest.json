@@ -13,7 +13,7 @@
     },
     {
       "path": "SKILL.md",
-      "sha256": "3025b072765f79aad890d9fd6dff859288d41e71be6f3508dc2722d12793e144",
+      "sha256": "5082f40d9b2b5838903f6c3ee26b7d8d8f910c0124b40d010f06d95463f975ad",
       "kind": "portable-local-composition",
       "method_sources": [
         "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/ask-matt/SKILL.md",
@@ -24,7 +24,7 @@
       "path": "VERSION",
       "kind": "installed-release-version",
       "method_sources": [],
-      "sha256": "bb7320d831e7a151aa901c35e7326c752fa2ef5024f30768c42319b8bed171ed"
+      "sha256": "3eb1ef94b5890ca727158b106142685c8733b0ace5bcb4cf3f0ac14f9f0643f4"
     },
     {
       "path": "agents/openai.yaml",
@@ -41,7 +41,7 @@
         "https://github.com/mattpocock/skills/tree/5beb35b040e3de97e54fa9e386d7e42d15c295c2",
         "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431"
       ],
-      "sha256": "c8a193bee47ae39520413af7a2c248a0fd81f0c3dd95755a98850a7026c75ed7"
+      "sha256": "389bab662f88fddb7935327f931bd484044f3623c30f23ef654acb08a8aa4880"
     },
     {
       "path": "references/design-family.md",
@@ -59,7 +59,7 @@
       "method_sources": [
         "https://github.com/agentskills/agentskills"
       ],
-      "sha256": "467f49dc0de1826b5013859433f851b73c146aa9dbdccd47df5695466d232e13"
+      "sha256": "2bf37adee2c1120f1df2af86f92892eab34a074fadfa9563927ae95a20a25b1c"
     },
     {
       "path": "references/maintenance.md",
@@ -87,7 +87,7 @@
     },
     {
       "path": "references/routing.md",
-      "sha256": "cd68a7dcbbb78449ee36c63130c79c4c0475580908c1bd61aedfceaf9b9a758e",
+      "sha256": "77f87ffd71c9e373db0707d63684d20223983f2c5e8413817e3554a5860a0f7b",
       "kind": "portable-routing-method",
       "method_sources": [
         "https://github.com/anthropics/knowledge-work-plugins/tree/33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
@@ -96,7 +96,7 @@
     },
     {
       "path": "references/sources.md",
-      "sha256": "bfaaaf08fc537e6523c71156e21bd3a7b934eaffa111440d492c2b2d0c9386ce",
+      "sha256": "b1f0a59ec98d6b0627ca9d0322948f6f47782172b6bce6dc0dcfd4b178931e55",
       "kind": "research-snapshot",
       "method_sources": [
         "https://api.github.com"

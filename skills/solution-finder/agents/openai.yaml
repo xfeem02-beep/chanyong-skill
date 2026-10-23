@@ -1,0 +1,6 @@
+interface:
+  display_name: "solution-finder"
+  short_description: "识别真正卡点并给出可执行首选方案"
+  default_prompt: "读取现场和约束，提出少量机制不同的方案，给出明确首选、改选条件和最小验证。"
+policy:
+  allow_implicit_invocation: false

@@ -6,6 +6,7 @@
 |---|---:|---|
 | [github/awesome-copilot](https://github.com/github/awesome-copilot/tree/d85f762d6e521abf5fe16703946e9b38adc42da7) | 40346 | MIT；采用其真实 `SKILL.md` 中的拆解、Bug 复现、安全审查、重构、API 兼容、架构和提示词方法；不继承自动写入或平台专属步骤 |
 | [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills/tree/dee7acce0658c35cb276154892700811affcfdb2) | 48374 | MIT；采用其真实 `SKILL.md` 中的电脑、知识、备份、采购、电商、决策、安全、提示词和系统方法；不运行上游脚本、不读取凭据、不启用付费服务 |
+| [nexscope-ai/eCommerce-Skills](https://github.com/nexscope-ai/eCommerce-Skills/tree/ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e) | 1238 | MIT；采用商品身份、价格、评价与来源核验方法；不继承推广、监控服务或自动安装命令。商品类外部 Skill 低于 1000 stars 不安装，达到门槛仍须完整审查 |
 | [obra/superpowers](https://github.com/obra/superpowers/tree/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b) | 304022 | 采用计划粒度和完成前验证纪律；不继承全局强制触发、重复批准或自动代理 |
 | [mattpocock/skills](https://github.com/mattpocock/skills/tree/5beb35b040e3de97e54fa9e386d7e42d15c295c2) | 301464 | 采用总路由、阶段入口和深模块方法；代理路线保持可选 |
 | [affaan-m/ECC](https://github.com/affaan-m/ECC/tree/90606c8315ee09cafc303515c5f33024db6b9882) | 287101 | 热门候选池；快照含 1062 个 `SKILL.md`，只按项目缺口逐个审查，不整库安装 |
@@ -32,5 +33,7 @@
 | [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) | 15517 | 发现/说明目录；快照树含 0 个 `SKILL.md`，不整库安装 |
 
 AI 评测优先核查当前 [ai-evals-course/evals-skills](https://github.com/ai-evals-course/evals-skills)。旧 `hamelsmu/evals-skills` 已在 README 标为 deprecated；没有固定候选 SHA、许可证和完整差异前不复制新文件。
+
+深度研究流程依据 OpenAI 官方 [Deep research in ChatGPT](https://help.openai.com/en/articles/10500283-deep-research-faq/) 与 [Research with ChatGPT](https://openai.com/academy/search-and-deep-research/)（2026-10-24 核查）。本包只移植公开工作方式；原生 `@Deepresearch` 是否可用仍取决于宿主、账号和工作区。
 
 本表不是安全审计。来源更新时必须保留旧基线、候选完整 SHA、逐文件哈希、许可证和本地适配差异。
