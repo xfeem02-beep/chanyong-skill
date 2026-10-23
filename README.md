@@ -24,4 +24,8 @@ Skill 在每个新对话首次使用时只读检查公开 GitHub Release；仅�
 
 完整能力地图见 [`skills/chanyong/references/design-family.md`](skills/chanyong/references/design-family.md)。Taste Skill v2 已内置并固定到已核查版本；其他外部 Skill 可用时作为专业补充，不要求客户把所有第三方仓库全部安装。
 
+## 自动能力大家庭
+
+研究、策划、架构、开发、排错、重构、迁移、设计、动效、图片、视频、Word、PDF、PPT、Excel、逆向、审查和验收都由同一个入口识别。每个阶段只选一个主 Skill，最多加一个补充能力和一个验收能力；显式限定的小靠、Codex 审查、交接、多代理等不会被普通语义误触发。完整规则见 [`skills/chanyong/references/capability-family.md`](skills/chanyong/references/capability-family.md)。
+
 给其他项目或其他 AI 的可复制安装指令：[`CHANYONG-INSTALL-PROMPT.txt`](CHANYONG-INSTALL-PROMPT.txt)。

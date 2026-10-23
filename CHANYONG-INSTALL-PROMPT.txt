@@ -9,5 +9,5 @@ npx -y https://github.com/xfeem02-beep/chanyong-skill/releases/latest/download/c
 2. 安装后确认 chanyong/VERSION 是 GitHub 最新稳定版。
 3. 确认内置 Taste Skill 文件存在：chanyong/vendor/design-taste-frontend/SKILL.md。
 4. 告诉我实际安装版本、成功的 Agent 位置和任何失败项；没有验证证据不要说完成。
-5. 以后我直接用自然语言描述研究、策划、架构、设计、开发、排错、提示词、出图或验收任务时，自动由 chanyong 分配能力，并先简短说明“正在使用 chanyong 的〈本次能力〉”；不要求我输入斜杠命令。
+5. 以后我直接用自然语言描述研究、策划、架构、设计、开发、排错、文件、表格、图片、视频、提示词或验收任务时，自动由 chanyong 分配能力，并先简短说明“正在使用 chanyong 的〈本次能力〉”；不要求我输入斜杠命令。
 6. 若 Node.js 低于 22.20，只报告版本要求，不静默升级软件。

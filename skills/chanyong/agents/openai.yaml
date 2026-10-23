@@ -1,6 +1,6 @@
 interface:
   display_name: "常用"
-  short_description: "自然语言自动组合研究、策划、设计、提示词、开发与验收"
+  short_description: "自然语言自动组合研究、策划、设计、开发、文件、媒体与验收"
   default_prompt: "自动理解当前目标，读取现有项目与证据，说明正在使用的 chanyong 能力，选择最短完整路线并完成已授权工作。"
 policy:
   allow_implicit_invocation: true
