@@ -13,7 +13,7 @@
     },
     {
       "path": "SKILL.md",
-      "sha256": "c205c55ea46fcca2e9657f1323596c1c7637a0c21e40d9ff883c489bdc46412f",
+      "sha256": "eb3505c6a3bf88d633f74a2f89ee0c86123fe45c0166a5f92ecb446e278e1be5",
       "kind": "portable-local-composition",
       "method_sources": [
         "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/ask-matt/SKILL.md",
@@ -24,11 +24,11 @@
       "path": "VERSION",
       "kind": "installed-release-version",
       "method_sources": [],
-      "sha256": "30f4611383aa30a15753789f40effde81332f2f8714e6d3b2940bf0fc4592377"
+      "sha256": "0ab4fa190ca1b1d1f630ac87cf34672bfbaf1395d0148c7568d38e58335b8d68"
     },
     {
       "path": "agents/openai.yaml",
-      "sha256": "b5ea879c0a875128f2a91021938aef5f73080fad18081bd36fdc821fe5c05471",
+      "sha256": "ff27fcdd8a7b20d82a304eebc33fbe97c51e4c2e31b3c28654809040f60d9398",
       "kind": "optional-codex-interface",
       "method_sources": [
         "https://github.com/openai/skills"
@@ -71,7 +71,7 @@
     },
     {
       "path": "references/preferences.md",
-      "sha256": "c0810e28ae219b8fe87a294b176b74ee956a607f92dfe4d855161031be3853a3",
+      "sha256": "0838800a654096ef2e9c0cf02e52da0875ef53e73e926898ced29f5e19ca7040",
       "kind": "user-authorized-default-preferences",
       "excluded_from_upstream_update": true,
       "method_sources": []
