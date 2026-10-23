@@ -1,6 +1,6 @@
 {
   "name": "chanyong-skill-installer",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "private": true,
   "description": "One-command installer for the chanyong skill family",
   "bin": {
