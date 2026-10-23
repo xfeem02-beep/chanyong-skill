@@ -1,12 +1,14 @@
 #!/usr/bin/env node
 import { spawnSync } from "node:child_process";
+import { createRequire } from "node:module";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const packageRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const skillDir = resolve(packageRoot, "skills", "chanyong");
-const skills = process.platform === "win32" ? "skills.cmd" : "skills";
-const env = { ...process.env, DO_NOT_TRACK: "1" };
+const require = createRequire(import.meta.url);
+const skillsCli = require.resolve("skills/bin/cli.mjs");
+const env = { ...process.env, DISABLE_TELEMETRY: "1", DO_NOT_TRACK: "1" };
 const [major, minor] = process.versions.node.split(".").map(Number);
 
 if (major < 22 || (major === 22 && minor < 20)) {
@@ -16,8 +18,8 @@ if (major < 22 || (major === 22 && minor < 20)) {
 
 function install(extraArgs, label) {
   const result = spawnSync(
-    skills,
-    ["add", skillDir, ...extraArgs, "--all", "--copy"],
+    process.execPath,
+    [skillsCli, "add", skillDir, ...extraArgs, "--all", "--copy"],
     { cwd: process.cwd(), env, stdio: "inherit" },
   );
   if (result.error) {

@@ -1,6 +1,6 @@
 {
   "name": "chanyong-skill-installer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "One-command installer for the chanyong Agent Skill",
   "bin": {

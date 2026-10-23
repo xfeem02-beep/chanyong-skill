@@ -1,0 +1,25 @@
+name: Windows install
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  install:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Install from the public command in a path with spaces
+        shell: pwsh
+        run: |
+          $testDir = Join-Path $env:RUNNER_TEMP "中文 test project with spaces"
+          New-Item -ItemType Directory -Force -Path $testDir | Out-Null
+          Set-Location $testDir
+          npx -y github:xfeem02-beep/chanyong-skill
+          if (-not (Test-Path "$env:USERPROFILE\.agents\skills\chanyong\SKILL.md")) { throw "Global install missing" }
+          if (-not (Test-Path ".agents\skills\chanyong\SKILL.md")) { throw "Project install missing" }
+          if (-not (Test-Path "$env:USERPROFILE\.claude\skills\chanyong\SKILL.md")) { throw "Claude install missing" }
+          if (-not (Test-Path "$env:USERPROFILE\.grok\skills\chanyong\SKILL.md")) { throw "Grok install missing" }
