@@ -23,3 +23,5 @@ Skill 在每个新对话首次使用时只读检查公开 GitHub Release；仅�
 5. 查看真实成图或渲染，检查文字、产品、品牌、层级、裁切、对比度和瑕疵后再交付。
 
 完整能力地图见 [`skills/chanyong/references/design-family.md`](skills/chanyong/references/design-family.md)。Taste Skill v2 已内置并固定到已核查版本；其他外部 Skill 可用时作为专业补充，不要求客户把所有第三方仓库全部安装。
+
+给其他项目或其他 AI 的可复制安装指令：[`CHANYONG-INSTALL-PROMPT.txt`](CHANYONG-INSTALL-PROMPT.txt)。
