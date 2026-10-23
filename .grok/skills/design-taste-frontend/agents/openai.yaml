@@ -1,5 +1,0 @@
-interface:
-  display_name: "Taste 设计导演"
-  short_description: "可单独调用；平时由 chanyong 自动调度的网页与应用审美导演"
-policy:
-  allow_implicit_invocation: false

@@ -1,6 +1,0 @@
-interface:
-  display_name: "商品价格比价大师"
-  short_description: "可单独调用；韩国采购到手成本比价"
-  default_prompt: "按商品价格比价大师的方法处理当前任务，先读现场，再给最小完整结果与验证证据。"
-policy:
-  allow_implicit_invocation: false

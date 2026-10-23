@@ -1,6 +1,0 @@
-interface:
-  display_name: "秘书"
-  short_description: "可单独调用；整理待办、日程、会议决定、提醒、跟进和对外草稿"
-  default_prompt: "按我的已确认工作习惯整理当前事项，给出优先级、负责人、时间和下一步；不要未经授权发送或改日历。"
-policy:
-  allow_implicit_invocation: false

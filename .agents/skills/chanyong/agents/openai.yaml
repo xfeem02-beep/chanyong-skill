@@ -1,6 +1,0 @@
-interface:
-  display_name: "常用"
-  short_description: "自然语言自动组合懂我、秘书、推荐、选品、规划、备份与专业工作"
-  default_prompt: "自动理解当前目标，读取现有项目与证据，说明正在使用的 chanyong 能力，选择最短完整路线并完成已授权工作。"
-policy:
-  allow_implicit_invocation: true

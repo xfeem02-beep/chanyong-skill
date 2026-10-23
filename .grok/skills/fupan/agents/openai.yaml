@@ -1,6 +1,0 @@
-interface:
-  display_name: "复盘师"
-  short_description: "可单独调用；结果复盘与改进"
-  default_prompt: "按复盘师的方法处理当前任务，先读现场，再给最小完整结果与验证证据。"
-policy:
-  allow_implicit_invocation: false
