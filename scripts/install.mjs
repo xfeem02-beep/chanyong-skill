@@ -11,6 +11,7 @@ const registry = JSON.parse(readFileSync(resolve(packageRoot, "family-members.js
 const require = createRequire(import.meta.url);
 const skillsCli = require.resolve("skills/bin/cli.mjs");
 const env = { ...process.env, DISABLE_TELEMETRY: "1", DO_NOT_TRACK: "1" };
+const targetAgents = ["codex", "claude-code", "grok"];
 const [major, minor] = process.versions.node.split(".").map(Number);
 
 if (major < 22 || (major === 22 && minor < 20)) {
@@ -23,7 +24,7 @@ if (registry.router !== "chanyong" || !Array.isArray(registry.members) || regist
   process.exit(1);
 }
 for (const member of registry.members) {
-  if (!member?.name || !existsSync(resolve(skillsRoot, member.name, "SKILL.md"))) {
+  if (!member?.name || !member?.group || !existsSync(resolve(skillsRoot, member.name, "SKILL.md"))) {
     console.error(`Missing registered skill: ${member?.name ?? "unknown"}`);
     process.exit(1);
   }
@@ -32,7 +33,7 @@ for (const member of registry.members) {
 function install(extraArgs, label) {
   const result = spawnSync(
     process.execPath,
-    [skillsCli, "add", skillsRoot, ...extraArgs, "--all", "--copy"],
+    [skillsCli, "add", skillsRoot, ...extraArgs, "--skill", "*", "--agent", ...targetAgents, "-y", "--copy"],
     { cwd: process.cwd(), env, stdio: "inherit" },
   );
   if (result.error) {

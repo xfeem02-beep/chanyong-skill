@@ -23,14 +23,26 @@
 | 经营选品与采购候选 | [`xuanpin`](../../xuanpin/SKILL.md) | 证据调研、数据分析、`guihua` | 商品与变体精确；关键成本缺失时利润为 null 且不推荐进货 |
 | 目标、路线图与阶段规划 | [`guihua`](../../guihua/SKILL.md) | `mishu` 落日程和提醒；`dongwo` 提供工作节奏 | 关键路径、下一步、里程碑和完成证据明确 |
 | 文件、项目与个人资料备份 | [`beifen`](../../beifen/SKILL.md) | 已安装的 restic/Kopia/系统备份工具 | 原数据保留；复制、校验、隔离恢复分别报告 |
-| 当前事实、比较、趋势、规则 | chanyong 内置证据调研；已授权委派时可用 `research` / `deep-research` | `firecrawl-search` 找来源，`firecrawl-scrape` 读已选页面 | 一手来源支持主要结论；事实、推断、建议分开 |
-| 产品、商业、活动策划 | 内置策划师/产品经理 | 必要时调研、数据分析；`grilling` 仅用户要求压力测试时 | 目标、用户、范围、不做什么、成功标准清楚 |
-| 架构、模块边界、接口 | `codebase-design` 或内置架构师 | 领域术语变化才用 `domain-modeling`；迁移才用 `migration` | 调用方、错误、数据、权限、回滚和取舍可说明 |
-| 新功能或集成 | `lean-build` | 接口过浅时 `codebase-design`；用户要求测试先行才用 `tdd` | 最小端到端结果通过，达到验收即停止 |
-| 原因不明的故障或性能问题 | `investigate-first`；复杂复现循环用 `diagnosing-bugs` | 根因明确后转 `surgical-patch` | 有复现/最强证据、根因、针对性回归 |
-| 明确小修复 | `surgical-patch` | 必要时先短诊断 | 最窄责任层修好，附近回归通过 |
-| 保行为重构 | `safe-refactor` | 深模块问题可加 `codebase-design` | 修改前后行为证据一致 |
-| 数据/API/配置迁移 | `migration` | 架构师补充兼容边界 | 双向兼容、回滚和数据保存证据成立 |
+| 证据调研与事实核查 | [`yanjiu`](../../yanjiu/SKILL.md) | 需要选择时转 `juece`；产品方向转 `cehua` | 一手来源支持结论；事实、推断、建议和未知分开 |
+| 产品、活动与商业策划 | [`cehua`](../../cehua/SKILL.md) | `yanjiu` 补证据；`guihua` 落计划 | 用户、价值、范围、成功指标和最小验证清楚 |
+| 架构与技术决策 | [`jiagou`](../../jiagou/SKILL.md) | 接口用 `api`；迁移用 `jianrong` | 模块、数据、权限、错误、兼容和回滚清楚 |
+| 模型行为与提示词 | [`tishici`](../../tishici/SKILL.md) | 视觉生成读取视觉体系；安全审查用 `anquan` | 有输入输出合同、失败样本和小型评测 |
+| 目标与工作包拆解 | [`chaijie`](../../chaijie/SKILL.md) | `guihua` 只负责排期与节奏 | 工作包独立、依赖和完成证据明确 |
+| 多方案选择与取舍 | [`juece`](../../juece/SKILL.md) | `yanjiu` 补事实；`dongwo` 补已确认偏好 | 明确首选、风险和改选条件 |
+| 项目或工作复盘 | [`fupan`](../../fupan/SKILL.md) | 需要保存长期偏好才转 `dongwo` | 目标、结果、原因和下一项实验可核查 |
+| 电脑健康与维护 | [`diannao`](../../diannao/SKILL.md) | 数据保护用 `beifen` | 先只读盘点；修改系统前有明确授权与回退 |
+| 知识库与笔记整理 | [`zhishi`](../../zhishi/SKILL.md) | 当前事实核查用 `yanjiu` | 索引可检索；不擅自移动、删除或破坏链接 |
+| Skill 发现、审查与更新 | [`jinengguan`](../../jinengguan/SKILL.md) | 安全代码审查用 `anquan` | 真实 SKILL.md、高星活跃来源、许可证、固定提交和隔离验证 |
+| 安全审计与安全开发 | [`anquan`](../../anquan/SKILL.md) | 根因故障转 `zhaobug` | 攻击者、受害者、数据流、证据和修复明确 |
+| Bug 复现与根因定位 | [`zhaobug`](../../zhaobug/SKILL.md) | 根因成立后转 `xiubug` | 最小复现或最强假设有证据 |
+| Bug 最小修复 | [`xiubug`](../../xiubug/SKILL.md) | `zhaobug` 提供复现；`anquan` 检查安全影响 | 修复前失败、修复后通过，附近回归成立 |
+| 专业代码实现 | [`biancheng`](../../biancheng/SKILL.md) | 架构用 `jiagou`；验收按项目工具 | 调用方、错误、配置和真实入口验证完整 |
+| 复杂跨模块工程、性能与可靠性 | [`gaojigongchengshi`](../../gaojigongchengshi/SKILL.md) | 简单实现降级为 `biancheng`；安全用 `anquan` | 复杂度必要、关键取舍清楚、代表性负载与故障路径已验证 |
+| 保行为代码整理 | [`daimazhengli`](../../daimazhengli/SKILL.md) | 深模块结构可补 `jiagou` | 前后行为、接口和错误语义一致 |
+| 旧系统兼容与迁移 | [`jianrong`](../../jianrong/SKILL.md) | 接口合同用 `api` | 新旧客户端、数据、回滚和弃用条件已核对 |
+| API 设计与接入 | [`api`](../../api/SKILL.md) | 安全用 `anquan`；版本迁移用 `jianrong` | 合同、错误、权限、幂等、兼容和测试清楚 |
+| 韩国采购商品比价 | [`bijia`](../../bijia/SKILL.md) | `xuanpin` 确认买什么；`caigou` 负责怎么买 | 同款变体精确；完整到手成本或明确缺失 |
+| 采购执行与控制 | [`caigou`](../../caigou/SKILL.md) | `bijia` 给成本；`mishu` 跟进节点 | 供应商、数量、成本、交期、审批与三方核对清楚 |
 | 已有工作验收 | `verify-and-stop` | 专业格式检查工具 | 验收条件已获得最小充分证据，立即停止扩展 |
 | 网站、落地页、后台、App UI | 读取 [design-family.md](design-family.md)；Taste 主持方向 | 营销页用 `frontend-design`；操作型界面用 `interface-design`；`impeccable` 只在方向锁定后做高质量强化 | 看过真实渲染；多尺寸、状态、文字和可访问性已核对 |
 | UI 规范审查 | `web-design-guidelines` 或宿主可用的可访问性审查 | `impeccable` 做视觉工艺复核 | 发现有位置和证据；未修复项明确 |

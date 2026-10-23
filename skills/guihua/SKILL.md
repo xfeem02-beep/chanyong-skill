@@ -1,6 +1,7 @@
 ---
 name: guihua
 description: "规划大师：把目标转成阶段、依赖、里程碑、优先级、时间安排和复盘机制。用户说规划、路线图、年度/月度/周计划、项目计划、怎么推进、拆解目标，或点名规划大师/guihua 时使用。"
+disable-model-invocation: true
 ---
 
 # 规划大师
@@ -16,4 +17,4 @@ description: "规划大师：把目标转成阶段、依赖、里程碑、优先
 
 默认输出：目标、当前状态、关键路径、下一步三项、里程碑、风险/依赖、复盘时间。简单目标使用短清单，不制造大型项目管理仪式。
 
-方法参考：[Superpowers](https://github.com/obra/superpowers/tree/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b) 与 [PM Skills](https://github.com/phuryn/pm-skills/tree/07b34f64ee828df08953f505b7f747aef85ae7c6)。只吸收计划粒度、验证和产品决策方法，不继承强制代理或重复确认。
+上游 Skill 来源：[writing-plans](https://github.com/obra/superpowers/blob/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/writing-plans/SKILL.md) 与 [sprint-plan](https://github.com/phuryn/pm-skills/blob/07b34f64ee828df08953f505b7f747aef85ae7c6/pm-execution/skills/sprint-plan/SKILL.md)。只吸收计划粒度、验证和产品决策方法，不继承强制代理或重复确认。

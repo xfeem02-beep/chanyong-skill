@@ -2,14 +2,208 @@
   "schemaVersion": 1,
   "router": "chanyong",
   "members": [
-    { "name": "chanyong", "displayName": "常用", "role": "唯一自动总控", "implicit": true },
-    { "name": "design-taste-frontend", "displayName": "Taste 设计导演", "role": "网页与应用审美方向", "implicit": false },
-    { "name": "dongwo", "displayName": "懂我", "role": "个人偏好与可控记忆", "implicit": false },
-    { "name": "chuangyi", "displayName": "创意师", "role": "创意产生与筛选", "implicit": false },
-    { "name": "tuijian", "displayName": "推荐师", "role": "个性化推荐与比较", "implicit": false },
-    { "name": "mishu", "displayName": "秘书", "role": "待办日程会议与跟进", "implicit": false },
-    { "name": "xuanpin", "displayName": "选品大师", "role": "经营选品与采购候选", "implicit": false },
-    { "name": "guihua", "displayName": "规划大师", "role": "目标路线图与计划", "implicit": false },
-    { "name": "beifen", "displayName": "备份大师", "role": "加密备份与恢复验证", "implicit": false }
+    {
+      "name": "chanyong",
+      "displayName": "常用",
+      "role": "唯一自动总控",
+      "implicit": true,
+      "group": "总控"
+    },
+    {
+      "name": "design-taste-frontend",
+      "displayName": "Taste 设计导演",
+      "role": "网页与应用审美方向",
+      "implicit": false,
+      "group": "设计与视觉"
+    },
+    {
+      "name": "dongwo",
+      "displayName": "懂我",
+      "role": "个人偏好与可控记忆",
+      "implicit": false,
+      "group": "个人与知识"
+    },
+    {
+      "name": "chuangyi",
+      "displayName": "创意师",
+      "role": "创意产生与筛选",
+      "implicit": false,
+      "group": "研究与策略"
+    },
+    {
+      "name": "tuijian",
+      "displayName": "推荐师",
+      "role": "个性化推荐与比较",
+      "implicit": false,
+      "group": "个人与知识"
+    },
+    {
+      "name": "mishu",
+      "displayName": "秘书",
+      "role": "待办日程会议与跟进",
+      "implicit": false,
+      "group": "个人与知识"
+    },
+    {
+      "name": "xuanpin",
+      "displayName": "选品大师",
+      "role": "经营选品与采购候选",
+      "implicit": false,
+      "group": "选品与采购"
+    },
+    {
+      "name": "guihua",
+      "displayName": "规划大师",
+      "role": "目标路线图与计划",
+      "implicit": false,
+      "group": "研究与策略"
+    },
+    {
+      "name": "beifen",
+      "displayName": "备份大师",
+      "role": "加密备份与恢复验证",
+      "implicit": false,
+      "group": "电脑与维护"
+    },
+    {
+      "name": "yanjiu",
+      "displayName": "研究大师",
+      "role": "证据调研与事实核查",
+      "implicit": false,
+      "group": "研究与策略"
+    },
+    {
+      "name": "cehua",
+      "displayName": "策划师",
+      "role": "产品与活动策划",
+      "implicit": false,
+      "group": "研究与策略"
+    },
+    {
+      "name": "jiagou",
+      "displayName": "架构师",
+      "role": "系统结构与技术决策",
+      "implicit": false,
+      "group": "工程与接口"
+    },
+    {
+      "name": "tishici",
+      "displayName": "提示词大师",
+      "role": "提示词设计与评测",
+      "implicit": false,
+      "group": "工程与接口"
+    },
+    {
+      "name": "chaijie",
+      "displayName": "拆解师",
+      "role": "目标与工作拆解",
+      "implicit": false,
+      "group": "研究与策略"
+    },
+    {
+      "name": "juece",
+      "displayName": "决策师",
+      "role": "多方案权衡与选择",
+      "implicit": false,
+      "group": "研究与策略"
+    },
+    {
+      "name": "fupan",
+      "displayName": "复盘师",
+      "role": "结果复盘与改进",
+      "implicit": false,
+      "group": "个人与知识"
+    },
+    {
+      "name": "diannao",
+      "displayName": "电脑管理大师",
+      "role": "电脑健康检查与安全维护",
+      "implicit": false,
+      "group": "电脑与维护"
+    },
+    {
+      "name": "zhishi",
+      "displayName": "知识管家",
+      "role": "知识整理与检索",
+      "implicit": false,
+      "group": "个人与知识"
+    },
+    {
+      "name": "jinengguan",
+      "displayName": "技能馆长",
+      "role": "Skill 发现、审查与更新",
+      "implicit": false,
+      "group": "电脑与维护"
+    },
+    {
+      "name": "anquan",
+      "displayName": "安全管理大师",
+      "role": "安全审查与安全开发",
+      "implicit": false,
+      "group": "质量与安全"
+    },
+    {
+      "name": "zhaobug",
+      "displayName": "找 Bug 大师",
+      "role": "复现与根因定位",
+      "implicit": false,
+      "group": "质量与安全"
+    },
+    {
+      "name": "xiubug",
+      "displayName": "修 Bug 大师",
+      "role": "最小修复与回归验证",
+      "implicit": false,
+      "group": "质量与安全"
+    },
+    {
+      "name": "biancheng",
+      "displayName": "写代码专业大师",
+      "role": "最小完整代码实现",
+      "implicit": false,
+      "group": "工程与接口"
+    },
+    {
+      "name": "daimazhengli",
+      "displayName": "代码整理大师",
+      "role": "保持行为的重构",
+      "implicit": false,
+      "group": "质量与安全"
+    },
+    {
+      "name": "jianrong",
+      "displayName": "兼容大师",
+      "role": "旧系统接入新能力与迁移",
+      "implicit": false,
+      "group": "工程与接口"
+    },
+    {
+      "name": "api",
+      "displayName": "API 大师",
+      "role": "API 设计、接入与版本治理",
+      "implicit": false,
+      "group": "工程与接口"
+    },
+    {
+      "name": "bijia",
+      "displayName": "商品价格比价大师",
+      "role": "韩国采购到手成本比价",
+      "implicit": false,
+      "group": "选品与采购"
+    },
+    {
+      "name": "caigou",
+      "displayName": "采购大师",
+      "role": "韩国采购执行方案与控制",
+      "implicit": false,
+      "group": "选品与采购"
+    },
+    {
+      "name": "gaojigongchengshi",
+      "displayName": "高级工程师",
+      "role": "复杂跨模块工程与可靠性",
+      "implicit": false,
+      "group": "工程与接口"
+    }
   ]
 }

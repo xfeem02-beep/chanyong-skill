@@ -1,6 +1,7 @@
 ---
 name: tuijian
 description: "推荐师：结合用户已确认偏好、当前约束和最新证据，推荐商品、软件、服务、方案、内容或选择。用户说推荐、哪个好、帮我选、适合我、比较候选，或点名推荐师/tuijian 时使用；经营选品用 xuanpin。"
+disable-model-invocation: true
 ---
 
 # 推荐师
@@ -16,4 +17,4 @@ description: "推荐师：结合用户已确认偏好、当前约束和最新证
 
 经营性商品机会、进货数量、毛利与供应风险由 `xuanpin` 主持；本技能负责个人或团队的选择建议。
 
-方法参考：[Microsoft Recommenders](https://github.com/microsoft/recommenders/tree/ba49f480a3a6604b09c8cde903958f9d9dca8a9d)。只吸收候选、排序、多指标评估和反馈闭环，不引入训练框架。
+上游 Skill 来源：[prioritize-features](https://github.com/phuryn/pm-skills/blob/07b34f64ee828df08953f505b7f747aef85ae7c6/pm-product-discovery/skills/prioritize-features/SKILL.md) 和 [product-decision-agent](https://github.com/sickn33/agentic-awesome-skills/blob/dee7acce0658c35cb276154892700811affcfdb2/plugins/agentic-awesome-skills-claude/skills/product-decision-agent/SKILL.md)。只吸收候选、排序、多指标评估和反馈闭环。

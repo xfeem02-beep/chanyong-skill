@@ -1,0 +1,6 @@
+interface:
+  display_name: "技能馆长"
+  short_description: "可单独调用；Skill 发现、审查与更新"
+  default_prompt: "按技能馆长的方法处理当前任务，先读现场，再给最小完整结果与验证证据。"
+policy:
+  allow_implicit_invocation: false

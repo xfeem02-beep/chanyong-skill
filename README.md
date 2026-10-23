@@ -1,12 +1,12 @@
 # chanyong
 
-在 macOS 或 Windows 终端运行一条命令，把 `chanyong` 能力大家庭安装到本机 `skills` CLI 能检测到的 Agent：
+在 macOS 或 Windows 终端运行一条命令，把 `chanyong` 能力大家庭安装到 Codex 通用 `.agents`、Claude Code 和 Grok：
 
 ```sh
 npx -y https://github.com/xfeem02-beep/chanyong-skill/releases/latest/download/chanyong-skill-installer.tgz
 ```
 
-需要 Node.js 22.20 或更高版本，不要求另外安装 Git。安装器关闭本次安装的匿名遥测，并同时尝试全局安装与当前项目安装。同一条命令始终获取最新稳定版，可以直接重复运行更新。
+需要 Node.js 22.20 或更高版本，不要求另外安装 Git。安装器关闭本次安装的匿名遥测，并同时尝试全局安装与当前项目安装。Codex 使用的 `.agents/skills` 也是多个兼容 Agent 的通用入口；不再向几十个未使用的 Agent 目录重复复制。其他 Agent 可读取标准 `.agents/skills` 时直接共用。同一条命令始终获取最新稳定版，可以直接重复运行更新。
 
 同一条命令适用于 macOS Terminal、Windows PowerShell 和 Windows CMD。安装器直接调用 Node.js，不经过 shell 拼接，因此支持 `C:\Program Files\...`、中文用户名和带空格的项目路径。
 
@@ -16,7 +16,20 @@ Skill 在每个新对话首次使用时只读检查公开 GitHub Release；仅�
 
 安装包按 `skills/<成员名>/` 组织。`chanyong` 是唯一自动总控；每个内置专业成员仍有自己的 `SKILL.md`，可以按名称单独调用。以后加入 `skills/` 的合规成员会随同一条安装命令一起安装。成员规范见 [`family-installation.md`](skills/chanyong/references/family-installation.md)。
 
-当前独立成员：`chanyong`、`design-taste-frontend`、`dongwo`（懂我）、`chuangyi`（创意师）、`tuijian`（推荐师）、`mishu`（秘书）、`xuanpin`（选品大师）、`guihua`（规划大师）、`beifen`（备份大师）。用户可以直接点名任一成员；未点名时由 chanyong 自动选择。
+当前共有 **29 个独立成员**，按 1 个总控和 7 个能力组组织：
+
+| 分组 | 成员 |
+|---|---|
+| 总控 | `chanyong`（常用） |
+| 个人与知识 | `dongwo`（懂我）、`tuijian`（推荐师）、`mishu`（秘书）、`fupan`（复盘师）、`zhishi`（知识管家） |
+| 研究与策略 | `chuangyi`（创意师）、`guihua`（规划大师）、`yanjiu`（研究大师）、`cehua`（策划师）、`chaijie`（拆解师）、`juece`（决策师） |
+| 选品与采购 | `xuanpin`（选品大师）、`bijia`（商品价格比价大师）、`caigou`（采购大师） |
+| 工程与接口 | `jiagou`（架构师）、`tishici`（提示词大师）、`biancheng`（写代码专业大师）、`jianrong`（兼容大师）、`api`（API 大师）、`gaojigongchengshi`（高级工程师） |
+| 质量与安全 | `anquan`（安全管理大师）、`zhaobug`（找 Bug 大师）、`xiubug`（修 Bug 大师）、`daimazhengli`（代码整理大师） |
+| 设计与视觉 | `design-taste-frontend`（Taste 设计导演） |
+| 电脑与维护 | `beifen`（备份大师）、`diannao`（电脑管理大师）、`jinengguan`（技能馆长） |
+
+用户可以直接点名任一成员；未点名时由 chanyong 自动选择。每次只读取命中的工作方法，通常使用一个主成员，复杂任务最多增加一个辅助和一个验收成员。
 
 ## 自动设计家族
 

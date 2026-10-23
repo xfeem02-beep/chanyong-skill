@@ -4,6 +4,8 @@
 
 | 来源 | 快照 stars | 采用方式 |
 |---|---:|---|
+| [github/awesome-copilot](https://github.com/github/awesome-copilot/tree/d85f762d6e521abf5fe16703946e9b38adc42da7) | 40346 | MIT；采用其真实 `SKILL.md` 中的拆解、Bug 复现、安全审查、重构、API 兼容、架构和提示词方法；不继承自动写入或平台专属步骤 |
+| [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills/tree/dee7acce0658c35cb276154892700811affcfdb2) | 48374 | MIT；采用其真实 `SKILL.md` 中的电脑、知识、备份、采购、电商、决策、安全、提示词和系统方法；不运行上游脚本、不读取凭据、不启用付费服务 |
 | [obra/superpowers](https://github.com/obra/superpowers/tree/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b) | 304022 | 采用计划粒度和完成前验证纪律；不继承全局强制触发、重复批准或自动代理 |
 | [mattpocock/skills](https://github.com/mattpocock/skills/tree/5beb35b040e3de97e54fa9e386d7e42d15c295c2) | 301464 | 采用总路由、阶段入口和深模块方法；代理路线保持可选 |
 | [anthropics/skills](https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44) | 183188 | 采用官方技能结构、提示词审计与评测合同；逐技能核对许可证 |

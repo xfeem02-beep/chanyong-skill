@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "skill": "chanyong",
-  "checked_at": "2026-10-24T00:35:00+09:00",
+  "checked_at": "2026-10-24T00:00:00+09:00",
   "files": [
     {
       "path": "INSTALL.md",
-      "sha256": "6139d4139c4aa8e8aad1b8b26c42727d869b40acda99d54fee26e58de8f31c41",
+      "sha256": "f90127cc9c483c61127c77caa43b3beee6460772ee2971f55e1d659b2e6d5048",
       "kind": "portable-install-instructions",
       "method_sources": [
         "https://github.com/vercel-labs/skills/blob/main/docs/commands.md"
@@ -13,7 +13,7 @@
     },
     {
       "path": "SKILL.md",
-      "sha256": "d42970f8608cbd22fe941e6e2c0ee61588989f7df47944002bf4afccae245c81",
+      "sha256": "5e0e9c632cc7fe1adccb971a18ebb03c26756a5ea106c2d00c37925ac321262c",
       "kind": "portable-local-composition",
       "method_sources": [
         "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/ask-matt/SKILL.md",
@@ -41,7 +41,7 @@
         "https://github.com/mattpocock/skills/tree/5beb35b040e3de97e54fa9e386d7e42d15c295c2",
         "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431"
       ],
-      "sha256": "704276e03690803237214a999743d3db690d0bc8e129b84c69dc547d68402dd5"
+      "sha256": "7e293d109070f700a8255adcd28feaf3f5036983add30b3846346fb44f17a00f"
     },
     {
       "path": "references/design-family.md",
@@ -59,7 +59,7 @@
       "method_sources": [
         "https://github.com/agentskills/agentskills"
       ],
-      "sha256": "4be1fd7d9e05cc8150c680376e53380d8217d66c9c91a9b4344d538f84cfc6cc"
+      "sha256": "02793f07381fee9c3df68f6491b50a9df8d884e71a24634a717d4e47c1052c03"
     },
     {
       "path": "references/maintenance.md",
@@ -96,7 +96,7 @@
     },
     {
       "path": "references/sources.md",
-      "sha256": "207446eea859939f26a315ad1a3524bfbd21f2194924c1473d02fe2b24bc3f2f",
+      "sha256": "aabe053b5b8878c1bd908a062c556c9b72943b5066f828c623c82e724e39a4b0",
       "kind": "research-snapshot",
       "method_sources": [
         "https://api.github.com"

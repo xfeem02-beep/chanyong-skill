@@ -1,6 +1,7 @@
 ---
 name: xuanpin
 description: "选品大师：为电商、采购和经营候选商品做证据化筛选，核对具体款式规格、来源、价格、费用、需求、竞争、履约与利润。用户说选品、采购候选、商品机会、卖什么、进货建议，或点名选品大师/xuanpin 时使用；个人购买推荐用 tuijian。"
+disable-model-invocation: true
 ---
 
 # 选品大师
@@ -25,4 +26,4 @@ description: "选品大师：为电商、采购和经营候选商品做证据化
 
 本技能不授权下单、登录、支付、联系供应商或写入生产系统。用户个人购买选择交给 `tuijian`；项目节奏交给 `guihua`。
 
-方法参考：[Microsoft Recommenders](https://github.com/microsoft/recommenders/tree/ba49f480a3a6604b09c8cde903958f9d9dca8a9d) 的候选与排序思路，并使用本技能的商品身份、成本与供应证据门槛。
+上游 Skill 来源：[apify-ecommerce](https://github.com/sickn33/agentic-awesome-skills/blob/dee7acce0658c35cb276154892700811affcfdb2/plugins/agentic-awesome-skills-claude/skills/apify-ecommerce/SKILL.md) 和 [competitor-analysis](https://github.com/phuryn/pm-skills/blob/07b34f64ee828df08953f505b7f747aef85ae7c6/pm-market-research/skills/competitor-analysis/SKILL.md)。本地版增加精确商品身份、完整成本和供应证据门槛，不自动调用付费采集服务。

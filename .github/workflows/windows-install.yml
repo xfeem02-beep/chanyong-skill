@@ -19,7 +19,7 @@ jobs:
           New-Item -ItemType Directory -Force -Path $testDir | Out-Null
           Set-Location $testDir
           npx -y https://github.com/xfeem02-beep/chanyong-skill/releases/latest/download/chanyong-skill-installer.tgz
-          $members = @("chanyong", "design-taste-frontend", "dongwo", "chuangyi", "tuijian", "mishu", "xuanpin", "guihua", "beifen")
+          $members = @("chanyong", "design-taste-frontend", "dongwo", "chuangyi", "tuijian", "mishu", "xuanpin", "guihua", "beifen", "yanjiu", "cehua", "jiagou", "tishici", "chaijie", "juece", "fupan", "diannao", "zhishi", "jinengguan", "anquan", "zhaobug", "xiubug", "biancheng", "daimazhengli", "jianrong", "api", "bijia", "caigou", "gaojigongchengshi")
           foreach ($member in $members) {
             if (-not (Test-Path "$env:USERPROFILE\.agents\skills\$member\SKILL.md")) { throw "Global install missing: $member" }
             if (-not (Test-Path ".agents\skills\$member\SKILL.md")) { throw "Project install missing: $member" }
@@ -32,7 +32,7 @@ jobs:
           mkdir "%RUNNER_TEMP%\cmd test project with spaces"
           cd /d "%RUNNER_TEMP%\cmd test project with spaces"
           npx -y https://github.com/xfeem02-beep/chanyong-skill/releases/latest/download/chanyong-skill-installer.tgz
-          for %%S in (chanyong design-taste-frontend dongwo chuangyi tuijian mishu xuanpin guihua beifen) do (
+          for %%S in (chanyong design-taste-frontend dongwo chuangyi tuijian mishu xuanpin guihua beifen yanjiu cehua jiagou tishici chaijie juece fupan diannao zhishi jinengguan anquan zhaobug xiubug biancheng daimazhengli jianrong api bijia caigou gaojigongchengshi) do (
             if not exist "%USERPROFILE%\.agents\skills\%%S\SKILL.md" exit /b 1
             if not exist ".agents\skills\%%S\SKILL.md" exit /b 1
             if not exist "%USERPROFILE%\.claude\skills\%%S\SKILL.md" exit /b 1

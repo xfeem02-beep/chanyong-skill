@@ -1,6 +1,7 @@
 ---
 name: mishu
 description: "秘书：整理待办、日程、会议、决定、提醒、跟进和对外草稿，结合用户已确认的工作习惯保持连续性。用户说秘书、安排一下、整理今天、会议纪要、提醒我、跟进事项，或点名 mishu 时使用。"
+disable-model-invocation: true
 ---
 
 # 秘书
@@ -18,3 +19,5 @@ description: "秘书：整理待办、日程、会议、决定、提醒、跟进
 默认交付简短：今天最重要的三件事、时间表、等待/阻塞、需要用户决定的内容。任务不适合排时间时改用清单，不硬套日程。
 
 个人助理 Skill 能稳定执行规划方式，但真正的日历、邮件和提醒仍需要宿主连接器或自动化能力；缺少工具时只交付可执行草稿。
+
+上游 Skill 来源：[sprint-plan](https://github.com/phuryn/pm-skills/blob/07b34f64ee828df08953f505b7f747aef85ae7c6/pm-execution/skills/sprint-plan/SKILL.md) 和 [internal-comms](https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/internal-comms/SKILL.md)。只吸收任务、负责人、时间和沟通结构，不自动连接账号或发送消息。

@@ -1,6 +1,7 @@
 ---
 name: dongwo
 description: "懂我：研究用户明确表达的偏好、选择方式、工作习惯和创意取向，并在用户明确要求记住时写入私有可修改记忆。用户说懂我、研究我、记住、以后按这个方式、查看/修改/忘记偏好时使用；普通对话不擅自持久化。"
+disable-model-invocation: true
 ---
 
 # 懂我：个人偏好与可控记忆
@@ -47,4 +48,4 @@ node <skill>/scripts/memory.mjs forget <id>
 
 用户要求“研究我”时，整理：已确认目标、偏好、反感项、决策标准、工作节奏、常用工具、创意倾向和仍是未知的内容。证据只来自用户明确表达或用户授权读取的个人资料。输出“已确认 / 本次观察 / 待确认”，不得做心理诊断、人格定型或从敏感资料推断身份。
 
-方法参考：[claude-mem](https://github.com/thedotmack/claude-mem/tree/dcb28a768c6be4b8e451843210558275caa8ec44)、[Mem0](https://github.com/mem0ai/mem0/tree/2c81af3bbe27d9bccb09c772d583df9e9be72ee5)、[Graphiti](https://github.com/getzep/graphiti/tree/afea04fecd34671c6608fd2a877c5372ff55ee29)。只吸收可控记忆、更新和检索方法；不引入后台 Hooks、数据库服务或云上传。
+上游 Skill 来源：[agent-memory-discipline](https://github.com/sickn33/agentic-awesome-skills/blob/dee7acce0658c35cb276154892700811affcfdb2/plugins/agentic-awesome-skills-claude/skills/agent-memory-discipline/SKILL.md) 和 [memory-merger](https://github.com/github/awesome-copilot/blob/d85f762d6e521abf5fe16703946e9b38adc42da7/skills/memory-merger/SKILL.md)。只吸收可控记忆、去重、更新和检索方法；不引入后台 Hooks、数据库服务或云上传。

@@ -1,6 +1,7 @@
 ---
 name: chuangyi
 description: "创意师：从真实目标、受众、素材和限制中产生有区别的创意方向，并筛选成可执行概念。用户说创意、点子、命名、活动概念、内容方向、产品创意或明确点名创意师/chuangyi 时使用。"
+disable-model-invocation: true
 ---
 
 # 创意师
@@ -16,4 +17,4 @@ description: "创意师：从真实目标、受众、素材和限制中产生有
 
 默认交付：一句核心创意、为何属于这个项目、执行方式、需要的真实素材、最大风险和最小验证。复杂任务才展示多个候选。
 
-方法参考：[Superpowers brainstorming](https://github.com/obra/superpowers/tree/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b)。只吸收约束驱动的发散与验证，不继承强制确认或多代理流程。
+上游 Skill 来源：[Superpowers brainstorming](https://github.com/obra/superpowers/blob/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/brainstorming/SKILL.md)。只吸收约束驱动的发散与验证，不继承强制确认或多代理流程。

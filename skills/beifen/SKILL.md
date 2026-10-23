@@ -1,6 +1,7 @@
 ---
 name: beifen
 description: "备份大师：设计、执行或审查跨平台文件与项目备份，覆盖范围、加密、版本保留、校验和恢复演练。用户说备份、恢复、迁移电脑、灾难恢复、保护资料，或点名备份大师/beifen 时使用。"
+disable-model-invocation: true
 ---
 
 # 备份大师
@@ -20,4 +21,4 @@ description: "备份大师：设计、执行或审查跨平台文件与项目备
 
 跨设备同步 Skill 本身不等于数据备份。`dongwo` 的私人记忆只有用户指定私有同步位置后才可能跨设备；不得上传到公开 GitHub。
 
-方法参考：[restic](https://github.com/restic/restic/tree/dd09b6bd01af220b1d5d95c0d4d7d472e05e05c4) 与 [Kopia](https://github.com/kopia/kopia/tree/0835005737025dc3e5203df0138c8265686cb4b3)。只吸收加密快照、校验与恢复方法，不捆绑二进制或后台任务。
+上游 Skill 来源：[backup-recovery](https://github.com/sickn33/agentic-awesome-skills/blob/dee7acce0658c35cb276154892700811affcfdb2/plugins/agentic-awesome-skills-claude/skills/backup-recovery/SKILL.md) 和 [disaster-recovery](https://github.com/sickn33/agentic-awesome-skills/blob/dee7acce0658c35cb276154892700811affcfdb2/plugins/agentic-awesome-skills-claude/skills/disaster-recovery/SKILL.md)。执行工具可选 restic 或 Kopia；不捆绑二进制，不自动启用后台任务。
