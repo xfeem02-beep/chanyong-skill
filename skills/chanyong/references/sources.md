@@ -9,6 +9,8 @@
 | [anthropics/skills](https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44) | 183188 | 采用官方技能结构、提示词审计与评测合同；逐技能核对许可证 |
 | [garrytan/gstack](https://github.com/garrytan/gstack/tree/b04cc35832183a89ed71eed628de15a6f315a1a8) | 137357 | 只参考岗位分工和有界 QA；不自动引入运行时、hooks、遥测、Cookie、发布或付费调用 |
 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable/tree/5cb95eea9c96479f57afe0732a45470d30183326) | 85277 | 只选审计与设计检查方法；当前版含引擎下载和复杂编排，不整套静默启用 |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/d14efff8ed1faa4187f004f79926f428c8074ec7) | 139288 | 采用视觉系统、构图、品牌载体与图像提示词的结构化方法；不复制其完整工具链或强制默认风格 |
+| [wshobson/agents](https://github.com/wshobson/agents/tree/0874a27b17a22e2b7c2e2bcd725768e0803cad06) | 41599 | 采用提示词合同、结构化输出、失败样本和小步评测；不引入 LangChain、模型依赖或隐藏推理要求 |
 | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 36206 | 发现目录；快照树含 0 个 `SKILL.md`，候选须回原作者核查 |
 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | 32872 | 按需采用网页设计审查规则；动态远端规则必须重新核查 |
 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins/tree/33d3dea41a341b341d4f5da2e8801ae0c89be2b8) | 31965 | 采用研究、策划、架构、内容、数据、交付等短岗位模板；连接器与命令不自动启用 |
