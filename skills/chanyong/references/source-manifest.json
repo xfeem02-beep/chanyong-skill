@@ -13,7 +13,7 @@
     },
     {
       "path": "SKILL.md",
-      "sha256": "5e0e9c632cc7fe1adccb971a18ebb03c26756a5ea106c2d00c37925ac321262c",
+      "sha256": "fef52ef38595c07f46d7ce52fd291ebea0690d61a2ae57062516fc8e8a7c11bc",
       "kind": "portable-local-composition",
       "method_sources": [
         "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/ask-matt/SKILL.md",
@@ -24,7 +24,7 @@
       "path": "VERSION",
       "kind": "installed-release-version",
       "method_sources": [],
-      "sha256": "ded1b601e81d31ca1f65c4f3ccf2ebd7992b6390e37bc2a86f3837282f1e00cf"
+      "sha256": "cb1d9a30bc4ab8a397f39b7d786bb82aca0b816077eefc35d7c822017d75f6a5"
     },
     {
       "path": "agents/openai.yaml",
@@ -41,7 +41,7 @@
         "https://github.com/mattpocock/skills/tree/5beb35b040e3de97e54fa9e386d7e42d15c295c2",
         "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431"
       ],
-      "sha256": "7e293d109070f700a8255adcd28feaf3f5036983add30b3846346fb44f17a00f"
+      "sha256": "5b29b54d94d928afebb9eb2c38f01590bff1768085531f4a776a3c4006bc001d"
     },
     {
       "path": "references/design-family.md",
@@ -59,7 +59,7 @@
       "method_sources": [
         "https://github.com/agentskills/agentskills"
       ],
-      "sha256": "02793f07381fee9c3df68f6491b50a9df8d884e71a24634a717d4e47c1052c03"
+      "sha256": "467f49dc0de1826b5013859433f851b73c146aa9dbdccd47df5695466d232e13"
     },
     {
       "path": "references/maintenance.md",
@@ -71,7 +71,7 @@
     },
     {
       "path": "references/preferences.md",
-      "sha256": "44e81f660264f021ce94a909876ad35ed33413606397b5a19bb01cbfa0e976bd",
+      "sha256": "c0810e28ae219b8fe87a294b176b74ee956a607f92dfe4d855161031be3853a3",
       "kind": "user-authorized-default-preferences",
       "excluded_from_upstream_update": true,
       "method_sources": []

@@ -2,17 +2,39 @@
 import { randomUUID } from "node:crypto";
 import { homedir } from "node:os";
 import { dirname, isAbsolute, join, resolve } from "node:path";
-import { chmod, mkdir, open, readFile, rename, unlink, writeFile } from "node:fs/promises";
+import { chmod, copyFile, mkdir, open, readFile, rename, unlink, writeFile } from "node:fs/promises";
 
+const chanyongDir = join(homedir(), ".chanyong");
+const configFile = join(chanyongDir, "config.json");
 const configuredDir = process.env.CHANYONG_MEMORY_DIR;
 if (configuredDir && !isAbsolute(configuredDir)) {
   console.error("CHANYONG_MEMORY_DIR must be an absolute private directory.");
   process.exit(2);
 }
-const memoryDir = configuredDir ? resolve(configuredDir) : join(homedir(), ".chanyong", "private-memory");
+async function readConfig() {
+  try {
+    const config = JSON.parse(await readFile(configFile, "utf8"));
+    if (config.version !== 1 || !isAbsolute(config.sharedRoot)) throw new Error("Invalid chanyong shared-memory configuration.");
+    return config;
+  } catch (error) {
+    if (error?.code === "ENOENT") return null;
+    throw error;
+  }
+}
+
+const config = await readConfig();
+const sharedRoot = config?.sharedRoot ? resolve(config.sharedRoot) : null;
+const memoryDir = configuredDir ? resolve(configuredDir) : sharedRoot ? join(sharedRoot, "private-memory") : join(chanyongDir, "private-memory");
+const documentsDir = sharedRoot ? join(sharedRoot, "documents") : join(dirname(memoryDir), "documents");
 const memoryFile = join(memoryDir, "profile.json");
 const lockFile = join(memoryDir, ".profile.lock");
 const command = process.argv[2] ?? "list";
+
+async function writeConfig(next) {
+  await mkdir(chanyongDir, { recursive: true, mode: 0o700 });
+  await writeFile(configFile, `${JSON.stringify(next, null, 2)}\n`, { mode: 0o600 });
+  await chmod(configFile, 0o600).catch(() => {});
+}
 
 async function readStore() {
   try {
@@ -84,8 +106,43 @@ function validateEntry(input) {
   return { category, key, value, scope };
 }
 
-if (command === "location") {
+if (command === "configure") {
+  if (configuredDir) throw new Error("Remove CHANYONG_MEMORY_DIR before changing the saved shared directory.");
+  const requestedRoot = process.argv[3];
+  if (!requestedRoot || !isAbsolute(requestedRoot)) throw new Error("configure requires an absolute private directory.");
+  const nextRoot = resolve(requestedRoot);
+  const nextMemoryDir = join(nextRoot, "private-memory");
+  const nextMemoryFile = join(nextMemoryDir, "profile.json");
+  await mkdir(nextMemoryDir, { recursive: true, mode: 0o700 });
+  await mkdir(join(nextRoot, "documents"), { recursive: true, mode: 0o700 });
+  if (nextMemoryFile !== memoryFile) {
+    try {
+      await readFile(nextMemoryFile);
+    } catch (error) {
+      if (error?.code !== "ENOENT") throw error;
+      try {
+        await copyFile(memoryFile, nextMemoryFile, 0);
+        await chmod(nextMemoryFile, 0o600).catch(() => {});
+      } catch (copyError) {
+        if (copyError?.code !== "ENOENT") throw copyError;
+      }
+    }
+  }
+  await writeConfig({ version: 1, sharedRoot: nextRoot });
+  console.log(JSON.stringify({ sharedRoot: nextRoot, memory: nextMemoryFile, documents: join(nextRoot, "documents") }, null, 2));
+} else if (command === "use-default") {
+  if (configuredDir) throw new Error("Remove CHANYONG_MEMORY_DIR before changing the saved shared directory.");
+  await unlink(configFile).catch((error) => {
+    if (error?.code !== "ENOENT") throw error;
+  });
+  console.log(JSON.stringify({ sharedRoot: null, memory: join(chanyongDir, "private-memory", "profile.json"), documents: join(chanyongDir, "documents") }, null, 2));
+} else if (command === "status") {
+  console.log(JSON.stringify({ mode: configuredDir ? "environment" : sharedRoot ? "shared" : "local", sharedRoot, memory: memoryFile, documents: documentsDir }, null, 2));
+} else if (command === "location") {
   console.log(memoryFile);
+} else if (command === "documents") {
+  await mkdir(documentsDir, { recursive: true, mode: 0o700 });
+  console.log(documentsDir);
 } else if (command === "list") {
   const store = await readStore();
   const categoryIndex = process.argv.indexOf("--category");

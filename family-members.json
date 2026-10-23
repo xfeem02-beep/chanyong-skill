@@ -19,7 +19,7 @@
     {
       "name": "dongwo",
       "displayName": "懂我",
-      "role": "个人偏好与可控记忆",
+      "role": "个人偏好与跨 Agent 私有记忆",
       "implicit": false,
       "group": "个人与知识"
     },

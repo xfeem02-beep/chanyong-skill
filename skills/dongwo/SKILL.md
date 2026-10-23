@@ -1,6 +1,6 @@
 ---
 name: dongwo
-description: "懂我：研究用户明确表达的偏好、选择方式、工作习惯和创意取向，并在用户明确要求记住时写入私有可修改记忆。用户说懂我、研究我、记住、以后按这个方式、查看/修改/忘记偏好时使用；普通对话不擅自持久化。"
+description: "懂我：研究用户明确表达的偏好、选择方式、工作习惯和创意取向，并在用户明确要求记住时写入跨 Agent、跨项目的私有可修改记忆。用户说懂我、研究我、记住、共享记忆、以后按这个方式、查看/修改/忘记偏好时使用；普通对话不擅自持久化。"
 disable-model-invocation: true
 ---
 
@@ -29,12 +29,23 @@ disable-model-invocation: true
 
 ```text
 node <skill>/scripts/memory.mjs location
+node <skill>/scripts/memory.mjs status
 node <skill>/scripts/memory.mjs list
 node <skill>/scripts/memory.mjs save     # 从 stdin 读取 JSON
 node <skill>/scripts/memory.mjs forget <id>
 ```
 
-默认写入当前用户目录的 `.chanyong/private-memory/profile.json`，不写进项目或公开仓库。只有用户自己配置 `CHANYONG_MEMORY_DIR` 时才改用指定的私有同步目录；技能不自动开启云同步。
+默认写入当前用户目录的 `.chanyong/private-memory/profile.json`。Codex、Claude Code、Grok 和不同项目安装的是同一脚本，都读取这个用户级位置，因此同一台电脑天然共用一份记忆。
+
+多台电脑共享时，每台电脑各运行一次：
+
+```text
+node <skill>/scripts/memory.mjs configure <私人同步目录的绝对路径>
+```
+
+这个目录会包含 `private-memory/profile.json` 和 `documents/`。`configure` 在目标没有记忆文件时复制本机已有记忆，不覆盖目标已有记忆；`use-default` 只取消配置，不删除任何数据。可以用 `documents` 取得指定文档目录。多机同时写同一文件时可能冲突，写前先完成同步；发生冲突必须保留双方并由人确认，不能静默取新覆盖旧。
+
+私人同步目录可以由用户自己的同步盘或私人 Git 仓库承载。上传 GitHub 前必须明确授权并确认仓库是 **private**，只提交 `private-memory/` 与 `documents/` 中已检查脱敏的内容；公开仓库、来源不明远端、冲突未解决或疑似密钥时停止。技能不自动建仓库、不后台拉取或推送。
 
 `save` 输入示例：
 
