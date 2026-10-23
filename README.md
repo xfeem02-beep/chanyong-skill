@@ -27,7 +27,7 @@ Skill 在每个新对话首次使用时只读检查公开 GitHub Release；仅�
 | 工程与接口 | `jiagou`（架构师）、`tishici`（提示词大师）、`biancheng`（写代码专业大师）、`jianrong`（兼容大师）、`api`（API 大师）、`gaojigongchengshi`（高级工程师） |
 | 质量与安全 | `anquan`（安全管理大师）、`zhaobug`（找 Bug 大师）、`xiubug`（修 Bug 大师）、`daimazhengli`（代码整理大师） |
 | 设计与视觉 | `design-taste-frontend`（Taste 设计导演） |
-| 电脑与维护 | `beifen`（备份大师）、`diannao`（电脑管理大师）、`jinengguan`（技能馆长） |
+| 电脑与维护 | `beifen`（备份大师）、`diannao`（电脑管理大师）、`jinengguan`（主动发现、推荐、精简与更新 Skills） |
 
 用户可以直接点名任一成员；未点名时由 chanyong 自动选择。每次只读取命中的工作方法，通常使用一个主成员，复杂任务最多增加一个辅助和一个验收成员。
 

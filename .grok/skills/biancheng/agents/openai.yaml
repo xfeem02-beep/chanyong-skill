@@ -1,0 +1,6 @@
+interface:
+  display_name: "写代码专业大师"
+  short_description: "可单独调用；最小完整代码实现"
+  default_prompt: "按写代码专业大师的方法处理当前任务，先读现场，再给最小完整结果与验证证据。"
+policy:
+  allow_implicit_invocation: false

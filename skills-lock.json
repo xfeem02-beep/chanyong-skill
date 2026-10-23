@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "skills": {
+    "anquan": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "66aa5ebc0e9ff78cc4bd95cdacb1bd634496622eb452d2fd080cf2db0690a4d4"
+    },
+    "api": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "06e07eb00ad044862f1fdf9e5ca99018793db411506434c91fbcb3dcf15843f8"
+    },
+    "beifen": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "f4d9ec1ae757381d981bb9c3c7850714cd0024e306a4420f9dec558508a0c5c8"
+    },
+    "biancheng": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "8b945284ea3515365aa7b78f05afd68c87cbeb9ddd4655b0f506fe4a8e95d653"
+    },
+    "bijia": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "b6bd91859e0cbe8325fb966c64aa6582d6c485c278810dd94ff83dece0af5521"
+    },
+    "caigou": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "f49b76e8709f65be224ef29dbc018e7d9b58b9dd15cb32b7d04cc2a39cdca965"
+    },
+    "cehua": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "b4ece2fab8327c5574a0ff29cc15af82f48eb6c6b160752646b599d813bf52da"
+    },
+    "chaijie": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "bd2173606c8b60815366fbceeb9abb404b0bde6335cc6e3a552dc28f52b7ee2d"
+    },
+    "chanyong": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "8238fc1286670b0e39c51debd1ef00055947f96f9c0fa0fda1ed9f4909d51492"
+    },
+    "chuangyi": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "a75ecf2a96585bffe3063d8d5d5f8b8688467562ca3ac3b0cd78b9b4298712cc"
+    },
+    "daimazhengli": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "493753e430b4e0c382c02f385a5820d65aafc55e2e0cf38706a2ba85f5bc30d6"
+    },
+    "design-taste-frontend": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "cc4093917be063eb78f1d510e787b1b5a9a2b939f7063fe67a8b07c982fc529a"
+    },
+    "diannao": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "9f53cd7d7c60e9e97a43894ea0b1a6d28a52cec5d8a955008064166ee960d853"
+    },
+    "dongwo": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "83cc4f83a9f6e2652f495c89c02bc4c4fc1f646a824fb3414da790fb2711fc69"
+    },
+    "fupan": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "76c446bfd6a7cd4d294e84115134bee869090ab17b6d4638636b845b7c56fb28"
+    },
+    "gaojigongchengshi": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "db340cc1e398602714853d57c22581cf0bd65791835d5effcf6e0b5c7e32b611"
+    },
+    "guihua": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "3d33433ed78f28e58c49b6b6375a0c07b1f5d66c41c8755fa478c5b59cc1b4e9"
+    },
+    "jiagou": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "e3c771fd1040afddf80d1aaf8b1b101cc86047530c2ff662b291b862b1d17516"
+    },
+    "jianrong": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "8506d3d742b841b2a14f2d117d357c5d854751d2701248a8f9cbe3404003f7c7"
+    },
+    "jinengguan": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "858ab14fda7b2c6be2eb8dbd18d9af36f3810e1a5c9a711e544e755eb7fb9be6"
+    },
+    "juece": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "6711affd503d317309a203fa9dda78213ef23f6a21ff961fb286c67bbdb672e8"
+    },
+    "mishu": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "fa1bd4be555b2a35fd57fea0fefc2ced67b3a4c30801ed83663eb3d3912808b5"
+    },
+    "tishici": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "c735e892990ff144122cc943843cb2923e90b9e948a41bb24ea0cf515d719229"
+    },
+    "tuijian": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "ac04e1f59b3d69468500b2c8085be8895c6b8137e2055998d30178748e263738"
+    },
+    "xiubug": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "4e6fb475e61026901ff8401344fde69ac9a2a5322a0ebc9d4de8256d3329b149"
+    },
+    "xuanpin": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "ab6f20f5b197cdd6be8e8c98cadadc3f47cee7ce9dc3d80655572c52b7985fa7"
+    },
+    "yanjiu": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "0492a24e2e22fc173f76b0a9bf063e6136998132fb0680f3cf8450532811c435"
+    },
+    "zhaobug": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "202aea11c42c35e34a10b1a6c311ee11ab952d6d36d0efad240b85020c12dab0"
+    },
+    "zhishi": {
+      "source": "../../../../../../.npm/_npx/e1871d8588274ea6/node_modules/chanyong-skill-installer/skills",
+      "sourceType": "local",
+      "computedHash": "123a5657067e18653811ccd2bfbcb52d3e9b9d4ea37acd886daef4495c10b67f"
+    }
+  }
+}

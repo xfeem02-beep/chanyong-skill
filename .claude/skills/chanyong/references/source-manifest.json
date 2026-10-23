@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "skill": "chanyong",
+  "checked_at": "2026-10-24T00:00:00+09:00",
+  "files": [
+    {
+      "path": "INSTALL.md",
+      "sha256": "9fb364890664feabee09f5a28a454b5b31ad59885455691614d5ac6569c84f0b",
+      "kind": "portable-install-instructions",
+      "method_sources": [
+        "https://github.com/vercel-labs/skills/blob/main/docs/commands.md"
+      ]
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "e3a40b9c6190087c2ddf336ddb2745477b10bd9e39d2b8cdb4fe5bd4170069ff",
+      "kind": "portable-local-composition",
+      "method_sources": [
+        "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/ask-matt/SKILL.md",
+        "https://github.com/agentskills/agentskills"
+      ]
+    },
+    {
+      "path": "VERSION",
+      "kind": "installed-release-version",
+      "method_sources": [],
+      "sha256": "d7e7472c262184ba0da49b97c323fda8a0ecbeee33d7b34db48405efafd655de"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "b5ea879c0a875128f2a91021938aef5f73080fad18081bd36fdc821fe5c05471",
+      "kind": "optional-codex-interface",
+      "method_sources": [
+        "https://github.com/openai/skills"
+      ]
+    },
+    {
+      "path": "references/capability-family.md",
+      "kind": "portable-capability-orchestration-method",
+      "method_sources": [
+        "https://github.com/mattpocock/skills/tree/5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+        "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431"
+      ],
+      "sha256": "80e6467fea5599ffd396081dfee77dae636da7bd1f2ba2f431f7cd45077685ff"
+    },
+    {
+      "path": "references/design-family.md",
+      "kind": "portable-design-orchestration-method",
+      "method_sources": [
+        "https://github.com/Leonxlnx/taste-skill/tree/6010f91a9935f1c167dfc500fb1a475681892e6b",
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/d14efff8ed1faa4187f004f79926f428c8074ec7",
+        "https://github.com/pbakaus/impeccable/tree/5cb95eea9c96479f57afe0732a45470d30183326"
+      ],
+      "sha256": "93a366e286113452b9816ce2e1911ef3fa4e3e7ec4620a6fd64f333c62c5cf96"
+    },
+    {
+      "path": "references/family-installation.md",
+      "kind": "skill-family-installation-contract",
+      "method_sources": [
+        "https://github.com/agentskills/agentskills"
+      ],
+      "sha256": "467f49dc0de1826b5013859433f851b73c146aa9dbdccd47df5695466d232e13"
+    },
+    {
+      "path": "references/maintenance.md",
+      "sha256": "68f0833ef8b1d273c1d56b99b5c31d3b5b671e1f5c2a58645b351a909ef66515",
+      "kind": "portable-update-policy",
+      "method_sources": [
+        "https://docs.github.com/en/rest/repos/repos#get-a-repository"
+      ]
+    },
+    {
+      "path": "references/preferences.md",
+      "sha256": "c0810e28ae219b8fe87a294b176b74ee956a607f92dfe4d855161031be3853a3",
+      "kind": "user-authorized-default-preferences",
+      "excluded_from_upstream_update": true,
+      "method_sources": []
+    },
+    {
+      "path": "references/prompt-visual-system.md",
+      "kind": "portable-prompt-visual-method",
+      "method_sources": [
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/d14efff8ed1faa4187f004f79926f428c8074ec7/.claude/skills/design/references/cip-prompt-engineering.md",
+        "https://github.com/wshobson/agents/blob/0874a27b17a22e2b7c2e2bcd725768e0803cad06/plugins/llm-application-dev/skills/prompt-engineering-patterns/SKILL.md"
+      ],
+      "sha256": "ad52cc1d196d207d742db43600618de2366bea15256f4803233ff6364be4be5b"
+    },
+    {
+      "path": "references/routing.md",
+      "sha256": "cd68a7dcbbb78449ee36c63130c79c4c0475580908c1bd61aedfceaf9b9a758e",
+      "kind": "portable-routing-method",
+      "method_sources": [
+        "https://github.com/anthropics/knowledge-work-plugins/tree/33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+        "https://github.com/ai-evals-course/evals-skills/blob/main/skills/evals-start/SKILL.md"
+      ]
+    },
+    {
+      "path": "references/sources.md",
+      "sha256": "aabe053b5b8878c1bd908a062c556c9b72943b5066f828c623c82e724e39a4b0",
+      "kind": "research-snapshot",
+      "method_sources": [
+        "https://api.github.com"
+      ]
+    },
+    {
+      "path": "references/specialists.md",
+      "sha256": "e5363a3a0282f4e4e3ab4d114be960def02f6dbf3ac50686b7e2c60aa3fc358a",
+      "kind": "portable-built-in-methods",
+      "method_sources": [
+        "https://github.com/obra/superpowers/tree/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+        "https://github.com/phuryn/pm-skills/tree/07b34f64ee828df08953f505b7f747aef85ae7c6"
+      ]
+    },
+    {
+      "path": "scripts/check-update.mjs",
+      "kind": "read-only-release-check",
+      "method_sources": [
+        "https://docs.github.com/en/rest/releases/releases#get-the-latest-release"
+      ],
+      "sha256": "29d6df189670f97abe0445dcae29c6592ff1b4e435fdd989ec3c5de7413b1714"
+    },
+    {
+      "path": "scripts/install-all-agents.mjs",
+      "sha256": "357e1f5380298fdfd45767c66e7ebd978b8202aea6621d162df4483034d4280f",
+      "kind": "cross-platform-installer",
+      "method_sources": [
+        "https://github.com/vercel-labs/skills/blob/main/docs/commands.md"
+      ]
+    }
+  ]
+}

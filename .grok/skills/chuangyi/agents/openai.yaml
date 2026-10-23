@@ -1,0 +1,6 @@
+interface:
+  display_name: "创意师"
+  short_description: "可单独调用；从真实目标与项目独有内容中产生并筛选可执行创意"
+  default_prompt: "根据真实目标、受众、素材和限制提出有明显差异的创意，并推荐最适合落地的一种。"
+policy:
+  allow_implicit_invocation: false

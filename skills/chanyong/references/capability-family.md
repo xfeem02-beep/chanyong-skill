@@ -32,7 +32,7 @@
 | 项目或工作复盘 | [`fupan`](../../fupan/SKILL.md) | 需要保存长期偏好才转 `dongwo` | 目标、结果、原因和下一项实验可核查 |
 | 电脑健康与维护 | [`diannao`](../../diannao/SKILL.md) | 数据保护用 `beifen` | 先只读盘点；修改系统前有明确授权与回退 |
 | 知识库与笔记整理 | [`zhishi`](../../zhishi/SKILL.md) | 当前事实核查用 `yanjiu` | 索引可检索；不擅自移动、删除或破坏链接 |
-| Skill 发现、审查与更新 | [`jinengguan`](../../jinengguan/SKILL.md) | 安全代码审查用 `anquan` | 真实 SKILL.md、高星活跃来源、许可证、固定提交和隔离验证 |
+| Skill 主动发现、推荐、精简与更新 | [`jinengguan`](../../jinengguan/SKILL.md) | 安全代码审查用 `anquan` | 真实 SKILL.md、高星活跃来源、许可证、固定提交和隔离验证；最多推荐 3 个并解释为什么不需要更多 |
 | 安全审计与安全开发 | [`anquan`](../../anquan/SKILL.md) | 根因故障转 `zhaobug` | 攻击者、受害者、数据流、证据和修复明确 |
 | Bug 复现与根因定位 | [`zhaobug`](../../zhaobug/SKILL.md) | 根因成立后转 `xiubug` | 最小复现或最强假设有证据 |
 | Bug 最小修复 | [`xiubug`](../../xiubug/SKILL.md) | `zhaobug` 提供复现；`anquan` 检查安全影响 | 修复前失败、修复后通过，附近回归成立 |

@@ -1,0 +1,6 @@
+interface:
+  display_name: "API 大师"
+  short_description: "可单独调用；API 设计、接入与版本治理"
+  default_prompt: "按API 大师的方法处理当前任务，先读现场，再给最小完整结果与验证证据。"
+policy:
+  allow_implicit_invocation: false
