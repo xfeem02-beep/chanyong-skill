@@ -39,4 +39,4 @@ jobs:
             if not exist "%USERPROFILE%\.claude\skills\%%S\SKILL.md" exit /b 1
             if not exist "%USERPROFILE%\.grok\skills\%%S\SKILL.md" exit /b 1
           )
-          findstr /x "1.6.0" "%USERPROFILE%\.agents\skills\chanyong\VERSION" >nul || exit /b 1
+          for /f "usebackq delims=" %%V in ("%USERPROFILE%\.agents\skills\chanyong\VERSION") do if not "%%V"=="1.6.0" exit /b 1
