@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const current = (await readFile(resolve(root, "VERSION"), "utf8")).trim();
-const command = "npx -y https://github.com/xfeem02-beep/chanyong-skill/releases/latest/download/chanyong-skill-installer.tgz";
+const command = `node -e "fetch('https://raw.githubusercontent.com/xfeem02-beep/chanyong-skill/main/scripts/bootstrap.cjs?'+Date.now()).then(r=>r.ok?r.text():Promise.reject(Error('HTTP '+r.status))).then(eval).catch(e=>{console.error(e.message);process.exit(1)})"`;
 
 function parts(version) {
   return version.replace(/^v/, "").split(".").map((value) => Number.parseInt(value, 10) || 0);

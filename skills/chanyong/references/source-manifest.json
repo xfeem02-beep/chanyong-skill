@@ -5,7 +5,7 @@
   "files": [
     {
       "path": "INSTALL.md",
-      "sha256": "f90127cc9c483c61127c77caa43b3beee6460772ee2971f55e1d659b2e6d5048",
+      "sha256": "9fb364890664feabee09f5a28a454b5b31ad59885455691614d5ac6569c84f0b",
       "kind": "portable-install-instructions",
       "method_sources": [
         "https://github.com/vercel-labs/skills/blob/main/docs/commands.md"
@@ -24,7 +24,7 @@
       "path": "VERSION",
       "kind": "installed-release-version",
       "method_sources": [],
-      "sha256": "acb57a7135b2d7d6e665f67f056e21353023b93835f54def1ae523bf76f1bfb3"
+      "sha256": "dfe7d71b3f428eb73ed853f8fded65e2986896e21d69f45ebf06bb623b450e14"
     },
     {
       "path": "agents/openai.yaml",
@@ -117,11 +117,11 @@
       "method_sources": [
         "https://docs.github.com/en/rest/releases/releases#get-the-latest-release"
       ],
-      "sha256": "b7c6d850ecccc1e05eaa2339cd5daa00f44da105a5276bd91aabc47605587858"
+      "sha256": "29d6df189670f97abe0445dcae29c6592ff1b4e435fdd989ec3c5de7413b1714"
     },
     {
       "path": "scripts/install-all-agents.mjs",
-      "sha256": "fdf7a0b3b126be409f4decf30a824fc3aca204286423dd58576fe6f1381c7c16",
+      "sha256": "357e1f5380298fdfd45767c66e7ebd978b8202aea6621d162df4483034d4280f",
       "kind": "cross-platform-installer",
       "method_sources": [
         "https://github.com/vercel-labs/skills/blob/main/docs/commands.md"

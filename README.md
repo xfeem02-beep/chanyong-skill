@@ -3,14 +3,14 @@
 在 macOS 或 Windows 终端运行一条命令，把 `chanyong` 能力大家庭安装到 Codex 通用 `.agents`、Claude Code 和 Grok：
 
 ```sh
-npx -y https://github.com/xfeem02-beep/chanyong-skill/releases/latest/download/chanyong-skill-installer.tgz
+node -e "fetch('https://raw.githubusercontent.com/xfeem02-beep/chanyong-skill/main/scripts/bootstrap.cjs?'+Date.now()).then(r=>r.ok?r.text():Promise.reject(Error('HTTP '+r.status))).then(eval).catch(e=>{console.error(e.message);process.exit(1)})"
 ```
 
 需要 Node.js 22.20 或更高版本，不要求另外安装 Git。安装器关闭本次安装的匿名遥测，并同时尝试全局安装与当前项目安装。Codex 使用的 `.agents/skills` 也是多个兼容 Agent 的通用入口；不再向几十个未使用的 Agent 目录重复复制。其他 Agent 可读取标准 `.agents/skills` 时直接共用。同一条命令始终获取最新稳定版，可以直接重复运行更新。
 
 同一条命令适用于 macOS Terminal、Windows PowerShell 和 Windows CMD。安装器直接调用 Node.js，不经过 shell 拼接，因此支持 `C:\Program Files\...`、中文用户名和带空格的项目路径。
 
-Skill 在每个新对话首次使用时只读检查公开 GitHub Release；仅在发现新版时提示这条更新命令，不后台静默覆盖，不上传项目、提示词或身份信息。
+Skill 在每个新对话首次使用时只读检查公开 GitHub Release；仅在发现新版时提示这条更新命令，不后台静默覆盖，不上传项目、提示词或身份信息。入口脚本给 Release 下载地址加入当次时间参数，避免 `npx` 把同名最新版链接长期复用为旧缓存。
 
 ## 一个总控，也可单独使用
 

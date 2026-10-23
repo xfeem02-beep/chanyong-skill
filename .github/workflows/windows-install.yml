@@ -18,7 +18,7 @@ jobs:
           $testDir = Join-Path $env:RUNNER_TEMP "中文 test project with spaces"
           New-Item -ItemType Directory -Force -Path $testDir | Out-Null
           Set-Location $testDir
-          npx -y https://github.com/xfeem02-beep/chanyong-skill/releases/latest/download/chanyong-skill-installer.tgz
+          node -e "fetch('https://raw.githubusercontent.com/xfeem02-beep/chanyong-skill/main/scripts/bootstrap.cjs?'+Date.now()).then(r=>r.ok?r.text():Promise.reject(Error('HTTP '+r.status))).then(eval).catch(e=>{console.error(e.message);process.exit(1)})"
           $members = @("chanyong", "design-taste-frontend", "dongwo", "chuangyi", "tuijian", "mishu", "xuanpin", "guihua", "beifen", "yanjiu", "cehua", "jiagou", "tishici", "chaijie", "juece", "fupan", "diannao", "zhishi", "jinengguan", "anquan", "zhaobug", "xiubug", "biancheng", "daimazhengli", "jianrong", "api", "bijia", "caigou", "gaojigongchengshi")
           foreach ($member in $members) {
             if (-not (Test-Path "$env:USERPROFILE\.agents\skills\$member\SKILL.md")) { throw "Global install missing: $member" }
@@ -31,7 +31,7 @@ jobs:
         run: |
           mkdir "%RUNNER_TEMP%\cmd test project with spaces"
           cd /d "%RUNNER_TEMP%\cmd test project with spaces"
-          npx -y https://github.com/xfeem02-beep/chanyong-skill/releases/latest/download/chanyong-skill-installer.tgz
+          node -e "fetch('https://raw.githubusercontent.com/xfeem02-beep/chanyong-skill/main/scripts/bootstrap.cjs?'+Date.now()).then(r=>r.ok?r.text():Promise.reject(Error('HTTP '+r.status))).then(eval).catch(e=>{console.error(e.message);process.exit(1)})"
           for %%S in (chanyong design-taste-frontend dongwo chuangyi tuijian mishu xuanpin guihua beifen yanjiu cehua jiagou tishici chaijie juece fupan diannao zhishi jinengguan anquan zhaobug xiubug biancheng daimazhengli jianrong api bijia caigou gaojigongchengshi) do (
             if not exist "%USERPROFILE%\.agents\skills\%%S\SKILL.md" exit /b 1
             if not exist ".agents\skills\%%S\SKILL.md" exit /b 1
