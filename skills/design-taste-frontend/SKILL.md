@@ -1,6 +1,6 @@
 ---
 name: design-taste-frontend
-description: "常用 changyong 阶段依赖 design-taste-frontend。仅在总控到达对应阶段或用户明确指定此技能时读取；不独立抢先触发。"
+description: "Taste Skill v2：为网页、落地页、后台和应用界面提炼独特视觉方向、构图、字体、配色，并在真实浏览器多尺寸检查。用户明确点名 Taste/design-taste-frontend 时可单独使用；未点名时由 chanyong 在设计阶段调度，不独立抢占总控。"
 disable-model-invocation: true
 ---
 

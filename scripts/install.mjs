@@ -5,7 +5,7 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const packageRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
-const skillDir = resolve(packageRoot, "skills", "chanyong");
+const skillsRoot = resolve(packageRoot, "skills");
 const require = createRequire(import.meta.url);
 const skillsCli = require.resolve("skills/bin/cli.mjs");
 const env = { ...process.env, DISABLE_TELEMETRY: "1", DO_NOT_TRACK: "1" };
@@ -19,7 +19,7 @@ if (major < 22 || (major === 22 && minor < 20)) {
 function install(extraArgs, label) {
   const result = spawnSync(
     process.execPath,
-    [skillsCli, "add", skillDir, ...extraArgs, "--all", "--copy"],
+    [skillsCli, "add", skillsRoot, ...extraArgs, "--all", "--copy"],
     { cwd: process.cwd(), env, stdio: "inherit" },
   );
   if (result.error) {

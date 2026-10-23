@@ -1,6 +1,6 @@
 # chanyong
 
-在 macOS 或 Windows 终端运行一条命令，把 `chanyong` 安装到本机 `skills` CLI 能检测到的 Agent：
+在 macOS 或 Windows 终端运行一条命令，把 `chanyong` 能力大家庭安装到本机 `skills` CLI 能检测到的 Agent：
 
 ```sh
 npx -y https://github.com/xfeem02-beep/chanyong-skill/releases/latest/download/chanyong-skill-installer.tgz
@@ -12,6 +12,10 @@ npx -y https://github.com/xfeem02-beep/chanyong-skill/releases/latest/download/c
 
 Skill 在每个新对话首次使用时只读检查公开 GitHub Release；仅在发现新版时提示这条更新命令，不后台静默覆盖，不上传项目、提示词或身份信息。
 
+## 一个总控，也可单独使用
+
+安装包按 `skills/<成员名>/` 组织。`chanyong` 是唯一自动总控；每个内置专业成员仍有自己的 `SKILL.md`，可以按名称单独调用。以后加入 `skills/` 的合规成员会随同一条安装命令一起安装。成员规范见 [`family-installation.md`](skills/chanyong/references/family-installation.md)。
+
 ## 自动设计家族
 
 不需要输入 `/常用` 或 `/设计师`。自然语言命中页面、海报、品牌、效果图、产品场景图或图像提示词时，`chanyong` 自动说明正在使用的设计能力，并按最短路线组合：
@@ -22,7 +26,7 @@ Skill 在每个新对话首次使用时只读检查公开 GitHub Release；仅�
 4. 位图素材交给 ImageGen，准确文字与海报排版交给 Canvas，界面交给项目组件和前端实现。
 5. 查看真实成图或渲染，检查文字、产品、品牌、层级、裁切、对比度和瑕疵后再交付。
 
-完整能力地图见 [`skills/chanyong/references/design-family.md`](skills/chanyong/references/design-family.md)。Taste Skill v2 已内置并固定到已核查版本；其他外部 Skill 可用时作为专业补充，不要求客户把所有第三方仓库全部安装。
+完整能力地图见 [`skills/chanyong/references/design-family.md`](skills/chanyong/references/design-family.md)。Taste Skill v2 已作为独立成员内置并固定到已核查版本：你可以单独点名 Taste，也可以让 chanyong 自动调度。其他外部 Skill 可用时作为专业补充，不要求客户把所有第三方仓库全部安装。
 
 ## 自动能力大家庭
 

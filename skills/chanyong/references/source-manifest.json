@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "skill": "chanyong",
-  "checked_at": "2026-10-23T15:05:00Z",
+  "checked_at": "2026-10-24T00:10:00+09:00",
   "files": [
     {
       "path": "INSTALL.md",
-      "sha256": "84a07d5b0e04b1c6c5cdd1c4b90f4dedf44de0028001da42ec005f7ce589b0e4",
+      "sha256": "6139d4139c4aa8e8aad1b8b26c42727d869b40acda99d54fee26e58de8f31c41",
       "kind": "portable-install-instructions",
       "method_sources": [
         "https://github.com/vercel-labs/skills/blob/main/docs/commands.md"
@@ -13,7 +13,7 @@
     },
     {
       "path": "SKILL.md",
-      "sha256": "56460519834be1f8443d847c66dfa3ef9b84ffa3b2ce32a7437cac2f3b44a70e",
+      "sha256": "34f3086956c113fc7ef3ae8281627f6e8f5e69ae9f315abdc5a46a5ac3f097be",
       "kind": "portable-local-composition",
       "method_sources": [
         "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/ask-matt/SKILL.md",
@@ -24,7 +24,7 @@
       "path": "VERSION",
       "kind": "installed-release-version",
       "method_sources": [],
-      "sha256": "64d23f858ef51b0f996e4966d4e27c0371b437e2d2787890b1f7ad22d4ec5663"
+      "sha256": "78b591400c56b7b67b8cb3b2b8a8e65e9093897f02ce0878e6b5405c68620fa7"
     },
     {
       "path": "agents/openai.yaml",
@@ -51,7 +51,15 @@
         "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/d14efff8ed1faa4187f004f79926f428c8074ec7",
         "https://github.com/pbakaus/impeccable/tree/5cb95eea9c96479f57afe0732a45470d30183326"
       ],
-      "sha256": "9fde3378b6c94e2d8cd995000482ea3b0634834a95c0308d6a8a0cfe32d45e48"
+      "sha256": "93a366e286113452b9816ce2e1911ef3fa4e3e7ec4620a6fd64f333c62c5cf96"
+    },
+    {
+      "path": "references/family-installation.md",
+      "kind": "skill-family-installation-contract",
+      "method_sources": [
+        "https://github.com/agentskills/agentskills"
+      ],
+      "sha256": "3d138bfc247616254327be5678a2f764fa1b2b9f69aab11c8e602e563a4b35e2"
     },
     {
       "path": "references/maintenance.md",
@@ -79,7 +87,7 @@
     },
     {
       "path": "references/routing.md",
-      "sha256": "1e2bb8d175643733c0405e21cddc4c2cb3ec5142b577dbd707c723fd1910584a",
+      "sha256": "cd68a7dcbbb78449ee36c63130c79c4c0475580908c1bd61aedfceaf9b9a758e",
       "kind": "portable-routing-method",
       "method_sources": [
         "https://github.com/anthropics/knowledge-work-plugins/tree/33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
@@ -113,35 +121,11 @@
     },
     {
       "path": "scripts/install-all-agents.mjs",
-      "sha256": "8304f17270061f654edd5783e00a119b10b6c9d79b1b5607f93825e6167814f2",
+      "sha256": "2a7363aec5eef0de75ce9da66d7a409595c48d1efcfcee49b9ea82378f794957",
       "kind": "cross-platform-installer",
       "method_sources": [
         "https://github.com/vercel-labs/skills/blob/main/docs/commands.md"
       ]
-    },
-    {
-      "path": "vendor/design-taste-frontend/SKILL.md",
-      "kind": "bundled-taste-skill-adaptation",
-      "method_sources": [
-        "https://github.com/Leonxlnx/taste-skill/tree/6010f91a9935f1c167dfc500fb1a475681892e6b"
-      ],
-      "sha256": "1694c38a2240c51eb9110a61ca911e4fcba20e414d069b484db5bf6c4eb94a41"
-    },
-    {
-      "path": "vendor/design-taste-frontend/_upstream/LICENSE",
-      "kind": "bundled-upstream-license",
-      "method_sources": [
-        "https://github.com/Leonxlnx/taste-skill/blob/6010f91a9935f1c167dfc500fb1a475681892e6b/LICENSE"
-      ],
-      "sha256": "4575a543ab88dad12ccea7d97e563d0bce5b448b06072e65d3264497dad326df"
-    },
-    {
-      "path": "vendor/design-taste-frontend/_upstream/source.json",
-      "kind": "bundled-upstream-provenance",
-      "method_sources": [
-        "https://github.com/Leonxlnx/taste-skill/tree/6010f91a9935f1c167dfc500fb1a475681892e6b"
-      ],
-      "sha256": "9dbacb0b8a99c39d2160e2f5b3037274f2888cd04df0f50c68e8e4af56c3e604"
     }
   ]
 }

@@ -16,7 +16,7 @@
 
 ## 界面、视觉与内容
 
-先读 [design-family.md](design-family.md)，再读现有页面、状态、设计规范和真实内容。网页、后台或应用界面默认调用内置 [Taste Skill v2](../vendor/design-taste-frontend/SKILL.md) 形成或提纯主审美方向，并在真实浏览器多尺寸检查；项目体系和用户锁定方向优先。Refero、本机参考库与 UI/UX Pro Max 只补参考和细节，不另起冲突方向。保留业务逻辑、人工确认、真实数据和可访问性。只有用户要成图或视觉选择确有价值时才制作效果稿。
+先读 [design-family.md](design-family.md)，再读现有页面、状态、设计规范和真实内容。网页、后台或应用界面默认调用内置 [Taste Skill v2](../../design-taste-frontend/SKILL.md) 形成或提纯主审美方向，并在真实浏览器多尺寸检查；项目体系和用户锁定方向优先。Refero、本机参考库与 UI/UX Pro Max 只补参考和细节，不另起冲突方向。保留业务逻辑、人工确认、真实数据和可访问性。只有用户要成图或视觉选择确有价值时才制作效果稿。
 
 用户要海报、封面、效果图、品牌视觉、产品场景图、图像提示词或跨画面统一风格时，自动读取 [prompt-visual-system.md](prompt-visual-system.md)。先锁定视觉体系，再写提示词；有生成工具且用户要成图时实际生成并看图复核。纯界面代码优化仍以项目设计系统为主，不强加图像生成流程。
 

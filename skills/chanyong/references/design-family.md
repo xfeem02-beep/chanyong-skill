@@ -17,7 +17,7 @@
 | `frontend-design` / 项目组件 | 把方向实现成响应式、可访问的真实界面 | 用户要页面、组件或网站代码 | 不用代码假装复杂摄影或插画 |
 | 视觉复核 | 看真实成图、截图或渲染，检查偏差并最小修正 | 每次实际出图或页面实现后 | 不用提示词或静态代码冒充验收 |
 
-Taste Skill v2 已按 MIT 许可证内置在 [`vendor/design-taste-frontend`](../vendor/design-taste-frontend/SKILL.md)，固定来源提交记录在其 `_upstream/source.json`。其他外部 Skill 名只是可用时的专业补充；客户不必另外安装全部第三方仓库。
+Taste Skill v2 已按 MIT 许可证内置在 [`design-taste-frontend`](../../design-taste-frontend/SKILL.md)，固定来源提交记录在其 `_upstream/source.json`。其他外部 Skill 名只是可用时的专业补充；客户不必另外安装全部第三方仓库。
 
 ## 自动选择
 

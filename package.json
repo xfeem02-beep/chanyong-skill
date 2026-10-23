@@ -1,13 +1,13 @@
 {
   "name": "chanyong-skill-installer",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "private": true,
-  "description": "One-command installer for the chanyong Agent Skill",
+  "description": "One-command installer for the chanyong skill family",
   "bin": {
     "chanyong-install": "scripts/install.mjs"
   },
   "files": [
-    "skills/chanyong",
+    "skills",
     "scripts/install.mjs"
   ],
   "dependencies": {

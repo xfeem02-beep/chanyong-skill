@@ -20,9 +20,13 @@ jobs:
           Set-Location $testDir
           npx -y https://github.com/xfeem02-beep/chanyong-skill/releases/latest/download/chanyong-skill-installer.tgz
           if (-not (Test-Path "$env:USERPROFILE\.agents\skills\chanyong\SKILL.md")) { throw "Global install missing" }
+          if (-not (Test-Path "$env:USERPROFILE\.agents\skills\design-taste-frontend\SKILL.md")) { throw "Global Taste install missing" }
           if (-not (Test-Path ".agents\skills\chanyong\SKILL.md")) { throw "Project install missing" }
+          if (-not (Test-Path ".agents\skills\design-taste-frontend\SKILL.md")) { throw "Project Taste install missing" }
           if (-not (Test-Path "$env:USERPROFILE\.claude\skills\chanyong\SKILL.md")) { throw "Claude install missing" }
+          if (-not (Test-Path "$env:USERPROFILE\.claude\skills\design-taste-frontend\SKILL.md")) { throw "Claude Taste install missing" }
           if (-not (Test-Path "$env:USERPROFILE\.grok\skills\chanyong\SKILL.md")) { throw "Grok install missing" }
+          if (-not (Test-Path "$env:USERPROFILE\.grok\skills\design-taste-frontend\SKILL.md")) { throw "Grok Taste install missing" }
       - name: Install from Windows CMD
         shell: cmd
         run: |
@@ -30,6 +34,10 @@ jobs:
           cd /d "%RUNNER_TEMP%\cmd test project with spaces"
           npx -y https://github.com/xfeem02-beep/chanyong-skill/releases/latest/download/chanyong-skill-installer.tgz
           if not exist "%USERPROFILE%\.agents\skills\chanyong\SKILL.md" exit /b 1
+          if not exist "%USERPROFILE%\.agents\skills\design-taste-frontend\SKILL.md" exit /b 1
           if not exist ".agents\skills\chanyong\SKILL.md" exit /b 1
+          if not exist ".agents\skills\design-taste-frontend\SKILL.md" exit /b 1
           if not exist "%USERPROFILE%\.claude\skills\chanyong\SKILL.md" exit /b 1
+          if not exist "%USERPROFILE%\.claude\skills\design-taste-frontend\SKILL.md" exit /b 1
           if not exist "%USERPROFILE%\.grok\skills\chanyong\SKILL.md" exit /b 1
+          if not exist "%USERPROFILE%\.grok\skills\design-taste-frontend\SKILL.md" exit /b 1

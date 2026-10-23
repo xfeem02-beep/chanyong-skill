@@ -2,7 +2,7 @@ import { spawnSync } from "node:child_process";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
-const skillDir = resolve(dirname(fileURLToPath(import.meta.url)), "..");
+const skillsRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..", "..");
 const npx = process.platform === "win32" ? "npx.cmd" : "npx";
 const env = { ...process.env, DO_NOT_TRACK: "1" };
 const [nodeMajor, nodeMinor] = process.versions.node.split(".").map(Number);
@@ -15,7 +15,7 @@ if (nodeMajor < 22 || (nodeMajor === 22 && nodeMinor < 20)) {
 function install(args, label) {
   const result = spawnSync(
     npx,
-    ["--yes", "skills", "add", skillDir, ...args, "--all", "--copy"],
+    ["--yes", "skills", "add", skillsRoot, ...args, "--all", "--copy"],
     { cwd: process.cwd(), env, stdio: "inherit" },
   );
   if (result.error) {
