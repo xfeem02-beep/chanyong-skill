@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "skill": "chanyong",
-  "checked_at": "2026-10-23T14:38:19.360165Z",
+  "checked_at": "2026-10-23T14:46:00Z",
   "files": [
     {
       "path": "INSTALL.md",
@@ -13,7 +13,7 @@
     },
     {
       "path": "SKILL.md",
-      "sha256": "5ae484b2c653b298981e4a7dfe304d539d0de31d62c1a13d10a616e7a50799fd",
+      "sha256": "bbed4c377de9c00460ec685134140accb6ef6f611189a3e56baad7e653eb8469",
       "kind": "portable-local-composition",
       "method_sources": [
         "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/ask-matt/SKILL.md",
@@ -24,7 +24,7 @@
       "path": "VERSION",
       "kind": "installed-release-version",
       "method_sources": [],
-      "sha256": "1e5b51cde515396a9fa762909cf8ca6584ccc564b325d2eebeea76175fe95c4d"
+      "sha256": "6cf4e084b47f33c9b02ef79279d157833868f8f70514169a768be353ee328fea"
     },
     {
       "path": "agents/openai.yaml",
@@ -38,10 +38,11 @@
       "path": "references/design-family.md",
       "kind": "portable-design-orchestration-method",
       "method_sources": [
+        "https://github.com/Leonxlnx/taste-skill/tree/6010f91a9935f1c167dfc500fb1a475681892e6b",
         "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/d14efff8ed1faa4187f004f79926f428c8074ec7",
         "https://github.com/pbakaus/impeccable/tree/5cb95eea9c96479f57afe0732a45470d30183326"
       ],
-      "sha256": "fcad42e62acd57ec3b80af112241fd7b08e90136fb4f99c39c56c0a65f328bad"
+      "sha256": "9fde3378b6c94e2d8cd995000482ea3b0634834a95c0308d6a8a0cfe32d45e48"
     },
     {
       "path": "references/maintenance.md",
@@ -69,7 +70,7 @@
     },
     {
       "path": "references/routing.md",
-      "sha256": "2ee96ae549a80d0b17b9d5b498911c9e5d451d77e390f16cbdd95c94591d5e06",
+      "sha256": "1e2bb8d175643733c0405e21cddc4c2cb3ec5142b577dbd707c723fd1910584a",
       "kind": "portable-routing-method",
       "method_sources": [
         "https://github.com/anthropics/knowledge-work-plugins/tree/33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
@@ -78,7 +79,7 @@
     },
     {
       "path": "references/sources.md",
-      "sha256": "357490ca77f7ed10916746698f155b6a9a36bf56562774926d078e489dfb62d6",
+      "sha256": "f28877fca972e8de10b09919cf86757720dd060f44628560998b969d64cfbf4b",
       "kind": "research-snapshot",
       "method_sources": [
         "https://api.github.com"
@@ -86,7 +87,7 @@
     },
     {
       "path": "references/specialists.md",
-      "sha256": "d7d5c78f75df5d07766b2081031f71d444b14389dbb4c35b0535e6dda4791e19",
+      "sha256": "e5363a3a0282f4e4e3ab4d114be960def02f6dbf3ac50686b7e2c60aa3fc358a",
       "kind": "portable-built-in-methods",
       "method_sources": [
         "https://github.com/obra/superpowers/tree/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
@@ -108,6 +109,30 @@
       "method_sources": [
         "https://github.com/vercel-labs/skills/blob/main/docs/commands.md"
       ]
+    },
+    {
+      "path": "vendor/design-taste-frontend/SKILL.md",
+      "kind": "bundled-taste-skill-adaptation",
+      "method_sources": [
+        "https://github.com/Leonxlnx/taste-skill/tree/6010f91a9935f1c167dfc500fb1a475681892e6b"
+      ],
+      "sha256": "1694c38a2240c51eb9110a61ca911e4fcba20e414d069b484db5bf6c4eb94a41"
+    },
+    {
+      "path": "vendor/design-taste-frontend/_upstream/LICENSE",
+      "kind": "bundled-upstream-license",
+      "method_sources": [
+        "https://github.com/Leonxlnx/taste-skill/blob/6010f91a9935f1c167dfc500fb1a475681892e6b/LICENSE"
+      ],
+      "sha256": "4575a543ab88dad12ccea7d97e563d0bce5b448b06072e65d3264497dad326df"
+    },
+    {
+      "path": "vendor/design-taste-frontend/_upstream/source.json",
+      "kind": "bundled-upstream-provenance",
+      "method_sources": [
+        "https://github.com/Leonxlnx/taste-skill/tree/6010f91a9935f1c167dfc500fb1a475681892e6b"
+      ],
+      "sha256": "9dbacb0b8a99c39d2160e2f5b3037274f2888cd04df0f50c68e8e4af56c3e604"
     }
   ]
 }

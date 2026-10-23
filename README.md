@@ -17,9 +17,9 @@ Skill 在每个新对话首次使用时只读检查公开 GitHub Release；仅�
 不需要输入 `/常用` 或 `/设计师`。自然语言命中页面、海报、品牌、效果图、产品场景图或图像提示词时，`chanyong` 自动说明正在使用的设计能力，并按最短路线组合：
 
 1. 读取项目、品牌、真实内容和现有设计系统。
-2. 用 Refero、本机设计参考或 UI/UX Pro Max 锁定一个主方向。
+2. 用内置 Taste Skill 从项目本身提炼并锁定一个主审美方向；Refero、本机参考和 UI/UX Pro Max 只补证据与细节。
 3. 用提示词视觉体系建立构图、色彩、字体、材质、光线和一致性锚点。
 4. 位图素材交给 ImageGen，准确文字与海报排版交给 Canvas，界面交给项目组件和前端实现。
 5. 查看真实成图或渲染，检查文字、产品、品牌、层级、裁切、对比度和瑕疵后再交付。
 
-完整能力地图见 [`skills/chanyong/references/design-family.md`](skills/chanyong/references/design-family.md)。外部 Skill 可用时作为专业方法，不要求客户把所有第三方仓库全部安装。
+完整能力地图见 [`skills/chanyong/references/design-family.md`](skills/chanyong/references/design-family.md)。Taste Skill v2 已内置并固定到已核查版本；其他外部 Skill 可用时作为专业补充，不要求客户把所有第三方仓库全部安装。

@@ -54,7 +54,7 @@ description: "常用智能总入口：自动理解非简单任务，检查当前
 
 视觉生成、海报、封面、品牌视觉、产品场景图或用户要求统一画面风格时，读取 [prompt-visual-system.md](references/prompt-visual-system.md)。已有项目设计系统优先；视觉提示词只补充生成与评测，不另造一套冲突的品牌规范。
 
-所有界面、页面、海报、品牌、效果图、视觉素材或“设计师”任务先读取 [design-family.md](references/design-family.md) 决定主设计方法与实际出画面工具。一次只允许一个主视觉方向；其他 Skill 只能补充资料、实现或验收，不能并行改写方向。
+所有界面、页面、海报、品牌、效果图、视觉素材或“设计师”任务先读取 [design-family.md](references/design-family.md) 决定主设计方法与实际出画面工具。网页、后台或应用界面默认把内置 [Taste Skill v2](vendor/design-taste-frontend/SKILL.md) 作为主审美决策与浏览器复核引擎；已有项目设计规范或用户锁定方向时只用它检查和提纯，不擅自换方向。一次只允许一个主视觉方向；其他 Skill 只能补充资料、实现或验收，不能并行改写方向。
 
 ## 暂停、跳过和继续
 
