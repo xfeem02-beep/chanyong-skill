@@ -131,7 +131,7 @@
     {
       "name": "jinengguan",
       "displayName": "技能馆长",
-      "role": "Skill 主动发现、推荐、精简与更新",
+      "role": "Skill 能力缺口自动发现、审查、安装与更新",
       "implicit": false,
       "group": "电脑与维护"
     },

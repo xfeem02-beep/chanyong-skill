@@ -8,9 +8,11 @@
 | [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills/tree/dee7acce0658c35cb276154892700811affcfdb2) | 48374 | MIT；采用其真实 `SKILL.md` 中的电脑、知识、备份、采购、电商、决策、安全、提示词和系统方法；不运行上游脚本、不读取凭据、不启用付费服务 |
 | [obra/superpowers](https://github.com/obra/superpowers/tree/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b) | 304022 | 采用计划粒度和完成前验证纪律；不继承全局强制触发、重复批准或自动代理 |
 | [mattpocock/skills](https://github.com/mattpocock/skills/tree/5beb35b040e3de97e54fa9e386d7e42d15c295c2) | 301464 | 采用总路由、阶段入口和深模块方法；代理路线保持可选 |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC/tree/90606c8315ee09cafc303515c5f33024db6b9882) | 287101 | 热门候选池；快照含 1062 个 `SKILL.md`，只按项目缺口逐个审查，不整库安装 |
 | [anthropics/skills](https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44) | 183188 | 采用官方技能结构、提示词审计与评测合同；逐技能核对许可证 |
 | [garrytan/gstack](https://github.com/garrytan/gstack/tree/b04cc35832183a89ed71eed628de15a6f315a1a8) | 137357 | 只参考岗位分工和有界 QA；不自动引入运行时、hooks、遥测、Cookie、发布或付费调用 |
 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem/tree/dcb28a768c6be4b8e451843210558275caa8ec44) | 102474 | 采用文件化连续记忆、检索和用户可见控制思路；不引入 Hooks、后台服务或自动采集 |
+| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills/tree/aeac41d4d005999432bb7312f7ff06383a91d59d) | 109863 | MIT；25 个真实 `SKILL.md` 的工程候选池，按具体缺口选用；与现有代码、调试和规划能力重复时不安装 |
 | [mem0ai/mem0](https://github.com/mem0ai/mem0/tree/2c81af3bbe27d9bccb09c772d583df9e9be72ee5) | 67698 | 采用结构化偏好、更新、遗忘和相关检索方法；不引入云服务、模型或数据库依赖 |
 | [restic/restic](https://github.com/restic/restic/tree/dd09b6bd01af220b1d5d95c0d4d7d472e05e05c4) | 36750 | 采用跨平台加密快照、校验和隔离恢复方法；不捆绑二进制、不自动配置仓库或定时任务 |
 | [getzep/graphiti](https://github.com/getzep/graphiti/tree/afea04fecd34671c6608fd2a877c5372ff55ee29) | 32163 | 采用时间、更新和冲突关系思路；不引入图数据库或外部服务 |
