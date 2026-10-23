@@ -26,7 +26,9 @@ jobs:
             if (-not (Test-Path "$env:USERPROFILE\.claude\skills\$member\SKILL.md")) { throw "Claude install missing: $member" }
             if (-not (Test-Path "$env:USERPROFILE\.grok\skills\$member\SKILL.md")) { throw "Grok install missing: $member" }
           }
-          if ((Get-Content "$env:USERPROFILE\.agents\skills\chanyong\VERSION" -Raw).Trim() -ne "1.6.0") { throw "Wrong installed version" }
+          $installedVersion = (Get-Content "$env:USERPROFILE\.agents\skills\chanyong\VERSION" -Raw).Trim()
+          $latestVersion = (Invoke-RestMethod "https://api.github.com/repos/xfeem02-beep/chanyong-skill/releases/latest").tag_name.TrimStart("v")
+          if ($installedVersion -ne $latestVersion) { throw "Wrong installed version: $installedVersion, latest: $latestVersion" }
       - name: Install from Windows CMD
         shell: cmd
         run: |
@@ -39,4 +41,4 @@ jobs:
             if not exist "%USERPROFILE%\.claude\skills\%%S\SKILL.md" exit /b 1
             if not exist "%USERPROFILE%\.grok\skills\%%S\SKILL.md" exit /b 1
           )
-          for /f "usebackq delims=" %%V in ("%USERPROFILE%\.agents\skills\chanyong\VERSION") do if not "%%V"=="1.6.0" exit /b 1
+          fc /b "%USERPROFILE%\.agents\skills\chanyong\VERSION" ".agents\skills\chanyong\VERSION" >nul || exit /b 1
