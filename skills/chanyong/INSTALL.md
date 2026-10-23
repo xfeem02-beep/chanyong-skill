@@ -1,6 +1,6 @@
 # 安装
 
-在 macOS 或 Windows 终端运行：
+这是私有仓库。每台电脑先用有仓库权限的账号完成 GitHub CLI 登录，然后在 macOS 或 Windows 终端运行：
 
 ```text
 npx -y github:xfeem02-beep/chanyong-skill
