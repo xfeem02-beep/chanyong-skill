@@ -18,7 +18,7 @@ jobs:
           $testDir = Join-Path $env:RUNNER_TEMP "中文 test project with spaces"
           New-Item -ItemType Directory -Force -Path $testDir | Out-Null
           Set-Location $testDir
-          npx -y github:xfeem02-beep/chanyong-skill
+          npx -y https://github.com/xfeem02-beep/chanyong-skill/releases/download/v1.0.2/chanyong-skill-installer-1.0.2.tgz
           if (-not (Test-Path "$env:USERPROFILE\.agents\skills\chanyong\SKILL.md")) { throw "Global install missing" }
           if (-not (Test-Path ".agents\skills\chanyong\SKILL.md")) { throw "Project install missing" }
           if (-not (Test-Path "$env:USERPROFILE\.claude\skills\chanyong\SKILL.md")) { throw "Claude install missing" }
@@ -28,7 +28,7 @@ jobs:
         run: |
           mkdir "%RUNNER_TEMP%\cmd test project with spaces"
           cd /d "%RUNNER_TEMP%\cmd test project with spaces"
-          npx -y github:xfeem02-beep/chanyong-skill
+          npx -y https://github.com/xfeem02-beep/chanyong-skill/releases/download/v1.0.2/chanyong-skill-installer-1.0.2.tgz
           if not exist "%USERPROFILE%\.agents\skills\chanyong\SKILL.md" exit /b 1
           if not exist ".agents\skills\chanyong\SKILL.md" exit /b 1
           if not exist "%USERPROFILE%\.claude\skills\chanyong\SKILL.md" exit /b 1
