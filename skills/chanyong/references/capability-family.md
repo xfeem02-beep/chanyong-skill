@@ -29,6 +29,8 @@
 | 开放性卡点、找办法、替代路径 | [`solution-finder`](../../solution-finder/SKILL.md) | 缺事实转研究；明确故障转 `zhaobug`；取舍转 `juece` | 给少量机制不同的方案、明确首选、改选条件与最小验证 |
 | 方案、结论或重要决策的反方压力测试 | [`devils-advocate`](../../devils-advocate/SKILL.md) | 完整修法转 `solution-finder`；代码缺陷用代码审查能力 | 最强反例、证据缺口和隐藏成本分级；重要问题有修复方向；不无限挑刺 |
 | 产品、活动与商业策划 | [`cehua`](../../cehua/SKILL.md) | `yanjiu` 补证据；`guihua` 落计划 | 用户、价值、范围、成功指标和最小验证清楚 |
+| 店铺经营、商品运营、库存、订单、履约、售后、复购与经营复盘 | [`ecommerce-operations-team`](../../ecommerce-operations-team/SKILL.md) | 商品身份/选品/比价/采购只补对应成员；推广转 `growth-marketing-team` | 经营链路、口径、最大瓶颈、负责人和 30/60/90 天计划清楚 |
+| 推广、获客、GTM、SEO/AI 搜索、内容、广告、CRO 与增长实验 | [`growth-marketing-team`](../../growth-marketing-team/SKILL.md) | 深度研究、视觉或合规最多补一个 | 一个主阶段/渠道；预算、指标、观察窗和停止条件明确 |
 | 架构与技术决策 | [`jiagou`](../../jiagou/SKILL.md) | 接口用 `api`；迁移用 `jianrong` | 模块、数据、权限、错误、兼容和回滚清楚 |
 | 模型行为与提示词 | [`tishici`](../../tishici/SKILL.md) | 视觉生成读取视觉体系；安全审查用 `anquan` | 有输入输出合同、失败样本和小型评测 |
 | 目标与工作包拆解 | [`chaijie`](../../chaijie/SKILL.md) | `guihua` 只负责排期与节奏 | 工作包独立、依赖和完成证据明确 |
@@ -38,6 +40,8 @@
 | 知识库与笔记整理 | [`zhishi`](../../zhishi/SKILL.md) | 当前事实核查用 `yanjiu` | 索引可检索；不擅自移动、删除或破坏链接 |
 | Skill 主动发现、推荐、精简与更新 | [`jinengguan`](../../jinengguan/SKILL.md) | 安全代码审查用 `anquan` | 真实 SKILL.md、高星活跃来源、许可证、固定提交和隔离验证；商品类来源少于 1,000 stars 不安装；最多推荐 3 个并解释为什么不需要更多 |
 | 安全审计与安全开发 | [`anquan`](../../anquan/SKILL.md) | 根因故障转 `zhaobug` | 攻击者、受害者、数据流、证据和修复明确 |
+| 测试方案、QA、回归和上线验收 | [`quality-testing-team`](../../quality-testing-team/SKILL.md) | 安全或设计审查只在相关风险命中时补一个 | pass/fail/blocked/not-run 分开；有环境、命令和可复核证据 |
+| 电商消费者、隐私、宣传、支付、退款、跨境与平台合规 | [`commerce-compliance-team`](../../commerce-compliance-team/SKILL.md) | `anquan` 只补技术攻击面 | 法域、官方当前来源、生效日期、差距、负责人和专业复核项明确 |
 | Bug 复现与根因定位 | [`zhaobug`](../../zhaobug/SKILL.md) | 根因成立后转 `xiubug` | 最小复现或最强假设有证据 |
 | Bug 最小修复 | [`xiubug`](../../xiubug/SKILL.md) | `zhaobug` 提供复现；`anquan` 检查安全影响 | 修复前失败、修复后通过，附近回归成立 |
 | 专业代码实现 | [`biancheng`](../../biancheng/SKILL.md) | 架构用 `jiagou`；验收按项目工具 | 调用方、错误、配置和真实入口验证完整 |

@@ -1,0 +1,6 @@
+interface:
+  display_name: "推广增长组合"
+  short_description: "推广、SEO、内容、广告、转化与增长实验"
+  default_prompt: "按推广增长组合处理当前任务，只选当前最重要的增长阶段和渠道，并用数据与停止条件约束方案。"
+policy:
+  allow_implicit_invocation: false

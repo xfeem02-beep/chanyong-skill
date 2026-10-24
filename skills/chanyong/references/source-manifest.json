@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "skill": "chanyong",
-  "checked_at": "2026-10-24T05:13:05.023Z",
+  "checked_at": "2026-10-24T05:28:18.425266Z",
   "files": [
     {
       "path": "INSTALL.md",
@@ -13,7 +13,7 @@
     },
     {
       "path": "SKILL.md",
-      "sha256": "b5e7dd725418e5d66614afbfcdb68a27a8b40432ca2e85c369ea6cb6eaddfeab",
+      "sha256": "64e25abd5a625f2c791429f5d4bc6e32e60906c0a83e859eec818cbfaa4b2ec7",
       "kind": "portable-local-composition",
       "method_sources": [
         "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/ask-matt/SKILL.md",
@@ -24,7 +24,7 @@
       "path": "VERSION",
       "kind": "installed-release-version",
       "method_sources": [],
-      "sha256": "ff39d70764b93295c19f87531a54681f590b6dfb3a2746bcc20059abd51e05ed"
+      "sha256": "ff669556cd0bb884e2c307b4a53f1bf6c92f591c6a12e53e698f6a2e9188cfa5"
     },
     {
       "path": "RELEASE_DATE",
@@ -45,9 +45,11 @@
       "kind": "portable-capability-orchestration-method",
       "method_sources": [
         "https://github.com/mattpocock/skills/tree/5beb35b040e3de97e54fa9e386d7e42d15c295c2",
-        "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431"
+        "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431",
+        "https://github.com/coreyhaines31/marketingskills/tree/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+        "https://github.com/wshobson/agents/tree/0874a27b17a22e2b7c2e2bcd725768e0803cad06"
       ],
-      "sha256": "5956e88ad6a02db92aa26988f39e9ad4c48115badf98bcfefcabffe1636c200a"
+      "sha256": "809dff0e152e52c0d71f54867f9455ce558895e793a99352d60d39a3a1b0a51e"
     },
     {
       "path": "references/control-plane.md",
@@ -99,16 +101,17 @@
     },
     {
       "path": "references/routing.md",
-      "sha256": "77f87ffd71c9e373db0707d63684d20223983f2c5e8413817e3554a5860a0f7b",
+      "sha256": "a200fbe7030ac07811111922160f2e0f4ecbd566d27f61a30e3879fbec405b5f",
       "kind": "portable-routing-method",
       "method_sources": [
         "https://github.com/anthropics/knowledge-work-plugins/tree/33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
-        "https://github.com/ai-evals-course/evals-skills/blob/main/skills/evals-start/SKILL.md"
+        "https://github.com/ai-evals-course/evals-skills/blob/main/skills/evals-start/SKILL.md",
+        "https://github.com/coreyhaines31/marketingskills/tree/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b"
       ]
     },
     {
       "path": "references/sources.md",
-      "sha256": "bbe659affcd5a81e27a7ee5acb6a9cde367b5e7679c6e26b7db1cf50b2efab4b",
+      "sha256": "59cf344b4e7b5624cb8a121eb46783a00bc6e71e7d4dfe217ebadb7246da9f03",
       "kind": "research-snapshot",
       "method_sources": [
         "https://api.github.com"
@@ -138,6 +141,17 @@
       "method_sources": [
         "https://github.com/vercel-labs/skills/blob/main/docs/commands.md"
       ]
+    },
+    {
+      "path": "references/commerce-family.md",
+      "kind": "portable-commerce-orchestration-method",
+      "method_sources": [
+        "https://github.com/coreyhaines31/marketingskills/tree/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+        "https://github.com/wshobson/agents/tree/0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+        "https://github.com/phuryn/pm-skills/tree/07b34f64ee828df08953f505b7f747aef85ae7c6",
+        "https://github.com/obra/superpowers/tree/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
+      ],
+      "sha256": "944ceafdb284b8f5188ebade10367e4726c059940c67fc6535a731bdfa269072"
     }
   ]
 }

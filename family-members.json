@@ -143,6 +143,20 @@
       "group": "质量与安全"
     },
     {
+      "name": "quality-testing-team",
+      "displayName": "测试验收组合",
+      "role": "风险测试、回归、证据与上线门槛",
+      "implicit": false,
+      "group": "质量与安全"
+    },
+    {
+      "name": "commerce-compliance-team",
+      "displayName": "电商合规组合",
+      "role": "消费者、隐私、宣传、支付与跨境合规",
+      "implicit": false,
+      "group": "质量与安全"
+    },
+    {
       "name": "zhaobug",
       "displayName": "找 Bug 大师",
       "role": "复现与根因定位",
@@ -225,6 +239,20 @@
       "role": "精确商品身份与多来源资料核验",
       "implicit": false,
       "group": "选品与采购"
+    },
+    {
+      "name": "growth-marketing-team",
+      "displayName": "推广增长组合",
+      "role": "推广、SEO、内容、广告、转化与增长实验",
+      "implicit": false,
+      "group": "运营与增长"
+    },
+    {
+      "name": "ecommerce-operations-team",
+      "displayName": "电商运营组合",
+      "role": "商品、库存、订单、履约、售后与复购运营",
+      "implicit": false,
+      "group": "运营与增长"
     },
     {
       "name": "devils-advocate",

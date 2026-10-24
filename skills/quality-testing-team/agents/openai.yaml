@@ -1,0 +1,6 @@
+interface:
+  display_name: "测试验收组合"
+  short_description: "风险测试、回归、证据与上线门槛"
+  default_prompt: "按测试验收组合检查当前任务，区分已执行、通过、失败、阻塞和未运行，并给最小充分证据。"
+policy:
+  allow_implicit_invocation: false
