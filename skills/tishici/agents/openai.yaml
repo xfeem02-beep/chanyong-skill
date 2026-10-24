@@ -1,5 +1,5 @@
 interface:
-  display_name: "提示词大师"
+  display_name: "03 Skill｜提示词大师"
   short_description: "可单独调用；提示词设计与评测"
   default_prompt: "按提示词大师的方法处理当前任务，先读现场，再给最小完整结果与验证证据。"
 policy:

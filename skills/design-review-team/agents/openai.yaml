@@ -1,5 +1,5 @@
 interface:
-  display_name: "审查组"
+  display_name: "02 Team｜审查组"
   short_description: "设计挑刺、统一和交接"
   default_prompt: "固定审查对象和阶段，只选命中的主线，给具体位置、影响等级、最小修法和仍未验证项。"
 policy:

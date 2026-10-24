@@ -1,5 +1,5 @@
 interface:
-  display_name: "选品大师"
+  display_name: "03 Skill｜选品大师"
   short_description: "可单独调用；按商品身份、需求、竞争、完整成本、供应和风险筛选经营商品"
   default_prompt: "核对具体商品与目标变体，按需求、竞争、完整成本、履约和风险筛选；缺数据时不要猜利润或建议进货。"
 policy:

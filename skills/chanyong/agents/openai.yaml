@@ -1,5 +1,5 @@
 interface:
-  display_name: "常用 chanyong"
+  display_name: "01 常用｜chanyong"
   short_description: "全自动｜指定组｜单独 Skill"
   default_prompt: "先说明 AUTO、TEAM 或 SOLO 模式、所选 Team/Skill 的名字与职责，再按当前目标完成已授权工作；用户只想查看组合时展示 Team 目录，不执行任务。"
 policy:

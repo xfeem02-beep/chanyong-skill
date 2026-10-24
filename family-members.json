@@ -10,6 +10,69 @@
       "group": "总控"
     },
     {
+      "name": "project-strategy-team",
+      "displayName": "策划组",
+      "role": "研究、策划、规划、拆解",
+      "implicit": false,
+      "group": "研究与策略"
+    },
+    {
+      "name": "engineering-delivery-team",
+      "displayName": "工程组",
+      "role": "架构、开发、修复、验收",
+      "implicit": false,
+      "group": "工程与接口"
+    },
+    {
+      "name": "interface-design-team",
+      "displayName": "界面组",
+      "role": "网站、后台、App 界面",
+      "implicit": false,
+      "group": "设计与视觉"
+    },
+    {
+      "name": "visual-design-team",
+      "displayName": "出图组",
+      "role": "海报、封面、品牌素材",
+      "implicit": false,
+      "group": "设计与视觉"
+    },
+    {
+      "name": "design-review-team",
+      "displayName": "审查组",
+      "role": "设计挑刺、统一和交接",
+      "implicit": false,
+      "group": "设计与视觉"
+    },
+    {
+      "name": "ecommerce-operations-team",
+      "displayName": "运营组",
+      "role": "商品、库存、订单、售后",
+      "implicit": false,
+      "group": "运营与增长"
+    },
+    {
+      "name": "growth-marketing-team",
+      "displayName": "推广组",
+      "role": "SEO、内容、广告、增长",
+      "implicit": false,
+      "group": "运营与增长"
+    },
+    {
+      "name": "quality-testing-team",
+      "displayName": "测试组",
+      "role": "回归、兼容和上线验收",
+      "implicit": false,
+      "group": "质量与安全"
+    },
+    {
+      "name": "commerce-compliance-team",
+      "displayName": "合规组",
+      "role": "隐私、宣传、支付、跨境",
+      "implicit": false,
+      "group": "质量与安全"
+    },
+    {
       "name": "design-taste-frontend",
       "displayName": "Taste 设计导演",
       "role": "网页与应用审美方向",
@@ -22,13 +85,6 @@
       "role": "个人偏好与跨 Agent 私有记忆",
       "implicit": false,
       "group": "个人与知识"
-    },
-    {
-      "name": "project-strategy-team",
-      "displayName": "策划组",
-      "role": "研究、策划、规划、拆解",
-      "implicit": false,
-      "group": "研究与策略"
     },
     {
       "name": "chuangyi",
@@ -85,13 +141,6 @@
       "role": "产品与活动策划",
       "implicit": false,
       "group": "研究与策略"
-    },
-    {
-      "name": "engineering-delivery-team",
-      "displayName": "工程组",
-      "role": "架构、开发、修复、验收",
-      "implicit": false,
-      "group": "工程与接口"
     },
     {
       "name": "jiagou",
@@ -153,20 +202,6 @@
       "name": "anquan",
       "displayName": "安全管理大师",
       "role": "安全审查与安全开发",
-      "implicit": false,
-      "group": "质量与安全"
-    },
-    {
-      "name": "quality-testing-team",
-      "displayName": "测试组",
-      "role": "回归、兼容和上线验收",
-      "implicit": false,
-      "group": "质量与安全"
-    },
-    {
-      "name": "commerce-compliance-team",
-      "displayName": "合规组",
-      "role": "隐私、宣传、支付、跨境",
       "implicit": false,
       "group": "质量与安全"
     },
@@ -255,46 +290,11 @@
       "group": "选品与采购"
     },
     {
-      "name": "growth-marketing-team",
-      "displayName": "推广组",
-      "role": "SEO、内容、广告、增长",
-      "implicit": false,
-      "group": "运营与增长"
-    },
-    {
-      "name": "ecommerce-operations-team",
-      "displayName": "运营组",
-      "role": "商品、库存、订单、售后",
-      "implicit": false,
-      "group": "运营与增长"
-    },
-    {
       "name": "devils-advocate",
       "displayName": "挑刺儿高手",
       "role": "反例、漏洞、隐藏假设与最坏情况",
       "implicit": false,
       "group": "质量与安全"
-    },
-    {
-      "name": "interface-design-team",
-      "displayName": "界面组",
-      "role": "网站、后台、App 界面",
-      "implicit": false,
-      "group": "设计与视觉"
-    },
-    {
-      "name": "visual-design-team",
-      "displayName": "出图组",
-      "role": "海报、封面、品牌素材",
-      "implicit": false,
-      "group": "设计与视觉"
-    },
-    {
-      "name": "design-review-team",
-      "displayName": "审查组",
-      "role": "设计挑刺、统一和交接",
-      "implicit": false,
-      "group": "设计与视觉"
     }
   ]
 }

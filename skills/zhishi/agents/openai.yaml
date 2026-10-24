@@ -1,5 +1,5 @@
 interface:
-  display_name: "知识管家"
+  display_name: "03 Skill｜知识管家"
   short_description: "可单独调用；知识整理与检索"
   default_prompt: "按知识管家的方法处理当前任务，先读现场，再给最小完整结果与验证证据。"
 policy:

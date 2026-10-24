@@ -1,5 +1,5 @@
 interface:
-  display_name: "出图组"
+  display_name: "02 Team｜出图组"
   short_description: "海报、封面、品牌素材"
   default_prompt: "先锁定一张视觉卡，再按素材生成与精确排版分工出真实画面，并检查产品、文字、品牌和裁切。"
 policy:

@@ -32,6 +32,8 @@ Skill 在每个新对话首次使用时检查一次公开 GitHub Release：没�
 
 用户可以直接点名任一成员；未点名时由 chanyong 自动选择。搜索或询问 `chanyong` 组合时先展示九个 Team 的短中文名、英文 Skill 名和一句用途。中文名可直接说，例如“运营组，帮我……”。原生 `$` 调用仍用英文 Skill 名。使用方式只有三种：`AUTO` 全自动、`TEAM` 指定一个组合、`SOLO` 单独一个 Skill。每次只读取命中的工作方法，通常使用一个主成员，复杂任务最多增加一个辅助和一个验收成员。现有能力覆盖不了项目需求时，`jinengguan` 才去 GitHub 查真实、热门、活跃且许可证清楚的 Skill；低风险候选按用户已有授权安装，重复能力不装。商品信息查询、电商和商品研究类外部 Skill 另设硬门槛：来源 GitHub 仓库少于 1,000 stars 不安装，达到门槛仍要检查活跃度、许可证、凭据、付费和后台副作用。
 
+Skill 选择器使用三档短前缀排序：`01 常用｜chanyong`、`02 Team｜策划组`、`03 Skill｜研究大师`。安装清单同样先放 `chanyong`，再放九个 Team，最后放单独 Skill。Codex 原生显式入口是 `$英文-skill-name`；`/` 菜单是否显示 Skill 由客户端决定。客户端按搜索相关度或最近使用临时重排时，以客户端实际顺序为准。
+
 用户可以直接说白话，允许口语、拼音、中英混写、漏字和常见错别字。`chanyong` 结合整句、前后文与当前项目识别真实意图，不要求标准英文 Skill 名或长命令；只有涉及不同业务结果或不可逆动作的歧义才追问。商品码、条码、金额、规格、路径、网址、命令和报错等精确字段不会被模糊纠正。
 
 非简单任务先形成最小 Task Contract；已有项目只读取与当前目标相关的规则、入口、模块、组件、数据流和测试，不全库重扫。路由严格限制为一个 Primary、最多一个 Auxiliary 和一个只读 Validator。默认 `AUTO`；点名 `*-team` 使用 `TEAM`；说“只用 X”或 `--solo` 使用 `SOLO`。“先推荐组合”只展示目录供选择。复杂任务结束时返回实际读取、修改、检查和未解决项，不用“已完成”代替证据。完整控制层见 [`control-plane.md`](skills/chanyong/references/control-plane.md)，Team 目录见 [`team-catalog.md`](skills/chanyong/references/team-catalog.md)。

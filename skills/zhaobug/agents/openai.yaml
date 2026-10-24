@@ -1,5 +1,5 @@
 interface:
-  display_name: "找 Bug 大师"
+  display_name: "03 Skill｜找 Bug 大师"
   short_description: "可单独调用；复现与根因定位"
   default_prompt: "按找 Bug 大师的方法处理当前任务，先读现场，再给最小完整结果与验证证据。"
 policy:

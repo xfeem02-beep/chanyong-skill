@@ -1,5 +1,5 @@
 interface:
-  display_name: "product-information-research"
+  display_name: "03 Skill｜商品信息查询"
   short_description: "按完整商品身份查询并核验详情、价格与来源"
   default_prompt: "先锁定完整商品身份和目标变体，再查一手来源；价格、库存和卖家信息保持来源独立，缺失不补猜。"
 policy:

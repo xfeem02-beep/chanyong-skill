@@ -1,5 +1,5 @@
 interface:
-  display_name: "采购大师"
+  display_name: "03 Skill｜采购大师"
   short_description: "可单独调用；韩国采购执行方案与控制"
   default_prompt: "按采购大师的方法处理当前任务，先读现场，再给最小完整结果与验证证据。"
 policy:

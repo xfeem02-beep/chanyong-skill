@@ -1,5 +1,5 @@
 interface:
-  display_name: "高级工程师"
+  display_name: "03 Skill｜高级工程师"
   short_description: "可单独调用；复杂跨模块工程、性能、可靠性与技术取舍"
   default_prompt: "按高级工程师的方法处理当前复杂工程任务；先判断是否需要升级复杂度，再给最小完整实现和验证证据。"
 policy:

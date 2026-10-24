@@ -1,5 +1,5 @@
 interface:
-  display_name: "推广组"
+  display_name: "02 Team｜推广组"
   short_description: "SEO、内容、广告、增长"
   default_prompt: "按推广组处理当前任务，只选当前最重要的增长阶段和渠道，并用数据与停止条件约束方案。"
 policy:

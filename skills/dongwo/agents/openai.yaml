@@ -1,5 +1,5 @@
 interface:
-  display_name: "懂我"
+  display_name: "03 Skill｜懂我"
   short_description: "可单独调用；记录和管理用户明确授权保存的偏好、选择方式与工作习惯"
   default_prompt: "整理我明确表达的偏好与选择方式；只在我明确要求记住时保存，并让我可以查看、修改或忘记。"
 policy:
