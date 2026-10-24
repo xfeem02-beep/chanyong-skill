@@ -1,6 +1,6 @@
 ---
 name: ecommerce-operations-team
-description: "电商运营组合：把商品、库存、订单、履约、退换售后、客户体验和经营指标组织成可执行运营体系。用户提到店铺运营、运营方案、商品运营、库存周转、履约、售后、复购或经营复盘时使用；单纯推广获客转 growth-marketing-team。"
+description: "运营组：把商品、库存、订单、履约、退换售后、客户体验和经营指标组织成可执行运营体系。用户提到店铺运营、运营方案、商品运营、库存周转、履约、售后、复购或经营复盘时使用；单纯推广获客转 growth-marketing-team。"
 disable-model-invocation: true
 ---
 

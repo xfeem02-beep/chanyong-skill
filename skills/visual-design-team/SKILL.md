@@ -1,6 +1,6 @@
 ---
 name: visual-design-team
-description: "视觉出图组合：为海报、封面、品牌视觉、宣传图、产品场景图和系列素材建立视觉卡，选择主题与提示词，并组合图像生成和精确排版。用户要求出画面、效果图或统一图片风格时使用；网页界面转 interface-design-team。"
+description: "出图组：为海报、封面、品牌视觉、宣传图、产品场景图和系列素材建立视觉卡，选择主题与提示词，并组合图像生成和精确排版。用户要求出画面、效果图或统一图片风格时使用；网页界面转 interface-design-team。"
 disable-model-invocation: true
 ---
 

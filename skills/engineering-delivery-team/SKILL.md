@@ -1,6 +1,6 @@
 ---
 name: engineering-delivery-team
-description: "工程交付组合：读取现有项目，按需完成架构、接口、兼容、代码实现、Bug 定位修复、安全检查和测试验收。用户要整体开发、系统改造、跨模块修复、从架构到上线验收时使用；明确小改直接用对应单 Skill。"
+description: "工程组：读取现有项目，按需完成架构、接口、兼容、代码实现、Bug 定位修复、安全检查和测试验收。用户要整体开发、系统改造、跨模块修复、从架构到上线验收时使用；明确小改直接用对应单 Skill。"
 disable-model-invocation: true
 ---
 
@@ -19,9 +19,8 @@ disable-model-invocation: true
 ## 默认显示
 
 ```text
-engineering-delivery-team（工程交付组合）
-负责：必要架构、开发/修复、兼容接口、安全与测试验收。
-本次重点：<本次实际命中的部分>
+TEAM｜工程组｜engineering-delivery-team
+架构、开发、修复、验收；本次重点：<实际命中的部分>。
 ```
 
 读取和开发不自动授权部署、生产写入、迁移真实数据、付费服务或外部联系。没有运行证据不能说通过。

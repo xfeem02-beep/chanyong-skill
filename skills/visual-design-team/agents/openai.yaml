@@ -1,6 +1,6 @@
 interface:
-  display_name: "visual-design-team"
-  short_description: "海报、品牌、产品场景图与系列素材组合"
+  display_name: "出图组"
+  short_description: "海报、封面、品牌素材"
   default_prompt: "先锁定一张视觉卡，再按素材生成与精确排版分工出真实画面，并检查产品、文字、品牌和裁切。"
 policy:
   allow_implicit_invocation: false

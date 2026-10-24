@@ -6,9 +6,9 @@
 
 | 主组合 | 适用场景 | 默认组合 | 完成证据 |
 |---|---|---|---|
-| [`interface-design-team`](../../interface-design-team/SKILL.md) 界面设计组合 | 网站、后台、App、小程序、Dashboard、新页面与改版 | 项目规范 → Taste 主方向 → 必要参考/UI 规则/UX 文案/设计系统 → 页面实现 → 多尺寸复核 | 真实页面或方案；响应式、状态、文案和可访问性已检查 |
-| [`visual-design-team`](../../visual-design-team/SKILL.md) 视觉出图组合 | 海报、封面、品牌视觉、宣传图、产品场景图、系列素材 | 视觉卡 → 必要主题 → 提示词体系 → ImageGen 素材 + Canvas 精确排版 → 成图复核 | 真实图片或明确标注未生成；产品、文字、品牌和裁切已检查 |
-| [`design-review-team`](../../design-review-team/SKILL.md) 审查交付组合 | 设计挑刺、UX 文案、设计系统、无障碍、定稿验收、开发交接 | 按问题只选 critique/copy/system/accessibility/handoff 一条主线 → 分级修法 → 必要复核 | 具体位置、影响等级、最小修法与未验证项清楚 |
+| [`interface-design-team`](../../interface-design-team/SKILL.md) 界面组 | 网站、后台、App、小程序、Dashboard、新页面与改版 | 项目规范 → Taste 主方向 → 必要参考/UI 规则/UX 文案/设计系统 → 页面实现 → 多尺寸复核 | 真实页面或方案；响应式、状态、文案和可访问性已检查 |
+| [`visual-design-team`](../../visual-design-team/SKILL.md) 出图组 | 海报、封面、品牌视觉、宣传图、产品场景图、系列素材 | 视觉卡 → 必要主题 → 提示词体系 → ImageGen 素材 + Canvas 精确排版 → 成图复核 | 真实图片或明确标注未生成；产品、文字、品牌和裁切已检查 |
+| [`design-review-team`](../../design-review-team/SKILL.md) 审查组 | 设计挑刺、UX 文案、设计系统、无障碍、定稿验收、开发交接 | 按问题只选 critique/copy/system/accessibility/handoff 一条主线 → 分级修法 → 必要复核 | 具体位置、影响等级、最小修法与未验证项清楚 |
 
 三套组合不能同时争夺主导。混合任务按产物顺序切换，例如“先设计页面再交接开发”先完成 `interface-design-team`，定稿后才进入 `design-review-team`；“给页面做产品主视觉”由界面组合锁定容器和尺寸，再让视觉组合只制作所需素材。
 

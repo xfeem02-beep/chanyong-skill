@@ -1,6 +1,6 @@
 ---
 name: interface-design-team
-description: "界面设计组合：为网站、后台、App、小程序和 Dashboard 读取现有项目，确定一个视觉方向，整理设计系统与 UX 文案，并按需实现和复核。用户要求新界面、页面改版、交互流程或设计系统落地时使用；海报和纯图片转 visual-design-team。"
+description: "界面组：为网站、后台、App、小程序和 Dashboard 读取现有项目，确定一个视觉方向，整理设计系统与 UX 文案，并按需实现和复核。用户要求新界面、页面改版、交互流程或设计系统落地时使用；海报和纯图片转 visual-design-team。"
 disable-model-invocation: true
 ---
 

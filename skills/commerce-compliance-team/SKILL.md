@@ -1,6 +1,6 @@
 ---
 name: commerce-compliance-team
-description: "电商合规组合：核查消费者权益、隐私与 Cookie、营销声明、支付数据、退款退货、跨境销售和平台规则。用户提到电商法律、合规、隐私政策、广告声明、支付合规、跨境规则或上线合规清单时使用；普通代码安全转 anquan。"
+description: "合规组：核查消费者权益、隐私与 Cookie、营销声明、支付数据、退款退货、跨境销售和平台规则。用户提到电商法律、合规、隐私政策、广告声明、支付合规、跨境规则或上线合规清单时使用；普通代码安全转 anquan。"
 disable-model-invocation: true
 ---
 

@@ -1,6 +1,6 @@
 interface:
-  display_name: "电商运营组合"
-  short_description: "商品、库存、订单、履约、售后与复购运营"
-  default_prompt: "按电商运营组合处理当前任务，先核对经营现场和数据口径，再给可执行计划与验证证据。"
+  display_name: "运营组"
+  short_description: "商品、库存、订单、售后"
+  default_prompt: "按运营组处理当前任务，先核对经营现场和数据口径，再给可执行计划与验证证据。"
 policy:
   allow_implicit_invocation: false

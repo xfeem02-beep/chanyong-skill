@@ -1,6 +1,6 @@
 ---
 name: growth-marketing-team
-description: "推广增长组合：产品定位、市场推广、SEO/AI 搜索、内容、社媒、广告、转化、留存、归因和增长实验。用户提到推广、获客、营销、增长、搜索排名、SEO、GTM、活动传播或渠道选择时使用；店铺履约与库存运营转 ecommerce-operations-team。"
+description: "推广组：产品定位、市场推广、SEO/AI 搜索、内容、社媒、广告、转化、留存、归因和增长实验。用户提到推广、获客、营销、增长、搜索排名、SEO、GTM、活动传播或渠道选择时使用；店铺履约与库存运营转 ecommerce-operations-team。"
 disable-model-invocation: true
 ---
 

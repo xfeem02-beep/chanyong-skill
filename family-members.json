@@ -25,8 +25,8 @@
     },
     {
       "name": "project-strategy-team",
-      "displayName": "项目研究策划组合",
-      "role": "研究、策划、规划、拆解与决策",
+      "displayName": "策划组",
+      "role": "研究、策划、规划、拆解",
       "implicit": false,
       "group": "研究与策略"
     },
@@ -88,8 +88,8 @@
     },
     {
       "name": "engineering-delivery-team",
-      "displayName": "工程交付组合",
-      "role": "架构、开发、修复、安全与测试验收",
+      "displayName": "工程组",
+      "role": "架构、开发、修复、验收",
       "implicit": false,
       "group": "工程与接口"
     },
@@ -158,15 +158,15 @@
     },
     {
       "name": "quality-testing-team",
-      "displayName": "测试验收组合",
-      "role": "风险测试、回归、证据与上线门槛",
+      "displayName": "测试组",
+      "role": "回归、兼容和上线验收",
       "implicit": false,
       "group": "质量与安全"
     },
     {
       "name": "commerce-compliance-team",
-      "displayName": "电商合规组合",
-      "role": "消费者、隐私、宣传、支付与跨境合规",
+      "displayName": "合规组",
+      "role": "隐私、宣传、支付、跨境",
       "implicit": false,
       "group": "质量与安全"
     },
@@ -256,15 +256,15 @@
     },
     {
       "name": "growth-marketing-team",
-      "displayName": "推广增长组合",
-      "role": "推广、SEO、内容、广告、转化与增长实验",
+      "displayName": "推广组",
+      "role": "SEO、内容、广告、增长",
       "implicit": false,
       "group": "运营与增长"
     },
     {
       "name": "ecommerce-operations-team",
-      "displayName": "电商运营组合",
-      "role": "商品、库存、订单、履约、售后与复购运营",
+      "displayName": "运营组",
+      "role": "商品、库存、订单、售后",
       "implicit": false,
       "group": "运营与增长"
     },
@@ -277,22 +277,22 @@
     },
     {
       "name": "interface-design-team",
-      "displayName": "界面设计组合",
-      "role": "网站、后台、App、小程序与 Dashboard 设计",
+      "displayName": "界面组",
+      "role": "网站、后台、App 界面",
       "implicit": false,
       "group": "设计与视觉"
     },
     {
       "name": "visual-design-team",
-      "displayName": "视觉出图组合",
-      "role": "海报、品牌、产品场景与系列素材",
+      "displayName": "出图组",
+      "role": "海报、封面、品牌素材",
       "implicit": false,
       "group": "设计与视觉"
     },
     {
       "name": "design-review-team",
-      "displayName": "设计审查交付组合",
-      "role": "设计挑刺、UX 文案、系统、无障碍与开发交接",
+      "displayName": "审查组",
+      "role": "设计挑刺、统一和交接",
       "implicit": false,
       "group": "设计与视觉"
     }

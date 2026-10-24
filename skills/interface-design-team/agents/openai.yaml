@@ -1,6 +1,6 @@
 interface:
-  display_name: "interface-design-team"
-  short_description: "网站、后台、App 与小程序的界面设计组合"
+  display_name: "界面组"
+  short_description: "网站、后台、App 界面"
   default_prompt: "读取真实项目和设计系统，用一个主视觉方向完成界面方案或实现，再检查响应式、交互、文案和可访问性。"
 policy:
   allow_implicit_invocation: false

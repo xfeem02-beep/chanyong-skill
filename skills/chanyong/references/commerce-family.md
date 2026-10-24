@@ -19,7 +19,7 @@
 ## 三种使用方式
 
 - `AUTO`：直接说目标，`chanyong` 自动选择 Team 并说明职责。
-- `TEAM`：说“使用 growth-marketing-team，给我推广方案”，锁定推广增长组合，再在 Team 内按需工作。
+- `TEAM`：说“使用 growth-marketing-team，给我推广方案”，锁定推广组，再在 Team 内按需工作。
 - `SOLO`：说“只用 seo-audit”或“只用 deep-research-mode”，只运行点名 Skill，不增加其他能力。
 
 “先推荐组合”会展示 Team 目录供选择，不作为第四种模式。

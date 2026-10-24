@@ -22,15 +22,15 @@ Skill 在每个新对话首次使用时检查一次公开 GitHub Release：没�
 |---|---|
 | 总控 | `chanyong`（常用） |
 | 个人与知识 | `dongwo`（懂我）、`tuijian`（推荐师）、`mishu`（秘书）、`fupan`（复盘师）、`zhishi`（知识管家） |
-| 研究与策略 | `project-strategy-team`（项目研究策划组合）、`chuangyi`（创意师）、`guihua`（规划大师）、`yanjiu`（研究大师）、`deep-research-mode`（深度研究模式）、`solution-finder`（解决方案师）、`cehua`（策划师）、`chaijie`（拆解师）、`juece`（决策师） |
+| 研究与策略 | `project-strategy-team`（策划组）、`chuangyi`（创意师）、`guihua`（规划大师）、`yanjiu`（研究大师）、`deep-research-mode`（深度研究模式）、`solution-finder`（解决方案师）、`cehua`（策划师）、`chaijie`（拆解师）、`juece`（决策师） |
 | 选品与采购 | `product-information-research`（商品信息查询）、`xuanpin`（选品大师）、`bijia`（商品价格比价大师）、`caigou`（采购大师） |
-| 运营与增长 | `ecommerce-operations-team`（电商运营组合）、`growth-marketing-team`（推广增长组合） |
-| 工程与接口 | `engineering-delivery-team`（工程交付组合）、`jiagou`（架构师）、`tishici`（提示词大师）、`biancheng`（写代码专业大师）、`jianrong`（兼容大师）、`api`（API 大师）、`gaojigongchengshi`（高级工程师） |
-| 质量与安全 | `quality-testing-team`（测试验收组合）、`commerce-compliance-team`（电商合规组合）、`anquan`（安全管理大师）、`devils-advocate`（挑刺儿高手）、`zhaobug`（找 Bug 大师）、`xiubug`（修 Bug 大师）、`daimazhengli`（代码整理大师） |
-| 设计与视觉 | `interface-design-team`（界面设计组合）、`visual-design-team`（视觉出图组合）、`design-review-team`（设计审查交付组合）、`design-taste-frontend`（Taste 设计导演） |
+| 运营与增长 | `ecommerce-operations-team`（运营组）、`growth-marketing-team`（推广组） |
+| 工程与接口 | `engineering-delivery-team`（工程组）、`jiagou`（架构师）、`tishici`（提示词大师）、`biancheng`（写代码专业大师）、`jianrong`（兼容大师）、`api`（API 大师）、`gaojigongchengshi`（高级工程师） |
+| 质量与安全 | `quality-testing-team`（测试组）、`commerce-compliance-team`（合规组）、`anquan`（安全管理大师）、`devils-advocate`（挑刺儿高手）、`zhaobug`（找 Bug 大师）、`xiubug`（修 Bug 大师）、`daimazhengli`（代码整理大师） |
+| 设计与视觉 | `interface-design-team`（界面组）、`visual-design-team`（出图组）、`design-review-team`（审查组）、`design-taste-frontend`（Taste 设计导演） |
 | 电脑与维护 | `beifen`（备份大师）、`diannao`（电脑管理大师）、`jinengguan`（自动发现能力缺口并审查、安装、更新 Skills） |
 
-用户可以直接点名任一成员；未点名时由 chanyong 自动选择。搜索或询问 `chanyong` 组合时先展示九个 Team 的英文名、中文说明和职责。使用方式只有三种：`AUTO` 全自动、`TEAM` 指定一个组合、`SOLO` 单独一个 Skill。每次只读取命中的工作方法，通常使用一个主成员，复杂任务最多增加一个辅助和一个验收成员。现有能力覆盖不了项目需求时，`jinengguan` 才去 GitHub 查真实、热门、活跃且许可证清楚的 Skill；低风险候选按用户已有授权安装，重复能力不装。商品信息查询、电商和商品研究类外部 Skill 另设硬门槛：来源 GitHub 仓库少于 1,000 stars 不安装，达到门槛仍要检查活跃度、许可证、凭据、付费和后台副作用。
+用户可以直接点名任一成员；未点名时由 chanyong 自动选择。搜索或询问 `chanyong` 组合时先展示九个 Team 的短中文名、英文 Skill 名和一句用途。中文名可直接说，例如“运营组，帮我……”。原生 `$` 调用仍用英文 Skill 名。使用方式只有三种：`AUTO` 全自动、`TEAM` 指定一个组合、`SOLO` 单独一个 Skill。每次只读取命中的工作方法，通常使用一个主成员，复杂任务最多增加一个辅助和一个验收成员。现有能力覆盖不了项目需求时，`jinengguan` 才去 GitHub 查真实、热门、活跃且许可证清楚的 Skill；低风险候选按用户已有授权安装，重复能力不装。商品信息查询、电商和商品研究类外部 Skill 另设硬门槛：来源 GitHub 仓库少于 1,000 stars 不安装，达到门槛仍要检查活跃度、许可证、凭据、付费和后台副作用。
 
 用户可以直接说白话，允许口语、拼音、中英混写、漏字和常见错别字。`chanyong` 结合整句、前后文与当前项目识别真实意图，不要求标准英文 Skill 名或长命令；只有涉及不同业务结果或不可逆动作的歧义才追问。商品码、条码、金额、规格、路径、网址、命令和报错等精确字段不会被模糊纠正。
 
@@ -42,9 +42,9 @@ Skill 在每个新对话首次使用时检查一次公开 GitHub Release：没�
 
 设计能力收敛成三套打法，`chanyong` 每次只选一套主组合：
 
-1. **`interface-design-team` 界面设计组合**：网站、后台、App、小程序与 Dashboard。读项目和设计系统，由 Taste 锁定一个主方向，再按缺口补参考、UI 规则、UX 文案、设计系统、实现和多尺寸复核。
-2. **`visual-design-team` 视觉出图组合**：海报、封面、品牌视觉、产品场景图与系列素材。先做视觉卡；ImageGen 负责图像素材，Canvas 负责准确文字和排版，Theme 只在需要成套主题时加入。
-3. **`design-review-team` 设计审查交付组合**：设计挑刺、UX 文案、设计系统、无障碍和开发交接。按问题只选一条审查主线，输出具体位置、影响等级、最小修法和未验证项。
+1. **`interface-design-team` 界面组**：网站、后台、App、小程序与 Dashboard。读项目和设计系统，由 Taste 锁定一个主方向，再按缺口补参考、UI 规则、UX 文案、设计系统、实现和多尺寸复核。
+2. **`visual-design-team` 出图组**：海报、封面、品牌视觉、产品场景图与系列素材。先做视觉卡；ImageGen 负责图像素材，Canvas 负责准确文字和排版，Theme 只在需要成套主题时加入。
+3. **`design-review-team` 审查组**：设计挑刺、UX 文案、设计系统、无障碍和开发交接。按问题只选一条审查主线，输出具体位置、影响等级、最小修法和未验证项。
 
 截图里的 `design-critique`、`ux-copy`、`design-handoff`、`accessibility-review`、`design-system`，以及 `theme-factory`、`canvas-design` 都被放进对应组合按需使用；它们不会一起启动。宿主装有原 Skill 时直接用，没有时由三个组合 Skill 的内置方法继续，因此 Codex、Claude Code 和 Grok 的基础路线保持一致。完整路由见 [`skills/chanyong/references/design-family.md`](skills/chanyong/references/design-family.md)。
 
