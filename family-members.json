@@ -24,6 +24,13 @@
       "group": "个人与知识"
     },
     {
+      "name": "project-strategy-team",
+      "displayName": "项目研究策划组合",
+      "role": "研究、策划、规划、拆解与决策",
+      "implicit": false,
+      "group": "研究与策略"
+    },
+    {
       "name": "chuangyi",
       "displayName": "创意师",
       "role": "创意产生与筛选",
@@ -78,6 +85,13 @@
       "role": "产品与活动策划",
       "implicit": false,
       "group": "研究与策略"
+    },
+    {
+      "name": "engineering-delivery-team",
+      "displayName": "工程交付组合",
+      "role": "架构、开发、修复、安全与测试验收",
+      "implicit": false,
+      "group": "工程与接口"
     },
     {
       "name": "jiagou",

@@ -1,0 +1,6 @@
+interface:
+  display_name: "项目研究策划组合"
+  short_description: "研究、策划、规划、拆解与决策"
+  default_prompt: "使用 project-strategy-team，说明这个 Team 的职责，再按当前目标完成研究、策划与规划中真正需要的部分。"
+policy:
+  allow_implicit_invocation: false

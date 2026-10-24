@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "skill": "chanyong",
-  "checked_at": "2026-10-24T05:28:18.425266Z",
+  "checked_at": "2026-10-24T05:36:34.360185Z",
   "files": [
     {
       "path": "INSTALL.md",
@@ -13,7 +13,7 @@
     },
     {
       "path": "SKILL.md",
-      "sha256": "64e25abd5a625f2c791429f5d4bc6e32e60906c0a83e859eec818cbfaa4b2ec7",
+      "sha256": "dd56f19114aeed0d804f20481a0cdfd0f047e120240e65c4f8ff6cefc79e3725",
       "kind": "portable-local-composition",
       "method_sources": [
         "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/ask-matt/SKILL.md",
@@ -24,7 +24,7 @@
       "path": "VERSION",
       "kind": "installed-release-version",
       "method_sources": [],
-      "sha256": "ff669556cd0bb884e2c307b4a53f1bf6c92f591c6a12e53e698f6a2e9188cfa5"
+      "sha256": "fe40c2e00f1995012d860c2cc52b7aabcf6a418cdd7fe3aa153ce7d127ad4333"
     },
     {
       "path": "RELEASE_DATE",
@@ -34,7 +34,7 @@
     },
     {
       "path": "agents/openai.yaml",
-      "sha256": "ff27fcdd8a7b20d82a304eebc33fbe97c51e4c2e31b3c28654809040f60d9398",
+      "sha256": "e07ad8ca3bd65ad7941426fbc7d33075323c77a553471101732025eb94453b70",
       "kind": "optional-codex-interface",
       "method_sources": [
         "https://github.com/openai/skills"
@@ -49,13 +49,13 @@
         "https://github.com/coreyhaines31/marketingskills/tree/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
         "https://github.com/wshobson/agents/tree/0874a27b17a22e2b7c2e2bcd725768e0803cad06"
       ],
-      "sha256": "809dff0e152e52c0d71f54867f9455ce558895e793a99352d60d39a3a1b0a51e"
+      "sha256": "af7a5e6ba0fbcd89f95e1a90751a573fe6b4b852df909f5eb3d787de3d55f013"
     },
     {
       "path": "references/control-plane.md",
       "kind": "multi-skill-control-plane",
       "method_sources": [],
-      "sha256": "3dd91a3c8156a26bd1c826f2cdcf5b3fb3cfb5e6797600c0fc49c3a63922cba4"
+      "sha256": "d5500281c03c3963ca9daa6c70a996fadca0bf49e35eb35cd26e30078dff5afc"
     },
     {
       "path": "references/design-family.md",
@@ -73,7 +73,7 @@
       "method_sources": [
         "https://github.com/agentskills/agentskills"
       ],
-      "sha256": "5abd7667c2b40e6fa38bb60d6ef02f92de9158d7f9467d4b47cfefa88f506d97"
+      "sha256": "6bf1663277662bb07f2e985c7d5e388031012303f323353944d64ba0347c538c"
     },
     {
       "path": "references/maintenance.md",
@@ -151,7 +151,13 @@
         "https://github.com/phuryn/pm-skills/tree/07b34f64ee828df08953f505b7f747aef85ae7c6",
         "https://github.com/obra/superpowers/tree/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
       ],
-      "sha256": "944ceafdb284b8f5188ebade10367e4726c059940c67fc6535a731bdfa269072"
+      "sha256": "e230468c38faf1c2ec22a19698422cbf0f4af234b9a70596c09093ce327ced4c"
+    },
+    {
+      "path": "references/team-catalog.md",
+      "kind": "team-selection-catalog",
+      "method_sources": [],
+      "sha256": "3124ce7bf97cb31a980d2f0d566eb15e9b121d2ce069bf07cb96e46646f7fc6f"
     }
   ]
 }

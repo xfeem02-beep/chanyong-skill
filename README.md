@@ -16,25 +16,25 @@ Skill 在每个新对话首次使用时检查一次公开 GitHub Release：没�
 
 安装包按 `skills/<成员名>/` 组织。`chanyong` 是唯一自动总控；`jinengguan` 只在项目出现 Skill 能力缺口时自动充当“嗅觉”。每个内置专业成员仍有自己的 `SKILL.md`，可以按名称单独调用。以后加入 `skills/` 的合规成员会随同一条安装命令一起安装。成员规范见 [`family-installation.md`](skills/chanyong/references/family-installation.md)。
 
-当前共有 **40 个独立成员**，按 1 个总控和 8 个能力组组织：
+当前共有 **42 个独立成员**，按 1 个总控和 8 个能力组组织：
 
 | 分组 | 成员 |
 |---|---|
 | 总控 | `chanyong`（常用） |
 | 个人与知识 | `dongwo`（懂我）、`tuijian`（推荐师）、`mishu`（秘书）、`fupan`（复盘师）、`zhishi`（知识管家） |
-| 研究与策略 | `chuangyi`（创意师）、`guihua`（规划大师）、`yanjiu`（研究大师）、`deep-research-mode`（深度研究模式）、`solution-finder`（解决方案师）、`cehua`（策划师）、`chaijie`（拆解师）、`juece`（决策师） |
+| 研究与策略 | `project-strategy-team`（项目研究策划组合）、`chuangyi`（创意师）、`guihua`（规划大师）、`yanjiu`（研究大师）、`deep-research-mode`（深度研究模式）、`solution-finder`（解决方案师）、`cehua`（策划师）、`chaijie`（拆解师）、`juece`（决策师） |
 | 选品与采购 | `product-information-research`（商品信息查询）、`xuanpin`（选品大师）、`bijia`（商品价格比价大师）、`caigou`（采购大师） |
 | 运营与增长 | `ecommerce-operations-team`（电商运营组合）、`growth-marketing-team`（推广增长组合） |
-| 工程与接口 | `jiagou`（架构师）、`tishici`（提示词大师）、`biancheng`（写代码专业大师）、`jianrong`（兼容大师）、`api`（API 大师）、`gaojigongchengshi`（高级工程师） |
+| 工程与接口 | `engineering-delivery-team`（工程交付组合）、`jiagou`（架构师）、`tishici`（提示词大师）、`biancheng`（写代码专业大师）、`jianrong`（兼容大师）、`api`（API 大师）、`gaojigongchengshi`（高级工程师） |
 | 质量与安全 | `quality-testing-team`（测试验收组合）、`commerce-compliance-team`（电商合规组合）、`anquan`（安全管理大师）、`devils-advocate`（挑刺儿高手）、`zhaobug`（找 Bug 大师）、`xiubug`（修 Bug 大师）、`daimazhengli`（代码整理大师） |
 | 设计与视觉 | `interface-design-team`（界面设计组合）、`visual-design-team`（视觉出图组合）、`design-review-team`（设计审查交付组合）、`design-taste-frontend`（Taste 设计导演） |
 | 电脑与维护 | `beifen`（备份大师）、`diannao`（电脑管理大师）、`jinengguan`（自动发现能力缺口并审查、安装、更新 Skills） |
 
-用户可以直接点名任一成员；未点名时由 chanyong 自动选择。每次只读取命中的工作方法，通常使用一个主成员，复杂任务最多增加一个辅助和一个验收成员。现有能力覆盖不了项目需求时，`jinengguan` 才去 GitHub 查真实、热门、活跃且许可证清楚的 Skill；低风险候选按用户已有授权安装，重复能力不装。商品信息查询、电商和商品研究类外部 Skill 另设硬门槛：来源 GitHub 仓库少于 1,000 stars 不安装，达到门槛仍要检查活跃度、许可证、凭据、付费和后台副作用。
+用户可以直接点名任一成员；未点名时由 chanyong 自动选择。搜索或询问 `chanyong` 组合时先展示九个 Team 的英文名、中文说明和职责。使用方式只有三种：`AUTO` 全自动、`TEAM` 指定一个组合、`SOLO` 单独一个 Skill。每次只读取命中的工作方法，通常使用一个主成员，复杂任务最多增加一个辅助和一个验收成员。现有能力覆盖不了项目需求时，`jinengguan` 才去 GitHub 查真实、热门、活跃且许可证清楚的 Skill；低风险候选按用户已有授权安装，重复能力不装。商品信息查询、电商和商品研究类外部 Skill 另设硬门槛：来源 GitHub 仓库少于 1,000 stars 不安装，达到门槛仍要检查活跃度、许可证、凭据、付费和后台副作用。
 
 用户可以直接说白话，允许口语、拼音、中英混写、漏字和常见错别字。`chanyong` 结合整句、前后文与当前项目识别真实意图，不要求标准英文 Skill 名或长命令；只有涉及不同业务结果或不可逆动作的歧义才追问。商品码、条码、金额、规格、路径、网址、命令和报错等精确字段不会被模糊纠正。
 
-非简单任务先形成最小 Task Contract；已有项目只读取与当前目标相关的规则、入口、模块、组件、数据流和测试，不全库重扫。路由严格限制为一个 Primary、最多一个 Auxiliary 和一个只读 Validator。默认 `auto`；用户说“先推荐组合”进入 `hybrid`，说“只用 X”或 `--solo` 进入 `solo`。复杂任务结束时返回实际读取、修改、检查和未解决项，不用“已完成”代替证据。完整控制层见 [`control-plane.md`](skills/chanyong/references/control-plane.md)。
+非简单任务先形成最小 Task Contract；已有项目只读取与当前目标相关的规则、入口、模块、组件、数据流和测试，不全库重扫。路由严格限制为一个 Primary、最多一个 Auxiliary 和一个只读 Validator。默认 `AUTO`；点名 `*-team` 使用 `TEAM`；说“只用 X”或 `--solo` 使用 `SOLO`。“先推荐组合”只展示目录供选择。复杂任务结束时返回实际读取、修改、检查和未解决项，不用“已完成”代替证据。完整控制层见 [`control-plane.md`](skills/chanyong/references/control-plane.md)，Team 目录见 [`team-catalog.md`](skills/chanyong/references/team-catalog.md)。
 
 每个非简单任务开头都会显示实际选择，例如：`本次使用：zhaobug — 定位登录错误；xiubug — 完成最小修复；anquan — 检查安全回归`。显示真实英文 Skill 名和本次功能，没有启用的 Skill 不显示。
 

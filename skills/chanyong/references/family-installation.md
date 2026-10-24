@@ -5,6 +5,8 @@
 ```text
 skills/
 ├── chanyong/    常用：唯一自动总控
+├── project-strategy-team/    项目研究策划组合：研究、策划、规划、拆解与决策
+├── engineering-delivery-team/    工程交付组合：架构、开发、修复、安全与测试验收
 ├── interface-design-team/    界面设计组合：网站、后台、App、小程序与 Dashboard
 ├── visual-design-team/    视觉出图组合：海报、品牌、产品场景与系列素材
 ├── design-review-team/    设计审查交付组合：挑刺、文案、系统、无障碍与交接
@@ -39,6 +41,10 @@ skills/
 ├── api/    API 大师：API 设计、接入与版本治理
 ├── bijia/    商品价格比价大师：韩国采购到手成本比价
 ├── caigou/    采购大师：韩国采购执行方案与控制
+├── ecommerce-operations-team/    电商运营组合：商品、库存、订单、履约、售后与复购
+├── growth-marketing-team/    推广增长组合：推广、SEO、内容、广告、转化与增长
+├── quality-testing-team/    测试验收组合：风险测试、回归、证据与上线门槛
+├── commerce-compliance-team/    电商合规组合：消费者、隐私、宣传、支付与跨境合规
 └── gaojigongchengshi/    高级工程师：复杂跨模块工程与可靠性
 ```
 
@@ -46,10 +52,11 @@ skills/
 
 - **总控**：`chanyong`（常用）
 - **个人与知识**：`dongwo`（懂我）、`tuijian`（推荐师）、`mishu`（秘书）、`fupan`（复盘师）、`zhishi`（知识管家）
-- **研究与策略**：`chuangyi`（创意师）、`guihua`（规划大师）、`yanjiu`（研究大师）、`deep-research-mode`（深度研究模式）、`solution-finder`（解决方案师）、`cehua`（策划师）、`chaijie`（拆解师）、`juece`（决策师）
+- **研究与策略**：`project-strategy-team`（项目研究策划组合）、`chuangyi`（创意师）、`guihua`（规划大师）、`yanjiu`（研究大师）、`deep-research-mode`（深度研究模式）、`solution-finder`（解决方案师）、`cehua`（策划师）、`chaijie`（拆解师）、`juece`（决策师）
 - **选品与采购**：`product-information-research`（商品信息查询）、`xuanpin`（选品大师）、`bijia`（商品价格比价大师）、`caigou`（采购大师）
-- **工程与接口**：`jiagou`（架构师）、`tishici`（提示词大师）、`biancheng`（写代码专业大师）、`jianrong`（兼容大师）、`api`（API 大师）、`gaojigongchengshi`（高级工程师）
-- **质量与安全**：`anquan`（安全管理大师）、`devils-advocate`（挑刺儿高手）、`zhaobug`（找 Bug 大师）、`xiubug`（修 Bug 大师）、`daimazhengli`（代码整理大师）
+- **运营与增长**：`ecommerce-operations-team`（电商运营组合）、`growth-marketing-team`（推广增长组合）
+- **工程与接口**：`engineering-delivery-team`（工程交付组合）、`jiagou`（架构师）、`tishici`（提示词大师）、`biancheng`（写代码专业大师）、`jianrong`（兼容大师）、`api`（API 大师）、`gaojigongchengshi`（高级工程师）
+- **质量与安全**：`quality-testing-team`（测试验收组合）、`commerce-compliance-team`（电商合规组合）、`anquan`（安全管理大师）、`devils-advocate`（挑刺儿高手）、`zhaobug`（找 Bug 大师）、`xiubug`（修 Bug 大师）、`daimazhengli`（代码整理大师）
 - **设计与视觉**：`interface-design-team`（界面设计组合）、`visual-design-team`（视觉出图组合）、`design-review-team`（设计审查交付组合）、`design-taste-frontend`（Taste 设计导演）
 - **电脑与维护**：`beifen`（备份大师）、`diannao`（电脑管理大师）、`jinengguan`（技能馆长）
 
@@ -69,8 +76,10 @@ skills/
 
 ## 自动与单独调用
 
-- 用户只描述任务：chanyong 根据 [capability-family.md](capability-family.md) 选择最具体成员，首次进度只说明本次能力。
-- 用户明确点名成员：直接使用该成员，chanyong 不改选另一个主 Skill；只有缺少必要前置、工具或权限时才说明。
+- `AUTO`：用户只描述任务，chanyong 根据 [capability-family.md](capability-family.md) 选择最具体 Team 或成员，并说明名称、职责和本次重点。
+- `TEAM`：用户明确点名一个 `*-team`，保持该 Team 为主组合，只在 Team 内按需工作。
+- `SOLO`：用户说“只用 X”“X 单独处理”或 `--solo`，只使用该 Skill，不静默增加其他成员。
+- 用户说“常用有哪些组合”时读取 [team-catalog.md](team-catalog.md) 展示 Team，不执行任务。
 - 用户点名 chanyong/常用：由总控选择最短完整路线。
 - 一个阶段只允许一个主成员；辅助成员不得重新决定已经锁定的范围、架构或视觉方向。
 

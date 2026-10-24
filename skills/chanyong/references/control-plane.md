@@ -16,8 +16,9 @@ hard_constraints：不能违反的业务、权限、格式和保留项
 soft_preferences：可在不冲突时采用的用户或项目偏好
 references：用户指定的图片、页面、文档和既有决定
 acceptance：能观察或验证的完成条件
-mode：auto、hybrid 或 solo
-explicit_skill：用户点名的 Skill；没有则为空
+mode：AUTO、TEAM 或 SOLO
+explicit_team：用户点名的 `*-team`；没有则为空
+explicit_skill：SOLO 时用户点名的 Skill；没有则为空
 unknowns：仍会改变路线的未知项
 route_confidence：high、medium 或 low
 ```
@@ -38,11 +39,15 @@ route_confidence：high、medium 或 low
 
 ## 三种模式
 
-- **auto（默认）**：用户只说目标，`chanyong` 自动选最短完整组合并直接推进已授权、可逆的工作。
-- **hybrid**：用户要求“先推荐组合、让我选”时，给“只用主 Skill / 推荐组合”两个简短选择；用户选定前不执行依赖该选择的修改。
-- **solo**：用户说“只用 X”“X 单独处理”或 `--solo` 时，只用点名 Skill；缺少必要能力时说明限制，不静默加人。
+- **AUTO（默认）**：用户只说目标，`chanyong` 自动选最短完整 Team 或单 Skill，并直接推进已授权、可逆的工作。
+- **TEAM**：用户点名一个 `*-team`；保持该 Team 为主组合，只在 Team 内使用必要方法。需要跨 Team 时先说明理由，用户可跳过。
+- **SOLO**：用户说“只用 X”“X 单独处理”或 `--solo` 时，只用点名 Skill；缺少必要能力时说明限制，不静默加人。
+
+用户要求“先推荐组合、让我选”时读取 `team-catalog.md` 展示选择；这是选择步骤，不是第四种模式。只查看目录时不执行任务。
 
 模式只影响 Skill 组合，不扩大修改、发布、付费、登录或外发权限。
+
+选定后先用四行以内说明：模式、真实英文 Team/Skill 名、中文职责、本次重点。不要展示未启用成员或内部推理。
 
 ## 角色与调用顺序
 

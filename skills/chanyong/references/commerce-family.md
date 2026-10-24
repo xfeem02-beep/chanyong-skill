@@ -18,8 +18,10 @@
 
 ## 三种使用方式
 
-- `auto`：直接说目标，`chanyong` 自动选最短完整路线并显示真实 Skill 名。
-- `solo`：说“只用 growth-marketing-team，给我推广方案”，只运行该成员。
-- `hybrid`：说“先推荐组合”，先显示主 Skill、必要补充和为什么，用户可跳过其中一项。
+- `AUTO`：直接说目标，`chanyong` 自动选择 Team 并说明职责。
+- `TEAM`：说“使用 growth-marketing-team，给我推广方案”，锁定推广增长组合，再在 Team 内按需工作。
+- `SOLO`：说“只用 seo-audit”或“只用 deep-research-mode”，只运行点名 Skill，不增加其他能力。
+
+“先推荐组合”会展示 Team 目录供选择，不作为第四种模式。
 
 推广、发布、调价、改预算、发消息、采购、退款、生产写入和法律提交仍须沿用对应明确授权；自动路由不产生这些权限。
