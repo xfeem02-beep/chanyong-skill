@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "skill": "chanyong",
-  "checked_at": "2026-10-24T02:48:54.073Z",
+  "checked_at": "2026-10-24T05:13:05.023Z",
   "files": [
     {
       "path": "INSTALL.md",
-      "sha256": "8ddbb70798fe6f8260bf2a7cd29ec657ad0f543b17ff6188e53d69ece5cdf4b4",
+      "sha256": "20c0fbb9a9a2f2147f3b576f74aa3222d17d8d683484261346524b9c75e1e207",
       "kind": "portable-install-instructions",
       "method_sources": [
         "https://github.com/vercel-labs/skills/blob/main/docs/commands.md"
@@ -13,7 +13,7 @@
     },
     {
       "path": "SKILL.md",
-      "sha256": "1467f29b4838e3f8e433326dabb22de56b24af3df557642e946df510c90673d4",
+      "sha256": "b5e7dd725418e5d66614afbfcdb68a27a8b40432ca2e85c369ea6cb6eaddfeab",
       "kind": "portable-local-composition",
       "method_sources": [
         "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/ask-matt/SKILL.md",
@@ -24,7 +24,7 @@
       "path": "VERSION",
       "kind": "installed-release-version",
       "method_sources": [],
-      "sha256": "07424f60a76797438a7552ac5f7211cdf6c7766bf8b8483c7c8dc1eff8669cf2"
+      "sha256": "ff39d70764b93295c19f87531a54681f590b6dfb3a2746bcc20059abd51e05ed"
     },
     {
       "path": "RELEASE_DATE",
@@ -75,7 +75,7 @@
     },
     {
       "path": "references/maintenance.md",
-      "sha256": "5439f3e64c0b575702d18d7f36504036878d5ba5872fbd1a2343ae662330deda",
+      "sha256": "727481c9aa2d7281a36383c76d94f7d84410d7876942ab016776ba4ab95cda3b",
       "kind": "portable-update-policy",
       "method_sources": [
         "https://docs.github.com/en/rest/repos/repos#get-a-repository"
@@ -129,7 +129,7 @@
       "method_sources": [
         "https://docs.github.com/en/rest/releases/releases#get-the-latest-release"
       ],
-      "sha256": "a90c941a3887872c2e244360f9f52a48cf8bd74f00e5fdc8a3d7c2f61d7b78a3"
+      "sha256": "068d998fc139ec7411452c7a7d7bf433233091f009a1dd5abcf46021adc643eb"
     },
     {
       "path": "scripts/install-all-agents.mjs",

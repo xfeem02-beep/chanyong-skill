@@ -16,12 +16,14 @@ disable-model-invocation: true
 
 ## 研究流程
 
-1. 明确问题、受众、地区、时间范围、要支持的决定、指定/排除来源和交付格式。只有这些差异会改变研究结果时才追问。
-2. 先给简短研究计划：子问题、证据标准、来源优先级和停止条件。用户已给完整范围时直接执行。
-3. 多轮检索并随证据调整查询。优先官方文档、原始数据、论文、公司披露和一手页面；聚合页只用于发现。
-4. 为关键结论保留来源、发布日期、事件日期和适用范围。冲突来源并列，解释口径差异，不强行合并。
-5. 交付结构化报告：结论、证据、反例/冲突、未知、建议和来源链接。每个关键判断区分事实、推断与建议。
-6. 对引用、数字、商品码、价格币种单位、日期、空值和否定做最终复核。无法验证的内容标记待验证。
+1. 形成 Research Contract：问题、受众、地区、时间范围、要支持的决定、交付格式，以及公开网络、上传文件、连接应用、指定网站的可用范围。只有差异会改变研究结果时才追问。
+2. 指定来源模式：`open-web`、`prioritize-sites`、`restrict-sites` 或 `files/apps`。没有用户指定时按证据质量选择，不把“优先”误写成“仅限”。
+3. 给简短研究计划：子问题、证据标准、来源策略、交付结构和停止条件。原生 Deep Research 允许用户编辑计划时交给原生界面；回退流程在范围明确时直接执行，不制造一次无意义确认。
+4. 多轮检索并随证据调整查询。优先官方文档、原始数据、论文、公司披露和一手页面；聚合页只用于发现。
+5. 长任务用 `planning / researching / verifying / synthesizing` 报真实阶段；宿主支持中途输入时接受调整方向和来源。没有异步任务或原生进度证据时，不声称后台运行或通知。
+6. 为关键结论保留来源、发布日期、事件日期和适用范围。冲突来源并列，解释口径差异，不强行合并。
+7. 交付结构化报告：结论、证据、反例/冲突、未知、建议、来源链接；长报告加目录、来源清单和简短研究活动摘要。每个关键判断区分事实、推断与建议。
+8. 对引用、数字、商品码、价格币种单位、日期、空值和否定做最终复核。无法验证的内容标记待验证。用户需要分享时，按宿主真实能力导出 Markdown、Word 或 PDF；没有导出证据只交付聊天报告。
 
 ## 停止条件
 
@@ -29,4 +31,4 @@ disable-model-invocation: true
 - 快速查一个事实、网址、价格或规格时转 `yanjiu` 或 `product-information-research`，不启动长报告。
 - 研究不授权购买、登录、外发、付费数据源或生产写入。
 
-方法依据：[OpenAI Deep research in ChatGPT](https://help.openai.com/en/articles/10500283-deep-research-faq/)（2026-10-24 核查）和 [OpenAI Research with ChatGPT](https://openai.com/academy/search-and-deep-research/)。
+方法依据：[OpenAI Deep research in ChatGPT](https://help.openai.com/en/articles/10500283-deep-research-faq/)（2026-10-24 核查）、[OpenAI Research with ChatGPT](https://openai.com/academy/search-and-deep-research/) 和 [ChatGPT release notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)（计划编辑、指定网站/连接应用、实时进度与中途调整）。
