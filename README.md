@@ -16,11 +16,12 @@ Skill 在每个新对话首次使用时检查一次公开 GitHub Release：没�
 
 安装包按 `skills/<成员名>/` 组织。`chanyong` 是唯一自动总控；`jinengguan` 只在项目出现 Skill 能力缺口时自动充当“嗅觉”。每个内置专业成员仍有自己的 `SKILL.md`，可以按名称单独调用。以后加入 `skills/` 的合规成员会随同一条安装命令一起安装。成员规范见 [`family-installation.md`](skills/chanyong/references/family-installation.md)。
 
-当前共有 **42 个专业成员**和 **1 个手机快捷入口**，按 1 个总控和 8 个能力组组织：
+当前共有 **42 个专业成员**、**10 个顶部快捷入口**和 **1 个旧版兼容入口**，按 1 个总控和 8 个能力组组织：
 
 | 分组 | 成员 |
 |---|---|
-| 总控 | `chanyong`（常用）、`zz-chanyong`（手机列表末尾快捷入口） |
+| 快捷入口 | `00-chanyong`（常用总控）、`01-team-cehua` 至 `09-team-hegui`（九个 Team 顺序入口） |
+| 总控 | `chanyong`（常用）；`zz-chanyong` 仅保留旧版兼容 |
 | 个人与知识 | `dongwo`（懂我）、`tuijian`（推荐师）、`mishu`（秘书）、`fupan`（复盘师）、`zhishi`（知识管家） |
 | 研究与策略 | `project-strategy-team`（策划组）、`chuangyi`（创意师）、`guihua`（规划大师）、`yanjiu`（研究大师）、`deep-research-mode`（深度研究模式）、`solution-finder`（解决方案师）、`cehua`（策划师）、`chaijie`（拆解师）、`juece`（决策师） |
 | 选品与采购 | `product-information-research`（商品信息查询）、`xuanpin`（选品大师）、`bijia`（商品价格比价大师）、`caigou`（采购大师） |
@@ -32,7 +33,7 @@ Skill 在每个新对话首次使用时检查一次公开 GitHub Release：没�
 
 用户可以直接点名任一成员；未点名时由 chanyong 自动选择。搜索或询问 `chanyong` 组合时先展示九个 Team 的短中文名、英文 Skill 名和一句用途。中文名可直接说，例如“运营组，帮我……”。原生 `$` 调用仍用英文 Skill 名。使用方式只有三种：`AUTO` 全自动、`TEAM` 指定一个组合、`SOLO` 单独一个 Skill。每次只读取命中的工作方法，通常使用一个主成员，复杂任务最多增加一个辅助和一个验收成员。现有能力覆盖不了项目需求时，`jinengguan` 才去 GitHub 查真实、热门、活跃且许可证清楚的 Skill；低风险候选按用户已有授权安装，重复能力不装。商品信息查询、电商和商品研究类外部 Skill 另设硬门槛：来源 GitHub 仓库少于 1,000 stars 不安装，达到门槛仍要检查活跃度、许可证、凭据、付费和后台副作用。
 
-安装清单先放 `chanyong`，再放九个 Team，最后放单独 Skill。但 Codex `$` 选择器按 SKILL.md 的英文 `name` 排序，`openai.yaml` 的中文显示名不能把项目钉在第一位。手机端只露出列表末尾几项时，直接点 `$zz-chanyong`；它只转入唯一总控 `chanyong`。Codex 原生显式入口是 `$英文-skill-name`；`/` 菜单是否显示 Skill 由客户端决定。
+Codex `$` 与兼容客户端的 `/` 选择器按 SKILL.md 英文名排序。顶部现在固定显示 `00-chanyong`，随后按 `01` 至 `09` 显示策划组、工程组、界面组、出图组、审查组、运营组、推广组、测试组、合规组，之后才是普通单独 Skill。快捷入口只转入真实 Skill；原来的 `$chanyong` 和 Team 英文名继续有效。
 
 用户可以直接说白话，允许口语、拼音、中英混写、漏字和常见错别字。`chanyong` 结合整句、前后文与当前项目识别真实意图，不要求标准英文 Skill 名或长命令；只有涉及不同业务结果或不可逆动作的歧义才追问。商品码、条码、金额、规格、路径、网址、命令和报错等精确字段不会被模糊纠正。
 

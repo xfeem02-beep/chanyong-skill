@@ -2,7 +2,7 @@
 
 用户说“搜索 chanyong”“常用有哪些组合”“给我选 Team”“这个 Team 做什么”时读取。先展示 Team，不倾倒所有单 Skill；用户说“查看单 Skill”时再按能力组展示成员。
 
-安装清单按 `chanyong` → 九个 Team → 单独 Skill 排列。Codex `$` 选择器按英文 Skill 名排序；手机端只显示末尾几项时可直接点 `$zz-chanyong` 进入常用总控。
+`$` 或 `/` 选择器顶部顺序固定为：`00-chanyong` → `01-team-cehua` → `02-team-gongcheng` → `03-team-jiemian` → `04-team-chutu` → `05-team-shencha` → `06-team-yunying` → `07-team-tuiguang` → `08-team-ceshi` → `09-team-hegui`。它们只转入下表对应真实 Skill。
 
 | 中文名 | 英文 Skill 名 | 一句话用途 |
 |---|---|---|

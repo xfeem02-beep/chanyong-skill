@@ -3,6 +3,76 @@
   "router": "chanyong",
   "members": [
     {
+      "name": "00-chanyong",
+      "displayName": "常用总控",
+      "role": "全自动选择 Team 或单独 Skill",
+      "implicit": false,
+      "group": "快捷入口"
+    },
+    {
+      "name": "01-team-cehua",
+      "displayName": "策划组",
+      "role": "研究、策划、规划、拆解",
+      "implicit": false,
+      "group": "快捷入口"
+    },
+    {
+      "name": "02-team-gongcheng",
+      "displayName": "工程组",
+      "role": "架构、开发、修复、验收",
+      "implicit": false,
+      "group": "快捷入口"
+    },
+    {
+      "name": "03-team-jiemian",
+      "displayName": "界面组",
+      "role": "网站、后台、App 界面",
+      "implicit": false,
+      "group": "快捷入口"
+    },
+    {
+      "name": "04-team-chutu",
+      "displayName": "出图组",
+      "role": "海报、封面、品牌素材",
+      "implicit": false,
+      "group": "快捷入口"
+    },
+    {
+      "name": "05-team-shencha",
+      "displayName": "审查组",
+      "role": "设计挑刺、统一和交接",
+      "implicit": false,
+      "group": "快捷入口"
+    },
+    {
+      "name": "06-team-yunying",
+      "displayName": "运营组",
+      "role": "商品、库存、订单、售后",
+      "implicit": false,
+      "group": "快捷入口"
+    },
+    {
+      "name": "07-team-tuiguang",
+      "displayName": "推广组",
+      "role": "SEO、内容、广告、增长",
+      "implicit": false,
+      "group": "快捷入口"
+    },
+    {
+      "name": "08-team-ceshi",
+      "displayName": "测试组",
+      "role": "回归、兼容和上线验收",
+      "implicit": false,
+      "group": "快捷入口"
+    },
+    {
+      "name": "09-team-hegui",
+      "displayName": "合规组",
+      "role": "隐私、宣传、支付、跨境",
+      "implicit": false,
+      "group": "快捷入口"
+    },
+    {
       "name": "chanyong",
       "displayName": "常用",
       "role": "唯一自动总控",

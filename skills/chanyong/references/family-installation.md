@@ -4,6 +4,8 @@
 
 ```text
 skills/
+├── 00-chanyong/    选择器第 1 项：进入 chanyong
+├── 01-team-cehua/ … 09-team-hegui/    选择器第 2–10 项：九个 Team 顺序入口
 ├── chanyong/    常用：唯一自动总控
 ├── project-strategy-team/    策划组：研究、策划、规划、拆解
 ├── engineering-delivery-team/    工程组：架构、开发、修复、验收
@@ -46,12 +48,13 @@ skills/
 ├── quality-testing-team/    测试组：回归、兼容和上线验收
 ├── commerce-compliance-team/    合规组：隐私、宣传、支付、跨境
 ├── gaojigongchengshi/    高级工程师：复杂跨模块工程与可靠性
-└── zz-chanyong/    常用快捷入口：手机 Skill 列表末尾直接进入 chanyong
+└── zz-chanyong/    旧版兼容入口：进入 chanyong
 ```
 
 ## 分组与加载
 
-- **总控**：`chanyong`（常用）；`zz-chanyong` 只是在手机列表末尾打开它的快捷入口
+- **快捷入口**：`00-chanyong`、`01-team-cehua` 至 `09-team-hegui`；只负责选择器排序
+- **总控**：`chanyong`（常用）；`zz-chanyong` 只保留旧版兼容
 - **个人与知识**：`dongwo`（懂我）、`tuijian`（推荐师）、`mishu`（秘书）、`fupan`（复盘师）、`zhishi`（知识管家）
 - **研究与策略**：`project-strategy-team`（策划组）、`chuangyi`（创意师）、`guihua`（规划大师）、`yanjiu`（研究大师）、`deep-research-mode`（深度研究模式）、`solution-finder`（解决方案师）、`cehua`（策划师）、`chaijie`（拆解师）、`juece`（决策师）
 - **选品与采购**：`product-information-research`（商品信息查询）、`xuanpin`（选品大师）、`bijia`（商品价格比价大师）、`caigou`（采购大师）

@@ -1,0 +1,6 @@
+interface:
+  display_name: "常用总控"
+  short_description: "全自动选择 Team 或单独 Skill"
+  default_prompt: "Use $00-chanyong to run $chanyong for the current request."
+policy:
+  allow_implicit_invocation: false
