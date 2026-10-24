@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "skill": "chanyong",
-  "checked_at": "2026-10-24T02:40:32.560Z",
+  "checked_at": "2026-10-24T02:48:54.073Z",
   "files": [
     {
       "path": "INSTALL.md",
@@ -24,7 +24,7 @@
       "path": "VERSION",
       "kind": "installed-release-version",
       "method_sources": [],
-      "sha256": "118705d21506adb8d7c06a51156bb59497679f644fb4ae3d14bbbfc366643124"
+      "sha256": "07424f60a76797438a7552ac5f7211cdf6c7766bf8b8483c7c8dc1eff8669cf2"
     },
     {
       "path": "RELEASE_DATE",
@@ -75,7 +75,7 @@
     },
     {
       "path": "references/maintenance.md",
-      "sha256": "21eface882647b76b401d2e8828a95664579868e97b962fdeccc2589d24f38e8",
+      "sha256": "5439f3e64c0b575702d18d7f36504036878d5ba5872fbd1a2343ae662330deda",
       "kind": "portable-update-policy",
       "method_sources": [
         "https://docs.github.com/en/rest/repos/repos#get-a-repository"
@@ -129,7 +129,7 @@
       "method_sources": [
         "https://docs.github.com/en/rest/releases/releases#get-the-latest-release"
       ],
-      "sha256": "939e034b1a4746f368c4c5606e02d3de1f4cfd9de3eb0f1d1567923c39194457"
+      "sha256": "a90c941a3887872c2e244360f9f52a48cf8bd74f00e5fdc8a3d7c2f61d7b78a3"
     },
     {
       "path": "scripts/install-all-agents.mjs",

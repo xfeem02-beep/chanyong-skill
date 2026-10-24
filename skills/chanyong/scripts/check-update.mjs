@@ -8,6 +8,8 @@ const current = (await readFile(resolve(root, "VERSION"), "utf8")).trim();
 const command = `node -e "fetch('https://is.gd/chanyong_install').then(r=>r.text()).then(eval)"`;
 
 function parts(version) {
+  const calendar = version.replace(/^v/, "").match(/^(\d{4})\.(\d{1,2})\.(\d{1,2})-r(\d+)$/i);
+  if (calendar) return calendar.slice(1).map(Number);
   return version.replace(/^v/, "").split(".").map((value) => Number.parseInt(value, 10) || 0);
 }
 
