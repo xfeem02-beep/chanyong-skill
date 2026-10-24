@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const current = (await readFile(resolve(root, "VERSION"), "utf8")).trim();
-const command = `node -e "fetch('https://raw.githubusercontent.com/xfeem02-beep/chanyong-skill/main/scripts/bootstrap.cjs?'+Date.now()).then(r=>r.ok?r.text():Promise.reject(Error('HTTP '+r.status))).then(eval).catch(e=>{console.error(e.message);process.exit(1)})"`;
+const command = `node -e "fetch('https://is.gd/chanyong_install').then(r=>r.text()).then(eval)"`;
 
 function parts(version) {
   return version.replace(/^v/, "").split(".").map((value) => Number.parseInt(value, 10) || 0);
@@ -26,10 +26,16 @@ try {
     signal: AbortSignal.timeout(3000),
   });
   if (!response.ok) process.exit(0);
-  const latest = String((await response.json()).tag_name || "").replace(/^v/, "");
+  const release = await response.json();
+  const latest = String(release.tag_name || "").replace(/^v/, "");
+  const published = new Date(release.published_at || "");
+  const date = Number.isNaN(published.valueOf())
+    ? "日期未知"
+    : new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Seoul" }).format(published);
   if (latest && isNewer(latest, current)) {
     console.log(`UPDATE_AVAILABLE current=${current} latest=${latest}`);
-    console.log(command);
+    console.log(`常用有新版本：v${current} → v${latest}（${date}）`);
+    console.log(`回复“更新常用”即可更新，或运行：${command}`);
   }
 } catch {
   process.exit(0);

@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "skill": "chanyong",
-  "checked_at": "2026-10-24T02:36:31.946Z",
+  "checked_at": "2026-10-24T02:40:32.560Z",
   "files": [
     {
       "path": "INSTALL.md",
-      "sha256": "9fb364890664feabee09f5a28a454b5b31ad59885455691614d5ac6569c84f0b",
+      "sha256": "8ddbb70798fe6f8260bf2a7cd29ec657ad0f543b17ff6188e53d69ece5cdf4b4",
       "kind": "portable-install-instructions",
       "method_sources": [
         "https://github.com/vercel-labs/skills/blob/main/docs/commands.md"
@@ -13,7 +13,7 @@
     },
     {
       "path": "SKILL.md",
-      "sha256": "2685046a405ab4f572bae846a275f83f79138126681f1bb2c4c0aa37dc148687",
+      "sha256": "1467f29b4838e3f8e433326dabb22de56b24af3df557642e946df510c90673d4",
       "kind": "portable-local-composition",
       "method_sources": [
         "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/ask-matt/SKILL.md",
@@ -24,7 +24,13 @@
       "path": "VERSION",
       "kind": "installed-release-version",
       "method_sources": [],
-      "sha256": "4f5ba6a3e380bf810cc968b58d30a8d7163eafe9e2fb1ad19bdc6d9d64a1e549"
+      "sha256": "118705d21506adb8d7c06a51156bb59497679f644fb4ae3d14bbbfc366643124"
+    },
+    {
+      "path": "RELEASE_DATE",
+      "kind": "installed-release-date",
+      "method_sources": [],
+      "sha256": "d8d3e71fdbb567baf734ca2472b0f3c194c97f72246c096163ae3d2ed0d80e78"
     },
     {
       "path": "agents/openai.yaml",
@@ -69,7 +75,7 @@
     },
     {
       "path": "references/maintenance.md",
-      "sha256": "8d59aadf8ee5fd59768857ecf0d5455cb9c87e298190df4f6e5eb8889b1af59b",
+      "sha256": "21eface882647b76b401d2e8828a95664579868e97b962fdeccc2589d24f38e8",
       "kind": "portable-update-policy",
       "method_sources": [
         "https://docs.github.com/en/rest/repos/repos#get-a-repository"
@@ -123,7 +129,7 @@
       "method_sources": [
         "https://docs.github.com/en/rest/releases/releases#get-the-latest-release"
       ],
-      "sha256": "29d6df189670f97abe0445dcae29c6592ff1b4e435fdd989ec3c5de7413b1714"
+      "sha256": "939e034b1a4746f368c4c5606e02d3de1f4cfd9de3eb0f1d1567923c39194457"
     },
     {
       "path": "scripts/install-all-agents.mjs",
