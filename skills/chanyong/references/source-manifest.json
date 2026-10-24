@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "skill": "chanyong",
-  "checked_at": "2026-10-24T00:00:00+09:00",
+  "checked_at": "2026-10-24T02:36:31.946Z",
   "files": [
     {
       "path": "INSTALL.md",
@@ -13,7 +13,7 @@
     },
     {
       "path": "SKILL.md",
-      "sha256": "eb3505c6a3bf88d633f74a2f89ee0c86123fe45c0166a5f92ecb446e278e1be5",
+      "sha256": "2685046a405ab4f572bae846a275f83f79138126681f1bb2c4c0aa37dc148687",
       "kind": "portable-local-composition",
       "method_sources": [
         "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/ask-matt/SKILL.md",
@@ -24,7 +24,7 @@
       "path": "VERSION",
       "kind": "installed-release-version",
       "method_sources": [],
-      "sha256": "0ab4fa190ca1b1d1f630ac87cf34672bfbaf1395d0148c7568d38e58335b8d68"
+      "sha256": "4f5ba6a3e380bf810cc968b58d30a8d7163eafe9e2fb1ad19bdc6d9d64a1e549"
     },
     {
       "path": "agents/openai.yaml",
@@ -42,6 +42,12 @@
         "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431"
       ],
       "sha256": "5956e88ad6a02db92aa26988f39e9ad4c48115badf98bcfefcabffe1636c200a"
+    },
+    {
+      "path": "references/control-plane.md",
+      "kind": "multi-skill-control-plane",
+      "method_sources": [],
+      "sha256": "3dd91a3c8156a26bd1c826f2cdcf5b3fb3cfb5e6797600c0fc49c3a63922cba4"
     },
     {
       "path": "references/design-family.md",

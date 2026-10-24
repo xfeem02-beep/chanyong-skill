@@ -31,7 +31,7 @@ description: "常用智能总入口：理解白话、口语、拼音、漏字和
 
 ## 自动分流
 
-先按动作与交付分流，再按业务领域选专业方法。读取 [routing.md](references/routing.md) 中命中的一段，不加载全部专业资料。
+非简单任务先读取 [control-plane.md](references/control-plane.md)，形成最小 Task Contract；涉及现有项目时再建立最小 Project Context Pack。然后按动作与交付分流，再按业务领域选专业方法。读取 [routing.md](references/routing.md) 中命中的一段，不加载全部专业资料。
 
 | 现场 | 最短路线 |
 |---|---|
@@ -61,7 +61,9 @@ description: "常用智能总入口：理解白话、口语、拼音、漏字和
 
 ## 组合专业能力
 
-读取 [capability-family.md](references/capability-family.md) 自动选择能力，再按需读取 [specialists.md](references/specialists.md) 的内置岗位方法。每个阶段只允许一个主 Skill、最多一个补充能力和一个验收能力。优先级：用户指定 → 项目规则 → 已安装且适用的最具体专业技能 → 本技能内置方法。可读文件不等于菜单已启用，缓存不等于工具可用，安装不等于运行通过。
+读取 [capability-family.md](references/capability-family.md) 自动选择能力，再按需读取 [specialists.md](references/specialists.md) 的内置岗位方法。严格按 [control-plane.md](references/control-plane.md) 分配一个 Primary、最多一个 Auxiliary 和一个 Validator；Primary 是唯一修改责任人，Validator 默认只检查。优先级：用户指定 → 项目规则 → 已安装且适用的最具体专业技能 → 本技能内置方法。可读文件不等于菜单已启用，缓存不等于工具可用，安装不等于运行通过。
+
+默认 `auto`：用户只说目标就直接选最短完整路线。用户要求先推荐组合时进入 `hybrid`；用户说“只用某 Skill”“单独处理”或 `--solo` 时进入 `solo`，不静默增加其他 Skill。模式不产生新权限。
 
 “提示词大师”是条件岗位：只有任务含模型行为、识别、生成、分类或 RAG 时启用，并与评测绑定。普通文案、确定性条码解码、精确商品码查询或金额计算不强套提示词。
 
@@ -92,4 +94,4 @@ description: "常用智能总入口：理解白话、口语、拼音、漏字和
 
 ## 收尾证据
 
-先给真实结果和交付物，再给检查证据。分开说明：看过什么、改了什么、静态检查、运行验证、安装状态、生产状态。方案不等于实现，文件存在不等于技能已加载，截图不证明键盘/语义/读屏，测试未运行就写未运行。金额、币种、完整商品码/条码、规格、来源、空值、冲突、错误和否定必须原样保留。
+先给真实结果和交付物，再按 [control-plane.md](references/control-plane.md) 给最短充分 Skill Receipt。分开说明：看过什么、改了什么、静态检查、运行验证、安装状态、生产状态。方案不等于实现，文件存在不等于技能已加载，截图不证明键盘/语义/读屏，测试未运行就写未运行。金额、币种、完整商品码/条码、规格、来源、空值、冲突、错误和否定必须原样保留。
