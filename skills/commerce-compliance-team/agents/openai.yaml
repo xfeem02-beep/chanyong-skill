@@ -1,5 +1,5 @@
 interface:
-  display_name: "02 Team｜合规组"
+  display_name: "合规组"
   short_description: "隐私、宣传、支付、跨境"
   default_prompt: "按合规组核查当前任务，先确定法域和数据流，再用官方当前来源给差距与上线门槛。"
 policy:

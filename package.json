@@ -1,6 +1,6 @@
 {
   "name": "chanyong-skill-installer",
-  "version": "2026.10.24-r06",
+  "version": "2026.10.24-r07",
   "private": true,
   "description": "One-command installer for the chanyong skill family",
   "bin": {

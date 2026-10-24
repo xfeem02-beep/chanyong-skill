@@ -1,5 +1,5 @@
 interface:
-  display_name: "03 Skill｜深度研究模式"
+  display_name: "深度研究模式"
   short_description: "多来源深度研究、冲突核查与带引用报告"
   default_prompt: "按 ChatGPT 风格深度研究流程处理当前问题；原生 @Deepresearch 可用时优先使用，否则用当前工具完成计划、检索、核验和引用报告。"
 policy:

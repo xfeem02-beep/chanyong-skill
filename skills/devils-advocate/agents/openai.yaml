@@ -1,5 +1,5 @@
 interface:
-  display_name: "03 Skill｜挑刺儿高手"
+  display_name: "挑刺儿高手"
   short_description: "寻找反例、漏洞、隐藏假设与最坏情况"
   default_prompt: "固定目标和约束，从反方寻找最强反例与证据缺口，按影响分级，并为重要问题给修复方向。"
 policy:

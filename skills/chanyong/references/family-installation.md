@@ -45,12 +45,13 @@ skills/
 ├── growth-marketing-team/    推广组：SEO、内容、广告、增长
 ├── quality-testing-team/    测试组：回归、兼容和上线验收
 ├── commerce-compliance-team/    合规组：隐私、宣传、支付、跨境
-└── gaojigongchengshi/    高级工程师：复杂跨模块工程与可靠性
+├── gaojigongchengshi/    高级工程师：复杂跨模块工程与可靠性
+└── zz-chanyong/    常用快捷入口：手机 Skill 列表末尾直接进入 chanyong
 ```
 
 ## 分组与加载
 
-- **总控**：`chanyong`（常用）
+- **总控**：`chanyong`（常用）；`zz-chanyong` 只是在手机列表末尾打开它的快捷入口
 - **个人与知识**：`dongwo`（懂我）、`tuijian`（推荐师）、`mishu`（秘书）、`fupan`（复盘师）、`zhishi`（知识管家）
 - **研究与策略**：`project-strategy-team`（策划组）、`chuangyi`（创意师）、`guihua`（规划大师）、`yanjiu`（研究大师）、`deep-research-mode`（深度研究模式）、`solution-finder`（解决方案师）、`cehua`（策划师）、`chaijie`（拆解师）、`juece`（决策师）
 - **选品与采购**：`product-information-research`（商品信息查询）、`xuanpin`（选品大师）、`bijia`（商品价格比价大师）、`caigou`（采购大师）

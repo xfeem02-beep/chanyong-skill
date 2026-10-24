@@ -1,5 +1,5 @@
 interface:
-  display_name: "02 Team｜测试组"
+  display_name: "测试组"
   short_description: "回归、兼容和上线验收"
   default_prompt: "按测试组检查当前任务，区分已执行、通过、失败、阻塞和未运行，并给最小充分证据。"
 policy:

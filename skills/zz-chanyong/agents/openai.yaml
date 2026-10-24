@@ -1,0 +1,6 @@
+interface:
+  display_name: "常用快捷入口"
+  short_description: "点一下进入 chanyong 智能总控"
+  default_prompt: "Use $zz-chanyong to let chanyong choose the shortest complete route for the current request."
+policy:
+  allow_implicit_invocation: false

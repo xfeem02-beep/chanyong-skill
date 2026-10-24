@@ -1,5 +1,5 @@
 interface:
-  display_name: "03 Skill｜备份大师"
+  display_name: "备份大师"
   short_description: "可单独调用；设计和验证加密、可恢复、非覆盖的跨平台备份"
   default_prompt: "先盘点范围和恢复目标，再设计或执行非覆盖备份；完成后必须区分复制、校验和恢复验证。"
 policy:

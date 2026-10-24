@@ -295,6 +295,13 @@
       "role": "反例、漏洞、隐藏假设与最坏情况",
       "implicit": false,
       "group": "质量与安全"
+    },
+    {
+      "name": "zz-chanyong",
+      "displayName": "常用快捷入口",
+      "role": "在手机 Skill 列表末尾打开 chanyong",
+      "implicit": false,
+      "group": "总控"
     }
   ]
 }

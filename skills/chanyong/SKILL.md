@@ -13,7 +13,7 @@ description: "常用智能总入口：可搜索查看 Team 组合及职责；支
 
 用户说“搜索 chanyong”“常用有哪些组合”“让我选择 Team”或询问某个 Team 做什么时，读取 [team-catalog.md](references/team-catalog.md)，展示九个 Team 的短中文名、英文 Skill 名和一句用途；此时只展示，不执行。中文短名可直接作为自然语言别名。用户选择后用两行显示 `模式｜中文名｜英文 Skill 名` 和一句本次职责，再继续任务。
 
-Skill 选择器的显示名分三层：`01 常用｜chanyong`、`02 Team｜短中文名`、`03 Skill｜中文名`。安装清单也按常用、Team、单独 Skill 排列。宿主若按搜索相关度或最近使用重排，以宿主实际顺序为准；不要声称技能能控制宿主的动态排序。原生显式调用使用 `$英文-skill-name`；`/` 是否显示 Skill 由客户端决定。
+安装清单按常用、九个 Team、单独 Skill 排列，但 Codex `$` 选择器按 SKILL.md 的英文 `name` 排序，不读取自定义顺序。手机端弹窗只露出列表末尾时，使用显式快捷入口 `$zz-chanyong`；它只转入本 `chanyong`，不创建第二套总控。原生显式调用使用 `$英文-skill-name`；`/` 是否显示 Skill 由客户端决定。
 
 每个新对话首次自动使用时，如果宿主能运行本技能脚本，则先执行 `scripts/check-update.mjs --apply`。没有新版时保持安静；发现新版时按脚本真实状态显示“发现新版 → 正在更新 → 更新成功/失败”。返回 `UPDATE_APPLIED` 后重新读取当前安装路径的 `VERSION`、本 `SKILL.md` 和当前任务命中的引用文件，再明确写“已切换到 v版本”并继续原任务；返回 `UPDATE_FAILED` 或 `UPDATE_UNVERIFIED` 时继续使用本轮已加载版本，不冒充更新成功。每个对话只检查一次，不启动后台服务。检查与更新只访问本技能公开 GitHub Release，不上传项目、提示词、记忆或身份信息。
 
